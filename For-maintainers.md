@@ -138,4 +138,32 @@ following way:
 
 ## Generating bootstrap archives
 
-TODO: fill this
+Bootstrap archives is a zip archives of `$TERMUX_PREFIX` with basic packages
+preinstalled and used to create a minimal working environment on first start
+of Termux application.
+
+Utilities to generate bootstrap archives available in https://github.com/termux/termux-packaging
+repository. Highly recommended to use script located in [scripts/generate-bootstraps.sh](https://github.com/termux/termux-packaging/blob/master/scripts/generate-bootstraps.sh).
+
+Termux bootstraps (that used for `https://dl.bintray.com/termux/termux-packages-24`)
+are generated with the following command:
+```
+./generate-bootstraps.sh
+```
+
+Default script configuration is
+```
+Architectures: aarch64 arm i686 x86_64
+Repository URL: https://dl.bintray.com/termux/termux-packages-24
+Prefix: /data/data/com.termux/files/usr
+```
+so if you want to generate bootstraps for custom repository, consider using
+following command line options:
+
+- `--architectures` - Comma separated list of architectures for which bootstraps
+  should be generated.
+
+- `--prefix` - `$TERMUX_PREFIX` against which your packages are built.
+
+- `--repository` - URL of your APT repository. Offline bootstrap generation is not
+  supported.
