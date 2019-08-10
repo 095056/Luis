@@ -13,6 +13,8 @@ Files and directories available inside build environment:
 - `./packages` - directory where all packages (scripts and patches) are
   located.
 
+- `./sample` - sample structure for creating new package.
+
 - `./scripts` - internal parts of build system and some utility scripts.
 
 - `./build-all.sh` - script for building all available packages.
