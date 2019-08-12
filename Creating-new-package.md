@@ -59,10 +59,10 @@ If you need to pass some additional arguments, use the field
 | 5     | `TERMUX_PKG_API_LEVEL` | no | Android API level for which package should be compiled. |
 | 6     | `TERMUX_PKG_VERSION` | yes | Original package version. |
 | 7     | `TERMUX_PKG_REVISION` | no | Package revision. Bumped on each package rebuild. |
-| 8     | `TERMUX_PKG_SKIP_SRC_EXTRACT` | no | Whether to omit source code downloading and extraction. |
+| 8     | `TERMUX_PKG_SKIP_SRC_EXTRACT` | no | Whether to omit source code downloading and extraction. Default is **false**. |
 | 9     | `TERMUX_PKG_SRCURL` | not, if source extraction was skipped | URL from which source archive should be downloaded. |
 | 10    | `TERMUX_PKG_SHA256` | not, if source URL was not set | SHA-256 checksum of source archive. |
-| 11    | `TERMUX_PKG_METAPACKAGE` | no | Whether to make package treated as metapackage. |
+| 11    | `TERMUX_PKG_METAPACKAGE` | no | Whether to make package treated as metapackage. Default is **false**. |
 | 12    | `TERMUX_PKG_DEPENDS` | no | Comma-separated list of dependency package names. |
 | 13    | `TERMUX_PKG_BUILD_DEPENDS` | no | Comma-separated list of build-time only dependencies. |
 | 14    | `TERMUX_PKG_BREAKS` | no | Comma-separated list of packages that are incompatible with the current one. |
@@ -71,14 +71,14 @@ If you need to pass some additional arguments, use the field
 | 17    | `TERMUX_PKG_PROVIDES` | no | Comma-separated list of virtual packages being provided by current one. |
 | 18    | `TERMUX_PKG_RECOMMENDS` | no | Comma-separated list of non-absolute dependencies - packages usually used with the current one. |
 | 19    | `TERMUX_PKG_SUGGESTS` | no | Comma-separated list of packages that are related to or enhance the current one. |
-| 20    | `TERMUX_PKG_ESSENTIAL` | no | Whether to treat package as essential which cannot be uninstalled in usual way. |
-| 21    | `TERMUX_PKG_NO_STATICSPLIT` | no | Whether to split static libraries into a subpackage. |
-| 22    | `TERMUX_PKG_BUILD_IN_SRC` | no | Whether to perform build in a source code directory. |
-| 23    | `TERMUX_PKG_HAS_DEBUG` | no | Whether debug builds are possible for package. |
-| 24    | `TERMUX_PKG_PLATFORM_INDEPENDENT` | no | Whether to treat package as platform independent. |
+| 20    | `TERMUX_PKG_ESSENTIAL` | no | Whether to treat package as essential which cannot be uninstalled in usual way. Default is **false**. |
+| 21    | `TERMUX_PKG_NO_STATICSPLIT` | no | Whether to split static libraries into a subpackage. Default is **false**. |
+| 22    | `TERMUX_PKG_BUILD_IN_SRC` | no | Whether to perform build in a source code directory. Default is **false**. |
+| 23    | `TERMUX_PKG_HAS_DEBUG` | no | Whether debug builds are possible for package. Default is **true**. |
+| 24    | `TERMUX_PKG_PLATFORM_INDEPENDENT` | no | Whether to treat package as platform independent. Default is **false**. |
 | 25    | `TERMUX_PKG_BLACKLISTED_ARCHES` | no | Comma-separated list of CPU architectures for which package cannot be compiled. |
-| 26    | `TERMUX_PKG_HOSTBUILD` | no | Whether package require building for host. |
-| 27    | `TERMUX_PKG_FORCE_CMAKE` | no | Whether to force use CMake even if Autotools configure script available. |
+| 26    | `TERMUX_PKG_HOSTBUILD` | no | Whether package require building for host. Default is **false**. |
+| 27    | `TERMUX_PKG_FORCE_CMAKE` | no | Whether to force use CMake even if Autotools configure script available. Default is **false**. |
 | 28    | `TERMUX_PKG_EXTRA_CONFIGURE_ARGS` | no | Extra arguments passed to build system configuration utility. |
 | 29    | `TERMUX_PKG_EXTRA_HOSTBUILD_CONFIGURE_ARGS` | no | Extra arguments passed to build system configuration utility when performing host build. |
 | 30    | `TERMUX_PKG_EXTRA_MAKE_ARGS` | no | Extra arguments passed to utility `make`. |
@@ -145,8 +145,8 @@ Additional notes about subpackages:
 | 4     | `TERMUX_SUBPKG_BREAKS` | no | Comma-separated list of packages that are incompatible with the current one. |
 | 5     | `TERMUX_SUBPKG_CONFLICTS` | no | Comma-separated list of packages which have file name collisions with the current one. |
 | 6     | `TERMUX_SUBPKG_REPLACES` | no | Comma-separated list of packages being replaced by current one. |
-| 7     | `TERMUX_SUBPKG_ESSENTIAL` | no | Whether to treat subpackage as essential which cannot be uninstalled in usual way. |
-| 8     | `TERMUX_SUBPKG_PLATFORM_INDEPENDENT` | no | Whether to treat subpackage as platform independent. |
+| 7     | `TERMUX_SUBPKG_ESSENTIAL` | no | Whether to treat subpackage as essential which cannot be uninstalled in usual way. Default is **false**. |
+| 8     | `TERMUX_SUBPKG_PLATFORM_INDEPENDENT` | no | Whether to treat subpackage as platform independent. Default is **false**. |
 | 9     | `TERMUX_SUBPKG_INCLUDE` | yes | A space or newline separated list of files to be included in subpackage. |
 | 10    | `TERMUX_SUBPKG_CONFFILES` | no | A space or newline separated list of package configuration files that should not be overwritten on update. |
 
