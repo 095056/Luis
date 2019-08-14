@@ -72,8 +72,7 @@ use only by maintainers.
    payload and tag `%ci:reset-backlog`. If branch was "master", make sure that
    all necessary packages are built and uploaded.
 
-2. Build is done successfully, but upload is not because log shows
-   `tar: Unexpected EOF in archive`.
+2. Upload failed, log shows `tar: Unexpected EOF in archive`.
 
    Reason: upload is done in a separate task and to make \*.deb files be available
    for upload, they are archived and passed through http cache which may not be
@@ -82,14 +81,30 @@ use only by maintainers.
    Solution: re-run upload task. Re-run all tasks in case of failure. If does not
    help, better then build & upload packages manually.
 
-3. Build is done successfully, but upload is not because log shows
-   `This resource requires authentication`.
+3. Upload failed, log shows `This resource requires authentication`.
 
    Reason: invalid credentials were supplied to upload script.
 
    Solution: make sure that supplied credentials are correct & up-to-date and
    try again. Also check https://www.githubstatus.com/ - if Github has some
    issues, then credentials may not be decrypted on CI.
+
+4. Upload failed, log shows `skipping because no files to upload`.
+
+   Reason: certain packages didn't have revision bumped and were downloaded
+   as dependency for other package (we use `build-package.sh` with `-I` option
+   set). Thus uploader script cannot find related `*.deb` files.
+
+   Solution: just ignore as packages with non-modified version will not be
+   re-submitted to APT repository anyway. But next submitted commit probably
+   will require tag `%ci:reset-backlog`.
+
+5. Upload failed, log shows `Error occurred while uploading`.
+
+   Reason: network connection failure or remote server cannot handle request.
+
+   Solution: re-submit package with bumped revision as metadata on remote can
+   be inconsistent.
 
 ## Uploading packages (Bintray)
 
