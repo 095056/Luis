@@ -15,6 +15,9 @@
 - `./scripts/check-versions.sh`:
   Check for package updates.
 
+- `./scripts/lint-packages.sh`:
+  Do basic checks for problems in `build.sh` scripts.
+
 - `./scripts/list-packages.sh`:
   List all packages with a one-line summary.
 
