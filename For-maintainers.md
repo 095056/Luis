@@ -33,6 +33,8 @@ We use [Cirrus CI](https://cirrus-ci.com/) for:
 
 - Building Docker image when `./scripts/Dockerfile` was modified.
 
+- Performing basic error checks for all `build.sh` scripts.
+
 - Building updated packages when related `build.sh` were modified.
 
 - Building packages modified in pull requests.
@@ -51,9 +53,11 @@ Tags are special text strings placed on dedicated line in git commit text. While
 it is possible to insert any text inside git commit, the *tags* are allowed for
 use only by maintainers.
 
-- `%ci:no-build` - tell CI to immediately finish build with "green" status.
+- `%ci:no-build` - tell CI to immediately finish build with "green" status. Has no
+  effect on linter task.
 
-- `%ci:reset-backlog` - tell CI to build changes only from latest pushed commit.
+- `%ci:reset-backlog` - tell CI to build changes only from latest pushed commit. Has
+  no effect on linter task.
 
 ### Dealing with CI issues
 
