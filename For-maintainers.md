@@ -15,13 +15,16 @@
 - `./scripts/check-versions.sh`:
   Check for package updates.
 
+- `./scripts/ldd`:
+  Print list of required shared libraries for given binary.
+
 - `./scripts/lint-packages.sh`:
   Do basic checks for problems in `build.sh` scripts.
 
 - `./scripts/list-packages.sh`:
   List all packages with a one-line summary.
 
-- `scripts/package_uploader.sh`:
+- `./scripts/package_uploader.sh`:
   Upload packages to Bintray.
 
 ## CI/CD
