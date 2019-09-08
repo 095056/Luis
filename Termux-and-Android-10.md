@@ -10,9 +10,16 @@ Issue with discussion: https://github.com/termux/termux-app/issues/1072. Possibl
 ## 1. Distribute packages bundled in apps
 With this approach packages would be inside normal Android apps distributed as normal. To lessen the amount of packages some grouping, where an app contains several related packages, would probably be needed.
 
+Problems:
+
+* Will have impact on user-generated executables making their usage impossible.
+
 ## 2. Use proot to execute files
 See discussion in https://github.com/termux/termux-app/issues/1072.
 
 ## 3. Generate an app on-device containing packages
-When a user downloads a package it is merged into a package containing all user-installed packages (with the package being generated on-device). This app cannot be signed with the same key as the main app, is it possible to share without that?
+When a user downloads a package it is merged into a package containing all user-installed packages (with the package being generated on-device).
 
+Problems:
+
+* App cannot be signed with the same key as the main app, is it possible to share without that ?
