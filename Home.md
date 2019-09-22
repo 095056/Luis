@@ -5,7 +5,24 @@ maintaining APT repository.
 
 User's Wiki available at https://wiki.termux.com/wiki/Main_Page.
 
+### Git repos
+
+The main termux app, the addon apps, are hosted here at github in these repositories:
+
+* [termux-app](https://github.com/termux/termux-app)
+* [termux-api](https://github.com/termux/termux-api)
+* [termux-boot](https://github.com/termux/termux-boot)
+* [termux-float](https://github.com/termux/termux-float)
+* [termux-styling](https://github.com/termux/termux-styling)
+* [termux-tasker](https://github.com/termux/termux-tasker)
+
+The build scripts for packages are also hosted here at github in [termux-packages](https://github.com/termux/termux-packages) and various other repositories. 
+
+Some of the repositories are mirrored over at [gitlab](https://gitlab.com/termux-mirror), and some repositories are hosted only at gitlab ([termux-repology](https://gitlab.com/termux-mirror/termux-repology)) to use gitlab's CI.
+
 ### Git branches
+
+The repositories with build scripts for packages have two main branches.
 
 1. Branch "master":
 
