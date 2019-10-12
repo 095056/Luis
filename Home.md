@@ -7,7 +7,8 @@ User's Wiki available at https://wiki.termux.com/wiki/Main_Page.
 
 ### Git repos
 
-The main termux app, the addon apps, are hosted here at github in these repositories:
+The main termux app, the addon apps, are hosted here at github in these
+repositories:
 
 * [termux-app](https://github.com/termux/termux-app)
 * [termux-api](https://github.com/termux/termux-api)
@@ -16,9 +17,13 @@ The main termux app, the addon apps, are hosted here at github in these reposito
 * [termux-styling](https://github.com/termux/termux-styling)
 * [termux-tasker](https://github.com/termux/termux-tasker)
 
-The build scripts for packages are also hosted here at github in [termux-packages](https://github.com/termux/termux-packages) and various other repositories. 
+The build scripts for packages are also hosted here at github in
+[termux-packages](https://github.com/termux/termux-packages) and various other
+repositories.
 
-Some of the repositories are mirrored over at [gitlab](https://gitlab.com/termux-mirror), and some repositories are hosted only at gitlab ([termux-repology](https://gitlab.com/termux-mirror/termux-repology)) to use gitlab's CI.
+We maintain a mirror of our projects on Gitlab (https://gitlab.com/termux-mirror),
+there also available some repositories requiring features of Gitlab CI, e.g.
+[termux-repology](https://gitlab.com/termux-mirror/termux-repology).
 
 ### Git branches
 
