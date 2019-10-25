@@ -1,3 +1,10 @@
+## How to use
+
+Open file `$PREFIX/etc/apt/sources.list`, comment out existing URLs and add line for picked mirror.
+If you are using mirror for non-main repository, make sure that corresponding repository package is
+not installed. For example, if you are adding mirror for root packages repository, then you need to
+uninstall package `root-repo` to avoid conflicts.
+
 ## IPFS
 
 IPFS mirrors of Termux repositories by [@xeffyr](https://github.com/xeffyr).
