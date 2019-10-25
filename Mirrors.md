@@ -11,32 +11,32 @@ IPFS mirrors of Termux repositories by [@xeffyr](https://github.com/xeffyr).
 
 1. Main repository:
    ```
-   deb https://ipfs.io/ipns/QmcSZxCEjUaxDGWa5tmRZeQ3eBNoiMFDbyjYGMw2ozzn53 stable main
+   deb https://ipfs.io/ipns/main.termux-ipfs.dynv6.net stable main
    ```
 
 2. Game packages:
    ```
-   deb https://ipfs.io/ipns/QmSWSUy5Vb9bUQTpvfoaBTmJF2xxnwcC5n9p4xDxQWV118 games stable
+   deb https://ipfs.io/ipns/games.termux-ipfs.dynv6.net games stable
    ```
 
 3. Root packages:
    ```
-   deb https://ipfs.io/ipns/QmeqCZ3ipECxeY8Mmco2gaRvMkdm8563RvAy9g2VFar4Jm root stable
+   deb https://ipfs.io/ipns/root.termux-ipfs.dynv6.net root stable
    ```
 
 4. Science packages:
    ```
-   deb https://ipfs.io/ipns/QmR86ifY2CZ1FUtLavQJX7nDm6yGVVuuWaamyCNkbMb8ZU science stable
+   deb https://ipfs.io/ipns/science.termux-ipfs.dynv6.net science stable
    ```
 
 5. Unstable packages:
    ```
-   deb https://ipfs.io/ipns/QmSWj7N5ZM2tt9hJyT7CCDoMxCJcvZJax5rxQf81C9ttpT unstable main
+   deb https://ipfs.io/ipns/unstable.termux-ipfs.dynv6.net unstable main
    ```
 
 6. X11 packages:
    ```
-   deb https://ipfs.io/ipns/QmQXSUUW6takceeC4TyBqY4cDMEJUqvA6XqTVbnuKo3fDt x11 main
+   deb https://ipfs.io/ipns/x11.termux-ipfs.dynv6.net x11 main
    ```
 
 ## Third-party mirrors.
