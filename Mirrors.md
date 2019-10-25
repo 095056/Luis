@@ -9,9 +9,15 @@ IPFS mirrors of Termux repositories by [@xeffyr](https://github.com/xeffyr).
    deb https://ipfs.io/ipns/QmSWSUy5Vb9bUQTpvfoaBTmJF2xxnwcC5n9p4xDxQWV118 games stable
    ```
 
-3. Root packages: WIP
+3. Root packages:
+   ```
+   deb https://ipfs.io/ipns/QmeqCZ3ipECxeY8Mmco2gaRvMkdm8563RvAy9g2VFar4Jm root stable
+   ```
 
-4. Science packages: WIP
+4. Science packages:
+   ```
+   deb https://ipfs.io/ipns/QmR86ifY2CZ1FUtLavQJX7nDm6yGVVuuWaamyCNkbMb8ZU science stable
+   ```
 
 5. Unstable packages: WIP
 
