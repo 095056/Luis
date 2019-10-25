@@ -2,7 +2,10 @@
 
 IPFS mirrors of Termux repositories by [@xeffyr](https://github.com/xeffyr).
 
-1. Main repository: WIP
+1. Main repository:
+   ```
+   deb https://ipfs.io/ipns/QmcSZxCEjUaxDGWa5tmRZeQ3eBNoiMFDbyjYGMw2ozzn53 stable main
+   ```
 
 2. Game packages:
    ```
@@ -19,9 +22,15 @@ IPFS mirrors of Termux repositories by [@xeffyr](https://github.com/xeffyr).
    deb https://ipfs.io/ipns/QmR86ifY2CZ1FUtLavQJX7nDm6yGVVuuWaamyCNkbMb8ZU science stable
    ```
 
-5. Unstable packages: WIP
+5. Unstable packages:
+   ```
+   deb https://ipfs.io/ipns/QmSWj7N5ZM2tt9hJyT7CCDoMxCJcvZJax5rxQf81C9ttpT unstable main
+   ```
 
-6. X11 packages: WIP
+6. X11 packages:
+   ```
+   deb https://ipfs.io/ipns/QmQXSUUW6takceeC4TyBqY4cDMEJUqvA6XqTVbnuKo3fDt x11 main
+   ```
 
 ## Third-party mirrors.
 
