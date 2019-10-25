@@ -36,6 +36,6 @@ IPFS mirrors of Termux repositories by [@xeffyr](https://github.com/xeffyr).
 
 For chinese users:
 ```
-https://mirrors.tuna.tsinghua.edu.cn/termux/
+deb https://mirrors.tuna.tsinghua.edu.cn/termux/ stable main
 ```
 Note that it mirrors only legacy repository - https://termux.net.
