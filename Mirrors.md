@@ -7,7 +7,7 @@ uninstall package `root-repo` to avoid conflicts.
 
 ## IPFS
 
-IPFS mirrors of Termux repositories by [@xeffyr](https://github.com/xeffyr).
+Termux backup mirrors by [@xeffyr](https://github.com/xeffyr). Hosted via IPFS.
 
 1. Main repository:
    ```
