@@ -11,25 +11,20 @@ In the long run this needs to be fixed and Termux needs to update its target API
 This page is for gathering ideas and information about how to work around this.
 
 Issue with discussion: https://github.com/termux/termux-app/issues/1072.
-Possible approaches to explore follows.
 
-## 1. Distribute packages bundled in apps
-With this approach packages would be inside normal Android apps distributed as
-normal. To lessen the amount of packages some grouping, where an app contains
-several related packages, would probably be needed.
+## Solution
 
-Problems:
+We are going to embed package data inside APKs (placing binaries in native library
+directory) as this is only the most reliable solution.
 
-* Will have impact on user-generated executables making their usage impossible.
+It has few issues that should be resolved:
 
-## 2. Use proot to execute files
-See discussion in https://github.com/termux/termux-app/issues/1072.
+* How package data should be stored in APK ? Should we store everything inside
+  native library directory or only binaries should be here ? How to deal with
+  symlinks ?
 
-## 3. Generate an app on-device containing packages
-When a user downloads a package it is merged into a package containing all
-user-installed packages (with the package being generated on-device).
+* How to deal with packages having native extensions (ruby, python) ? Can be fixed
+  if everything is in native library directory, but what if it is not ?
 
-Problems:
-
-* App cannot be signed with the same key as the main app, is it possible to
-  share without that ?
+To fix problem with user's executables, we may use `proot` either session-widely
+or only for specific files.
