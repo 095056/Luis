@@ -28,3 +28,7 @@ It has few issues that should be resolved:
 
 To fix problem with user's executables, we may use `proot` either session-widely
 or only for specific files.
+
+Other (app-specific) issues:
+
+* Android 10 does not allow free access to `/sdcard` (at least file system based).
