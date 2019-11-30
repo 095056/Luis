@@ -14,20 +14,20 @@ Issue with discussion: https://github.com/termux/termux-app/issues/1072.
 
 ## Solution
 
-We are going to embed package data inside APKs (placing binaries in native library
-directory) as this is only the most reliable solution.
+~~We are going to embed package data inside APKs (placing binaries in native library
+directory) as this is only the most reliable solution.~~
 
-It has few issues that should be resolved:
+~~It has few issues that should be resolved:~~
 
-* How package data should be stored in APK ? Should we store everything inside
+* ~~How package data should be stored in APK ? Should we store everything inside
   native library directory or only binaries should be here ? How to deal with
-  symlinks ?
+  symlinks ?~~
 
-* How to deal with packages having native extensions (ruby, python) ? Can be fixed
-  if everything is in native library directory, but what if it is not ?
+* ~~How to deal with packages having native extensions (ruby, python) ? Can be fixed
+  if everything is in native library directory, but what if it is not ?~~
 
-To fix problem with user's executables, we may use `proot` either session-widely
-or only for specific files.
+~~To fix problem with user's executables, we may use `proot` either session-widely
+or only for specific files.~~
 
 Other (app-specific) issues:
 
