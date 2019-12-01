@@ -14,21 +14,18 @@ Issue with discussion: https://github.com/termux/termux-app/issues/1072.
 
 ## Solution
 
-~~We are going to embed package data inside APKs (placing binaries in native library
-directory) as this is only the most reliable solution.~~
+### Launching shell under proot
 
-~~It has few issues that should be resolved:~~
+Proot is used to execute binaries from paths where SELinux applies noexec restriction. This approach may be considered as Google Play policy violation, however it allows to keep current environment with only small changes and all packages functioning.
 
-* ~~How package data should be stored in APK ? Should we store everything inside
-  native library directory or only binaries should be here ? How to deal with
-  symlinks ?~~
+Working PoC: https://github.com/xeffyr/termux-app/releases/tag/v0.84-prooted2
 
-* ~~How to deal with packages having native extensions (ruby, python) ? Can be fixed
-  if everything is in native library directory, but what if it is not ?~~
+*Note*: proot allows to make Termux FHS-compatible with dropping all path-fixing patches and make Termux usable as secondary user.
 
-~~To fix problem with user's executables, we may use `proot` either session-widely
-or only for specific files.~~
+### Embedding packages into APK file
 
-Other (app-specific) issues:
+That solution does not met Termux requirements because Android does not allow to store arbitrary files in JNI lib directory.
+
+## Issues
 
 * Android 10 does not allow free access to `/sdcard` (at least file system based).
