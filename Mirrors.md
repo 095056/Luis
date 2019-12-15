@@ -1,9 +1,6 @@
 ## How to use
 
-Open file `$PREFIX/etc/apt/sources.list`, comment out existing URLs and add line for picked mirror.
-If you are using mirror for non-main repository, make sure that corresponding repository package is
-not installed. For example, if you are adding mirror for root packages repository, then you need to
-uninstall package `root-repo` to avoid conflicts.
+Open file `$PREFIX/etc/apt/sources.list` or files in `$PREFIX/etc/apt/sources.list.d`, comment out existing URLs and add line for picked mirror.
 
 ## IPFS
 
