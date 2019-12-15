@@ -7,7 +7,8 @@ uninstall package `root-repo` to avoid conflicts.
 
 ## IPFS
 
-Termux backup mirrors by [@xeffyr](https://github.com/xeffyr). Hosted via IPFS.
+Termux backup mirrors by [@xeffyr](https://github.com/xeffyr). Hosted via IPFS.<br>
+Compatible only with devices running Android 7 or higher.
 
 1. Main repository:
    ```
@@ -45,3 +46,4 @@ For chinese users:
 ```
 deb https://mirrors.tuna.tsinghua.edu.cn/termux/ stable main
 ```
+\- compatible only with devices running Android 7 or higher.
