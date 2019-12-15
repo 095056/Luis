@@ -45,4 +45,3 @@ For chinese users:
 ```
 deb https://mirrors.tuna.tsinghua.edu.cn/termux/ stable main
 ```
-Note that it mirrors only legacy repository - https://termux.net.
