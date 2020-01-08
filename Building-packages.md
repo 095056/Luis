@@ -125,12 +125,13 @@ different suborders are not executed simultaneously.
 | 15    | `termux_step_make` | yes | Compile the source code. |
 | 16    | `termux_step_make_install` | yes | Install the compiled artifacts. |
 | 17    | `termux_step_post_make_install` | yes | Hook to run commands immediately after installation. |
-| 18    | `termux_step_install_license` | yes | Link or copy package-specific LICENSE to `./share/doc/$TERMUX_PKG_NAME`. |
-| 19    | `termux_step_extract_into_massagedir` | no with `make_install` | Extract files modified in `$TERMUX_PREFIX`. |
-| 20    | `termux_step_massage` | no | Strip binaries, remove unneeded files. |
-| 20.1  | `termux_create_subpackages` | no | Creates all subpackages. |
-| 21    | `termux_step_post_massage` | yes | Final hook before creating `*.deb` file(s). |
-| 22    | `termux_step_create_datatar` | no | Archive package files. |
-| 23    | `termux_step_create_debfile` | no | Create `*.deb` package. |
-| 23.1  | `termux_step_create_debscripts` | yes | Create maintainer scripts, e.g. pre/post installation hooks. |
-| 24    | `termux_step_finish_build` | no | Notification of finish. |
+| 18    | `termux_step_install_service_scripts` | yes | Installs scripts for termux-services |
+| 19    | `termux_step_install_license` | yes | Link or copy package-specific LICENSE to `./share/doc/$TERMUX_PKG_NAME`. |
+| 20    | `termux_step_extract_into_massagedir` | no with `make_install` | Extract files modified in `$TERMUX_PREFIX`. |
+| 21    | `termux_step_massage` | no | Strip binaries, remove unneeded files. |
+| 21.1  | `termux_create_subpackages` | no | Creates all subpackages. |
+| 22    | `termux_step_post_massage` | yes | Final hook before creating `*.deb` file(s). |
+| 23    | `termux_step_create_datatar` | no | Archive package files. |
+| 24    | `termux_step_create_debfile` | no | Create `*.deb` package. |
+| 24.1  | `termux_step_create_debscripts` | yes | Create maintainer scripts, e.g. pre/post installation hooks. |
+| 25    | `termux_step_finish_build` | no | Notification of finish. |
