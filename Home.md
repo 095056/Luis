@@ -21,9 +21,7 @@ The build scripts for packages are also hosted here at github in
 [termux-packages](https://github.com/termux/termux-packages) and various other
 repositories.
 
-We maintain a mirror of our projects on Gitlab (https://gitlab.com/termux-mirror),
-there also available some repositories requiring features of Gitlab CI, e.g.
-[termux-repology](https://gitlab.com/termux-mirror/termux-repology).
+We maintain a mirror of our projects on Gitlab (https://gitlab.com/termux-mirror).
 
 ### Git branches
 
@@ -37,6 +35,8 @@ The repositories with build scripts for packages have two main branches.
    Corresponds to APT repository `https://dl.bintray.com/termux/termux-packages-24/`.
 
 2. Branch "android-5":
+
+   **Discontinued!**
 
    Legacy source tree with packages built for Android API 21 and used for
    supporting devices with old Android versions.
