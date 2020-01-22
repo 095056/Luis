@@ -36,7 +36,7 @@ The repositories with build scripts for packages have two main branches.
 
 2. Branch "android-5":
 
-   **Discontinued!**
+   Discontinued!
 
    Legacy source tree with packages built for Android API 21 and used for
    supporting devices with old Android versions.
