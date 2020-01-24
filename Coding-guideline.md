@@ -33,7 +33,7 @@
 
 - Use spaces for indentation in Python scripts.
 
-- Parantheses of functions should not be preceded with a space.
+- Parenthesis of functions should not be preceded with a space.
 
 - Avoid trailing spaces and tabs.
 
