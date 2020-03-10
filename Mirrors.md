@@ -4,7 +4,7 @@ Open file `$PREFIX/etc/apt/sources.list` or files in `$PREFIX/etc/apt/sources.li
 
 ## Mirrors by [Xeffyr](https://github.com/xeffyr)
 
-Only for installations running Android 7.0 and higher.
+Updated daily. Only for installations running Android 7.0 and higher.
 
 *Measures against crawlers are activated*.
 
