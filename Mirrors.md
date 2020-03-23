@@ -72,7 +72,7 @@ X11 ([x11-packages](https://github.com/termux/x11-packages)):
 deb https://grimler.se/x11-packages x11 main
 ```
 
-## Mirrors by the [Tsinghua University Student Network](https://tuna.moe/)
+## Mirrors by the [Tsinghua University TUNA Association](https://tuna.moe/)
 
 Mirror for Chinese users for better ping and download speed. Only for Android 7.0 and higher.
 
