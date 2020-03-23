@@ -38,7 +38,41 @@ X11 ([x11-packages](https://github.com/termux/x11-packages)):
 deb https://x11.termux-mirror.ml x11 main
 ```
 
-## China mirror
+## Mirrors by [Grimler](https://github.com/grimler91)
+
+Updated once per hour. Only for installations running Android 7.0 and higher.
+
+Main ([termux-packages](https://github.com/termux/termux-packages)):
+```
+deb https://grimler.se/termux-packages-24 stable main
+```
+
+Games ([game-packages](https://github.com/termux/game-packages)):
+```
+deb https://grimler.se/game-packages-24 games stable
+```
+
+Root ([termux-root-packages](https://github.com/termux/termux-root-packages)):
+```
+deb https://grimler.se/termux-root-packages-24 root stable
+```
+
+Science ([science-packages](https://github.com/termux/science-packages)):
+```
+deb https://grimler.se/science-packages-24 science stable
+```
+
+Unstable ([unstable-packages](https://github.com/termux/unstable-packages)):
+```
+deb https://grimler.se/unstable-packages unstable main
+```
+
+X11 ([x11-packages](https://github.com/termux/x11-packages)):
+```
+deb https://grimler.se/x11-packages x11 main
+```
+
+## Mirrors by the [Tsinghua University Student Network](https://tuna.moe/)
 
 Mirror for Chinese users for better ping and download speed. Only for Android 7.0 and higher.
 
