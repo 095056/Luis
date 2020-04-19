@@ -2,6 +2,15 @@
 
 Open file `$PREFIX/etc/apt/sources.list` or files in `$PREFIX/etc/apt/sources.list.d`, comment out existing URLs and add line for picked mirror.
 
+## Mirrors by [a1batross](https://github.com/a1batross)
+
+Updated 4 timer per day.
+
+Main ([termux-packages](https://github.com/termux/termux-packages))
+```
+deb https://termux.mentality.rip/termux-packages-24 stable main
+```
+
 ## Mirrors by [Xeffyr](https://github.com/xeffyr)
 
 Updated daily. Only for installations running Android 7.0 and higher.
