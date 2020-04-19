@@ -6,9 +6,34 @@ Open file `$PREFIX/etc/apt/sources.list` or files in `$PREFIX/etc/apt/sources.li
 
 Updated 4 timer per day.
 
-Main ([termux-packages](https://github.com/termux/termux-packages))
+Main ([termux-packages](https://github.com/termux/termux-packages)):
 ```
 deb https://termux.mentality.rip/termux-packages-24 stable main
+```
+
+Games ([game-packages](https://github.com/termux/game-packages)):
+```
+deb https://termux.mentality.rip/game-packages-24 games stable
+```
+
+Root ([termux-root-packages](https://github.com/termux/termux-root-packages)):
+```
+deb https://termux.mentality.rip/termux-root-packages-24 root stable
+```
+
+Science ([science-packages](https://github.com/termux/science-packages)):
+```
+deb https://termux.mentality.rip/science-packages-24 science stable
+```
+
+Unstable ([unstable-packages](https://github.com/termux/unstable-packages)):
+```
+deb https://termux.mentality.rip/unstable-packages unstable main
+```
+
+X11 ([x11-packages](https://github.com/termux/x11-packages)):
+```
+deb https://termux.mentality.rip/x11-packages x11 main
 ```
 
 ## Mirrors by [Xeffyr](https://github.com/xeffyr)
