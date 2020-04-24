@@ -74,8 +74,6 @@ deb https://grimler.se/x11-packages x11 main
 
 Updated daily. Only for installations running Android 7.0 and higher.
 
-*Intended for use only with APT package manager. No browser/crawler downloads*.
-
 Main ([termux-packages](https://github.com/termux/termux-packages)):
 ```
 deb https://main.termux-mirror.ml stable main
