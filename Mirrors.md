@@ -1,10 +1,10 @@
 ## How to use
 
-Open file `$PREFIX/etc/apt/sources.list` or files in `$PREFIX/etc/apt/sources.list.d`, comment out existing URLs and add line for picked mirror.
+Open file `$PREFIX/etc/apt/sources.list` or files in `$PREFIX/etc/apt/sources.list.d`, comment out existing URLs and add line for picked mirror, or use the `termux-change-repo` script that is part of the `termux-tools` package.
 
 ## Mirrors by [a1batross](https://github.com/a1batross)
 
-Updated 4 timer per day.
+Updated 4 times per day.
 
 Main ([termux-packages](https://github.com/termux/termux-packages)):
 ```
