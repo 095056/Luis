@@ -12,6 +12,23 @@ This page is for gathering ideas and information about how to work around this.
 
 Issue with discussion: https://github.com/termux/termux-app/issues/1072.
 
-## Issues
+## Why distribute packages in APKs ?
 
-* Android 10 does not allow free access to `/sdcard` (at least file system based).
+We choose to distribute packages in APKs because only that solution is correct.
+Android package format expects native code to be placed in directory for JNI
+libraries and that comply with W^X policy.
+
+Of course that will made Termux "non-convenient" for users, but actually Termux
+can have some benefits from that packaging format change. Here is what will be
+possible with in-APK package distribution:
+* Full offline installation.
+* Integrity of package files. Since files are enforced to be read-only by Android
+  OS, you can expect that they are immutable and can't be changed accidentally by
+  script or something else.
+* Easy package downgrading without having to mess with the correct dependency versions.
+* Easy environment repair. It is possible to implement it as one-click action.
+
+## Additional Android 10 issues
+
+* Android 10 does not allow free access to `/sdcard` (at least file system based) due
+  to scoped storage.
