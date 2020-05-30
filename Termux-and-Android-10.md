@@ -12,7 +12,22 @@ This page is for gathering ideas and information about how to work around this.
 
 Issue with discussion: https://github.com/termux/termux-app/issues/1072.
 
-## Why distribute packages in APKs ?
+## How issue is going to be solved ?
+
+Package \*.deb files will be transformed into APK file, where the data will be
+placed into JNI lib directory which is marked executable by Android OS. That
+makes package data to be read-only and overcome the SELinux restrictions applied.
+
+During installation of such package the contents in JNI lib directory are symlinked
+to `$PREFIX` mimicking the normal environment like a pre- Android 10 one. Package
+management is handled by Termux application with command line interface exposed
+through utility `pkg`. Apt package manager is going to be removed.
+
+Sample packages can be obtained from http://termux.net/apks/.
+
+Related pull request: https://github.com/termux/termux-app/pull/1427
+
+### Why distribute packages in APKs ?
 
 We choose to distribute packages in APKs because only that solution is correct.
 Android package format expects native code to be placed in directory for JNI
@@ -32,10 +47,11 @@ possible with in-APK package distribution:
 
 There is a number of other solutions that were suggested during [discussion](https://github.com/termux/termux-app/issues/1072).
 
-Please understand that we are not looking on other solutions beyond in-APK packaging anymore.
-We already have one (WIP currently) which will require minimal effort for maintaining and provide
-minimal feature loss. If you want to suggest your solution, provide the related pull requests and
-be ready to maintain it in case it will be accepted.
+Please understand that we are not looking on other solutions beyond in-APK
+packaging anymore. We already have one (WIP currently) which will require
+minimal effort for maintaining and provide minimal feature loss. If you
+want to suggest your solution, provide the related pull requests and be
+ready to maintain it in case it will be accepted.
 
 | Name             | Compatibility with Google Play policy\* | Notes                             |
 |:-----------------|:---------------------------------------:|:----------------------------------|
