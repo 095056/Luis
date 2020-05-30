@@ -12,6 +12,8 @@ our organisation on [Github](https://github.com): https://github.com/termux.
 
 We maintain a mirror of our projects on [Gitlab](https://gitlab.com/termux-mirror).
 
+*Support of Android OS versions 5.x - 6.x is discontinued as of 01.01.2020!*
+
 ### Application and add-ons
 
 All apks are being distributed through [Google Play](https://play.google.com/store/apps/developer?id=Fredrik+Fornwall), [F-Droid](https://search.f-droid.org/?q=Termux) and [Kali Nethunter Store](https://store.nethunter.com/en/packages/#q=Termux).
