@@ -62,7 +62,7 @@ ready to maintain it in case it will be accepted.
 | [Userland exec](https://github.com/bediger4000/userlandexec) | No. It implements custom executable loader. | For x86_64 and glibc only. Termux developers are not going to port it. |
 | WASM             | Full or partial (depening on implementation). | There no people in Termux developers who wish to or can maintain WASM package ports and runtime. |
 
-\* *Google Play restricts execution of sideloaded code by applications.*
+\* *Google Play policy restricts sideloading of executable code.*
 
 ## Additional Android 10 issues
 
