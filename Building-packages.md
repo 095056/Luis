@@ -1,3 +1,6 @@
+
+[![asciicast](https://asciinema.org/a/5BsCbNoCzNFEgcH8vh8975MLm.svg)](https://asciinema.org/a/5BsCbNoCzNFEgcH8vh8975MLm)
+
 ## How to build package
 
 Once you have properly [configured](https://github.com/termux/termux-packages/wiki/Build-environment)
