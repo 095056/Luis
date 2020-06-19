@@ -1,5 +1,5 @@
 
-[![asciicast](https://asciinema.org/a/5BsCbNoCzNFEgcH8vh8975MLm.svg)](https://asciinema.org/a/5BsCbNoCzNFEgcH8vh8975MLm)
+[![asciicast](https://asciinema.org/a/5BsCbNoCzNFEgcH8vh8975MLm.svg)](https://asciinema.org/a/5BsCbNoCzNFEgcH8vh8975MLm?autoplay=1&speed=2.5)
 
 ## How to build package
 
