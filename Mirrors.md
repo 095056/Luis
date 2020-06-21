@@ -137,3 +137,37 @@ X11 ([x11-packages](https://github.com/termux/x11-packages)):
 ```
 deb https://mirrors.tuna.tsinghua.edu.cn/termux/x11-packages/ x11 main
 ```
+
+## Mirrors by the [BFSU](https://bfsu.edu.cn/)
+
+Mirror for Chinese users for better ping and download speed. Only for Android 7.0 and higher.
+
+Main ([termux-packages](https://github.com/termux/termux-packages)):
+```
+deb https://mirrors.bfsu.edu.cn/termux/termux-packages-24/ main stable
+```
+
+Games ([game-packages](https://github.com/termux/game-packages)):
+```
+deb https://mirrors.bfsu.edu.cn/termux/game-packages-24/ games stable
+```
+
+Root ([termux-root-packages](https://github.com/termux/termux-root-packages)):
+```
+deb https://mirrors.bfsu.edu.cn/termux/termux-root-packages-24/ root stable
+```
+
+Science ([science-packages](https://github.com/termux/science-packages)):
+```
+deb https://mirrors.bfsu.edu.cn/termux/science-packages-24/ science stable
+```
+
+Unstable ([unstable-packages](https://github.com/termux/unstable-packages)):
+```
+deb https://mirrors.bfsu.edu.cn/termux/unstable-packages/ unstable main
+```
+
+X11 ([x11-packages](https://github.com/termux/x11-packages)):
+```
+deb https://mirrors.bfsu.edu.cn/termux/x11-packages/ x11 main
+```
