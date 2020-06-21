@@ -138,7 +138,7 @@ X11 ([x11-packages](https://github.com/termux/x11-packages)):
 deb https://mirrors.tuna.tsinghua.edu.cn/termux/x11-packages/ x11 main
 ```
 
-## Mirrors by the [BFSU](https://bfsu.edu.cn/)
+## Mirrors by the [Beijing Foreign Studies University](http://www.bfsu.edu.cn/)
 
 Mirror for Chinese users for better ping and download speed. Only for Android 7.0 and higher.
 
