@@ -50,8 +50,6 @@ Authentication credentials are supplied through environment variables:
 Any operations (except download) on APT repository can be done only by
 maintainers who have *write* access.
 
-**Warning**: do not run simultaneously multiple package upload sessions. This may corrupt APT repository hosted on Bintray.
-
 ### Deleting packages
 
 To delete package from APT repository, use pass argument `-d` with list of
@@ -59,9 +57,6 @@ package names to `package_uploader.sh`:
 ```
 ./scripts/package_uploader.sh -d {package names}
 ```
-
-**Warning:** never delete packages when upload is not finished. This may result
-in metadata inconsistency.
 
 ### Deleting old versions
 
@@ -83,6 +78,12 @@ following way:
 ```
 ./scripts/package_uploader.sh -r
 ```
+
+### Avoid parallel uploads and simultaneous `package_uploader.sh` sessions generally.
+
+Never run multiple instances of `package_uploader.sh`. This may lead to corruption of metadata or whole APT repository.
+
+If you have `package_uploader.sh` running and you want to perform another action, wait until job finish or stop already running instance with Ctrl-C.It also better to wait 1-5 minutes after `package_uploader.sh` termination as Bintray doesn't generate metadata immediately.
 
 ## Generating bootstrap archives
 
