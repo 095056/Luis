@@ -50,6 +50,8 @@ Authentication credentials are supplied through environment variables:
 Any operations (except download) on APT repository can be done only by
 maintainers who have *write* access.
 
+**Warning**: do not run simultaneously multiple package upload sessions. This may corrupt APT repository hosted on Bintray.
+
 ### Deleting packages
 
 To delete package from APT repository, use pass argument `-d` with list of
