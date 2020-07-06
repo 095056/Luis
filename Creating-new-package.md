@@ -105,7 +105,7 @@ Complete reference for all build steps can be found in
 | 10              | `termux_step_post_make_install` | Hook to run commands immediately after installation. |
 | 11              | `termux_step_install_license` | Link or copy package-specific LICENSE to `./share/doc/$TERMUX_PKG_NAME`. |
 | 12              | `termux_step_post_massage` | Final hook before creating `*.deb` file(s). |
-| 13              | `termux_step_create_debscripts` | Create maintainer scripts, e.g. pre/post installation hooks. |
+| 13              | `termux_step_create_debscripts` | In this step you can create ./preinst, ./postinst, ./prerm or ./postrm scripts which will be executed during the package installation or removing. |
 
 ## Writing a subpackage script
 
