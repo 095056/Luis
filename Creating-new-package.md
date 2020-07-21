@@ -62,6 +62,7 @@ If you need to pass some additional arguments, use the field
 | 8     | `TERMUX_PKG_SKIP_SRC_EXTRACT` | no | Whether to omit source code downloading and extraction. Default is **false**. |
 | 9     | `TERMUX_PKG_SRCURL` | not, if source extraction was skipped | URL from which source archive should be downloaded. |
 | 10    | `TERMUX_PKG_SHA256` | not, if source URL was not set | SHA-256 checksum of source archive. |
+| 11    | `TERMUX_PKG_GIT_BRANCH` | no | Branch to checkout in termux_step_git_clone_src. Default is `v$TERMUX_PKG_VERSION`. |
 | 11    | `TERMUX_PKG_METAPACKAGE` | no | Whether to make package treated as metapackage. Default is **false**. |
 | 12    | `TERMUX_PKG_DEPENDS` | no | Comma-separated list of dependency package names. |
 | 13    | `TERMUX_PKG_BUILD_DEPENDS` | no | Comma-separated list of build-time only dependencies. |
@@ -93,8 +94,8 @@ Complete reference for all build steps can be found in
 
 | Execution order | Function name | Description |
 | ---------------:|:-------------:|:----------- |
-| 1               | `termux_step_extract_package` | Obtain package sources and put them to relevant directory. |
-| 2               | `termux_step_post_extract_package` | Hook to run commands immediately after extracting sources. |
+| 1               | `termux_step_get_source` | Obtain package source code and put it in `$TERMUX_PKG_SRCDIR`. |
+| 2               | `termux_step_post_get_source` | Hook to run commands immediately after obtaining source code. |
 | 3               | `termux_step_handle_host_build` | Determine whether a host build is required. |
 | 4               | `termux_step_host_build` | Perform a host build. |
 | 5               | `termux_step_pre_configure` | Hook to run commands before source configuration. |
