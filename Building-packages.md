@@ -112,8 +112,11 @@ different suborders are not executed simultaneously.
 | 4     | `termux_step_get_repo_files` | no | Fetch APT packages information when `-i` or `-I` option was supplied. |
 | 5     | `termux_extract_dep_info` | no | Obtain package architecture and version for downloading. |
 | 5.1   | `termux_download_deb` | no | Download dependency `*.deb` packages for installation. |
-| 6     | `termux_step_extract_package` | yes | Obtain package sources and put them to relevant directory. |
-| 7     | `termux_step_post_extract_package` | yes | Hook to run commands immediately after extracting sources. |
+| 6     | `termux_step_get_source` | yes | Obtain package source code and put it in $TERMUX_PKG_SRCDIR. |
+| 6.1   | `termux_git_clone_src` | no | Obtain source by git clone, is run if TERMUX_PKG_SRCURL ends with ".git". |
+| 6.2   | `termux_download_src_archive` | no | Download zip or tar archive with package source code. |
+| 6.3   | `termux_unpack_src_archive` | no | Extract downloaded archive into TERMUX_PKG_SRCDIR. |
+| 7     | `termux_step_post_get_source` | yes | Hook to run commands immediately after obtaining source code. |
 | 8     | `termux_step_handle_host_build` | yes | Determine whether a host build is required. |
 | 8.1   | `termux_step_host_build` | yes | Perform a host build. |
 | 9     | `termux_step_setup_toolchain` | no | Setup NDK standalone toolchain. |
