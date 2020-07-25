@@ -68,3 +68,7 @@ ready to maintain it in case it will be accepted.
 
 * Android 10 does not allow free access to `/sdcard` (at least file system based) due
   to scoped storage.
+
+## Android 11+ issues
+
+* [Package visibility](https://developer.android.com/preview/privacy/package-visibility) restricts access to the list of installed applications.
