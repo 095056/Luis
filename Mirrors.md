@@ -6,7 +6,7 @@ As of `termux-tools` v0.86, main repository mirrors are being picked and rotated
 
 ## Mirrors by [a1batross](https://github.com/a1batross)
 
-Updated 4 times per day.
+Updated once per 6 hours.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
@@ -19,7 +19,7 @@ Updated 4 times per day.
 
 ## Mirrors by [Grimler](https://github.com/grimler91)
 
-Updated once per hour. Only for installations running Android 7.0 and higher.
+Updated hourly. Only for installations running Android 7.0 and higher.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
@@ -32,7 +32,7 @@ Updated once per hour. Only for installations running Android 7.0 and higher.
 
 ## Mirrors by [Xeffyr](https://github.com/xeffyr)
 
-Updated daily. Only for installations running Android 7.0 and higher.
+Updated hourly. Only for installations running Android 7.0 and higher.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
