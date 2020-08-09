@@ -76,9 +76,7 @@ ready to maintain it in case it will be accepted.
 
 * Lineage OS 17 ROM (Android 10 based) does not restrict `execve()` for SDK-29 but free access to storage is lost anyway.
 
-* Termux:API: `termux-location` does not work, both GPS and network based. Can only grant location access only for case where
-  Termux:API is currently active app (foreground?), but it seems running on background only. Issue happens on Lineage OS ROM,
-  but not in SDK-29 emulator (here full location permission can be granted).
+* Termux:API: `termux-wifi-enable` is no-op on SDK-29. (only when both Termux and Termux:API are compiled with target SDK 29)
 
 ## Android 11+ issues
 
