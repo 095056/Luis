@@ -76,6 +76,8 @@ ready to maintain it in case it will be accepted.
 
 * Lineage OS 17 ROM (Android 10 based) does not restrict `execve()` for SDK-29 but free access to storage is lost anyway.
 
+* Termux:API: `termux-location` does not work, both GPS and network based. (Lineage OS ROM)
+
 ## Android 11+ issues
 
 * [Package visibility](https://developer.android.com/preview/privacy/package-visibility) restricts access to the list of installed applications.
