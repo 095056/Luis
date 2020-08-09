@@ -64,10 +64,16 @@ ready to maintain it in case it will be accepted.
 
 \* *Google Play policy restricts sideloading of executable code.*
 
-## Additional Android 10 issues
+## Additional notes about Termux and SDK-29
 
-* Android 10 does not allow free access to `/sdcard` (at least file system based) due
-  to scoped storage.
+* Users updating Termux compiled with SDK-28 to application compiled with SDK-29, will not face the
+  `execve()` restriction.
+
+* On some devices, `execve()` is restricted even for SDK <=28, so any Termux build doesn't work on them.
+
+* Termux compiled with SDK-29 will lose access to shared storage `/sdcard` due to forced scoped storage.
+
+* Lineage OS 17 ROM (Android 10 based) does not restrict `execve()` for SDK-29 but free access to storage is lost anyway.
 
 ## Android 11+ issues
 
