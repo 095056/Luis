@@ -72,11 +72,14 @@ ready to maintain it in case it will be accepted.
 
 * On some devices, `execve()` is restricted even for SDK <=28, so any Termux build doesn't work on them.
 
-* Termux compiled with SDK-29 will lose access to shared storage `/sdcard` due to forced scoped storage.
+* Termux compiled with SDK-29 will lose access to shared storage `/sdcard` due to forced scoped storage. Termux:API command
+  `termux-storage-get` can be used for retrieving files. However, to save files a private directory should be used.
 
 * Lineage OS 17 ROM (Android 10 based) does not restrict `execve()` for SDK-29 but free access to storage is lost anyway.
 
 * Termux:API: `termux-wifi-enable` is no-op on SDK-29. (only when both Termux and Termux:API are compiled with target SDK 29)
+
+* Termux:API: `termux-telephony-deviceinfo` will not show IMEI on SDK-29.
 
 ## Android 11+ issues
 
