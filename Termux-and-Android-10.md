@@ -57,12 +57,12 @@ ready to maintain it in case it will be accepted.
 |:-----------------|:---------------------------------------:|:----------------------------------|
 | Keep SDK 28      | Not as minimum target SDK level increases each year. | Will render Termux incompatible with new devices and kill project in future. |
 | PRoot            | No. It implements custom executable loader. | May cause issues with certain programs. May not work properly on some devices. |
-| QEMU system mode | Unknown. Code executed on emulated hardware. | Low performance and environment isolation make it unsuitable for keeping Termux as terminal emulator for Android. |
+| QEMU system mode | **Full or partial** (code is executed in emulator). | Low performance and environment isolation make it unsuitable for using Termux as terminal emulator for Android. |
 | [User-mode Linux](https://en.wikipedia.org/wiki/User-mode_Linux) | No. Code is executed on host, can be treated as custom executable loader. | Is not available for ARM and AArch64. Termux developers can't port it on these architectures. Termux will not be able to run root packages properly. |
 | [Userland exec](https://github.com/bediger4000/userlandexec) | No. It implements custom executable loader. | For x86_64 and glibc only. Termux developers are not going to port it. |
-| WASM             | Full or partial (depening on implementation). | There no people in Termux developers who wish to or can maintain WASM package ports and runtime. |
+| WASM             | **Full or partial** (depening on implementation). | There no people in Termux developers who wish to or can maintain WASM package ports and runtime. |
 
-\* *Google Play policy restricts sideloading of executable code.*
+\* *Google Play policy restricts sideloading of executable code. See https://support.google.com/googleplay/android-developer/answer/9887877.*
 
 ## Additional notes about Termux and SDK-29
 
