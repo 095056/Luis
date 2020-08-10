@@ -81,7 +81,11 @@ ready to maintain it in case it will be accepted.
   retrieving files. However, to save files a private directory should be used.
 
 * Lineage OS 17 ROM (Android 10 based) does not restrict `execve()` for SDK-29
-  but free access to storage is lost anyway.
+  but free access to storage is lost anyway. Tested with engineering (eng) userdebug
+  build.
+
+* Access to /proc/net is restricted for all applications. Utilities like `netstat` are
+  not working anymore. (Lineage OS 17 does not restrict)
 
 * Termux:API: `termux-wifi-enable` is no-op on SDK-29. (only when both Termux
   and Termux:API are compiled with target SDK 29)
