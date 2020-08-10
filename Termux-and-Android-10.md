@@ -12,6 +12,9 @@ This page is for information about how to work around this.
 
 Issue with discussion: https://github.com/termux/termux-app/issues/1072.
 
+SDK 29 transition deadline is November 2, 2020. After that date, Google Play will
+not accept app updates without SDK level bumped to 29.
+
 ## How issue is going to be solved ?
 
 Package \*.deb files will be transformed into APK file, where the data will be
@@ -67,20 +70,25 @@ ready to maintain it in case it will be accepted.
 
 ## Additional notes about Termux and SDK-29
 
-* Users updating Termux compiled with SDK-28 to application compiled with SDK-29, will not face the
-  `execve()` restriction.
+* Users updating Termux compiled with SDK-28 to application compiled with SDK-29,
+  will not face the `execve()` restriction.
 
-* On some devices, `execve()` is restricted even for SDK <=28, so any Termux build doesn't work on them.
+* On some devices, `execve()` is restricted even for SDK <=28, so any Termux build
+  doesn't work on them.
 
-* Termux compiled with SDK-29 will lose access to shared storage `/sdcard` due to forced scoped storage. Termux:API command
-  `termux-storage-get` can be used for retrieving files. However, to save files a private directory should be used.
+* Termux compiled with SDK-29 will lose access to shared storage `/sdcard` due to
+  forced scoped storage. Termux:API command `termux-storage-get` can be used for
+  retrieving files. However, to save files a private directory should be used.
 
-* Lineage OS 17 ROM (Android 10 based) does not restrict `execve()` for SDK-29 but free access to storage is lost anyway.
+* Lineage OS 17 ROM (Android 10 based) does not restrict `execve()` for SDK-29
+  but free access to storage is lost anyway.
 
-* Termux:API: `termux-wifi-enable` is no-op on SDK-29. (only when both Termux and Termux:API are compiled with target SDK 29)
+* Termux:API: `termux-wifi-enable` is no-op on SDK-29. (only when both Termux
+  and Termux:API are compiled with target SDK 29)
 
 * Termux:API: `termux-telephony-deviceinfo` will not show IMEI on SDK-29.
 
 ## Android 11+ issues
 
-* [Package visibility](https://developer.android.com/preview/privacy/package-visibility) restricts access to the list of installed applications.
+* [Package visibility](https://developer.android.com/preview/privacy/package-visibility)
+  restricts access to the list of installed applications.
