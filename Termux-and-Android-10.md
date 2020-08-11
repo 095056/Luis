@@ -95,4 +95,5 @@ ready to maintain it in case it will be accepted.
 ## Android 11+ issues
 
 * [Package visibility](https://developer.android.com/preview/privacy/package-visibility)
-  restricts access to the list of installed applications.
+  restricts access to the list of installed applications. Perhaps Termux app should add the
+  https://developer.android.com/reference/kotlin/android/Manifest.permission#query_all_packages.
