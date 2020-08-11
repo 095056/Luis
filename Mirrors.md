@@ -42,6 +42,7 @@ Updated hourly. Only for installations running Android 7.0 and higher.
 |[Science](https://github.com/termux/science-packages)   |`deb https://science.termux-mirror.ml science stable`|
 |[Unstable](https://github.com/termux/unstable-packages)  |`deb https://unstable.termux-mirror.ml unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://x11.termux-mirror.ml x11 main`|
+|[by @its-pointless](https://github.com/its-pointless/its-pointless.github.io)|`deb https://its-pointless.termux-mirror.ml/ termux extras`|
 
 ## Mirrors by the [Tsinghua University TUNA Association](https://tuna.moe/)
 
