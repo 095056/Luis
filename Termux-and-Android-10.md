@@ -28,7 +28,7 @@ through utility `pkg`. Apt package manager is going to be removed.
 
 ### Converting .DEB to .APK demo
 
-[![asciicast](https://asciinema.org/a/A3Ge2dwz7m6Y4RTayTSOwX2qN.svg)](https://asciinema.org/a/A3Ge2dwz7m6Y4RTayTSOwX2qN?t=122&speed=2.0)
+[![asciicast](https://asciinema.org/a/A3Ge2dwz7m6Y4RTayTSOwX2qN.svg)](https://asciinema.org/a/A3Ge2dwz7m6Y4RTayTSOwX2qN?speed=2.0)
 
 Sample packages can be obtained from http://termux.net/apks/.
 
