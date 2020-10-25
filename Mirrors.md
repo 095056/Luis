@@ -34,6 +34,9 @@ Updated hourly. Only for installations running Android 7.0 and higher.
 
 Updated hourly. Only for installations running Android 7.0 and higher.
 
+Uses [CloudFlare](https://www.cloudflare.com/) CDN to improve download speed and reduce server load as it can provide only
+100 mbps and hardware is quite old and slow anyway. My mirror inaccessible in countries where CloudFlare is blocked, sorry.
+
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
 |[Main](https://github.com/termux/termux-packages)      |`deb https://main.termux-mirror.ml stable main`|
