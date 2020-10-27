@@ -35,7 +35,7 @@ Updated hourly. Only for installations running Android 7.0 and higher.
 Updated hourly. Only for installations running Android 7.0 and higher.
 
 Uses [CloudFlare](https://www.cloudflare.com/) CDN to improve download speed and reduce server load as it can provide only
-100 mbps and hardware is quite old and slow anyway. My mirror inaccessible in countries where CloudFlare is blocked, sorry.
+100 mbps. My mirror inaccessible in countries where CloudFlare is blocked, sorry.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
@@ -46,6 +46,8 @@ Uses [CloudFlare](https://www.cloudflare.com/) CDN to improve download speed and
 |[Unstable](https://github.com/termux/unstable-packages)  |`deb https://unstable.termux-mirror.ml unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://x11.termux-mirror.ml x11 main`|
 |[by @its-pointless](https://github.com/its-pointless/its-pointless.github.io)|`deb https://its-pointless.termux-mirror.ml/ termux extras`|
+
+I also provide an unofficial copy of all @termux repositories on my host: https://gitea.warpdestination.ml/termux-mirror
 
 ## Mirrors by the [Tsinghua University TUNA Association](https://tuna.moe/)
 
