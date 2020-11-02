@@ -7,9 +7,11 @@ the app's home directory. This execution of files from the writable app home
 directory is a W^X violation. Apps should load only the binary code that's
 embedded within an app's APK file.
 
-Until November 2, 2020, Termux has to change its package management solution
-to met requirements of the new Android SELinux policy and Google Play rules.
-Otherwise Termux will no longer be able to receive application updates.
+As of November 2, 2020, Termux has failed to comply with Google Play policy
+requirements regarding executable code and have not bumped SDK to 29, so it
+will no longer receive application updates within this distribution source.
+
+Use Termux and add-ons from F-Droid.
 
 Issue with discussion: https://github.com/termux/termux-app/issues/1072.
 
