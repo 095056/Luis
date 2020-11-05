@@ -55,7 +55,7 @@ Mirror for Chinese users for better ping and download speed. Only for Android 7.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
-|[Main](https://github.com/termux/termux-packages)      |`deb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24/ main stable`|
+|[Main](https://github.com/termux/termux-packages)      |`deb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-packages-24/ stable main`|
 |[Games](https://github.com/termux/game-packages)     |`deb https://mirrors.tuna.tsinghua.edu.cn/termux/game-packages-24/ games stable` |
 |[Root](https://github.com/termux/termux-root-packages)      |`deb https://mirrors.tuna.tsinghua.edu.cn/termux/termux-root-packages-24/ root stable`|
 |[Science](https://github.com/termux/science-packages)   |`deb https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24/ science stable`|
@@ -68,7 +68,7 @@ Mirror for Chinese users for better ping and download speed. Only for Android 7.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
-|[Main](https://github.com/termux/termux-packages)      |`deb https://mirrors.bfsu.edu.cn/termux/termux-packages-24/ main stable`|
+|[Main](https://github.com/termux/termux-packages)      |`deb https://mirrors.bfsu.edu.cn/termux/termux-packages-24/ stable main`|
 |[Games](https://github.com/termux/game-packages)     |`deb https://mirrors.bfsu.edu.cn/termux/game-packages-24/ games stable` |
 |[Root](https://github.com/termux/termux-root-packages)      |`deb https://mirrors.bfsu.edu.cn/termux/termux-root-packages-24/ root stable`|
 |[Science](https://github.com/termux/science-packages)   |`deb https://mirrors.bfsu.edu.cn/termux/science-packages-24/ science stable`|
