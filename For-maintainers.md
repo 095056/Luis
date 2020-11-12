@@ -27,6 +27,9 @@
 - `./scripts/package_uploader.sh`:
   Upload packages to Bintray.
 
+- `./scripts/generate-bootstraps.sh`:
+  Generate bootstrap archive for Termux app.
+
 ## Uploading packages (Bintray)
 
 Upload is done by executing script `./scripts/package_uploader.sh` with package
