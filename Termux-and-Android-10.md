@@ -1,22 +1,25 @@
-# Summary
-Termux does not target API 29 (Android 10) due to
-https://developer.android.com/about/versions/10/behavior-changes-all#execute-permission:
+Android 10 transition has been cancelled and as result Termux will not receive
+updates on Play Store anymore. Google Policy for Android applications require
+to bump target SDK level to at least 29, but we cannot do that due to Termux
+application design.
+
+Use Termux application and add-ons from F-Droid.
+
+# What problem with Android 10 ?
+
+That are all operating system behavior changes. Specifically, this one:
+https://developer.android.com/about/versions/10/behavior-changes-all#execute-permission
 
 > Untrusted apps that target Android 10 cannot invoke exec() on files within
 the app's home directory. This execution of files from the writable app home
 directory is a W^X violation. Apps should load only the binary code that's
 embedded within an app's APK file.
 
-As of November 2, 2020, Termux has failed to comply with Google Play policy
-requirements regarding executable code and have not bumped SDK to 29, so it
-will no longer receive application updates within this distribution source.
+Check also the issue related to code execution restrictions:
+https://github.com/termux/termux-app/issues/1072.
 
-Use Termux and add-ons from F-Droid.
-
-Issue with discussion: https://github.com/termux/termux-app/issues/1072.
-
-*Accodring to tests by @xeffyr, this issue may not affect users running Lineage
-OS 17.x ROMs.*
+Note that issue may not affect users with custom Android like Lineage OS, or
+those who have SELinux in permissive mode.
 
 ## How this issue is going to be solved?
 
