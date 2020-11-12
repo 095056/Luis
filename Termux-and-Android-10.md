@@ -1,12 +1,11 @@
 **Android 10 transition has been cancelled and as result Termux will not receive
-updates on Play Store anymore.** Google Policy for Android applications require
+updates on Play Store anymore.** Google policy for Android applications require
 to bump target SDK level to at least 29, but we cannot do that due to Termux
 application design.
 
 Use Termux application and add-ons from F-Droid.
 
-# What problem with Android 10 ?
-
+# What problem with Android 10?
 That are all operating system behavior changes. Specifically, this one:
 https://developer.android.com/about/versions/10/behavior-changes-all#execute-permission
 
@@ -21,43 +20,46 @@ https://github.com/termux/termux-app/issues/1072.
 Note that issue may not affect users with custom Android like Lineage OS, or
 those who have SELinux in permissive mode.
 
-## How this issue is going to be solved?
+## What is a possible solution for this issue?
+According to Google Play policy and Android application design, we will have
+to bundle packages inside APK files and distribute as regular applications -
+just like we do currently with Termux add-ons (API, Widget, Float, etc). This
+is the only viable solution in long-term.
 
-As Android OS of version 10 and higher requires executable code to be
-distributed within the APK file, we will convert our .DEB files into APK
-format by placing files into JNI lib directory. Termux application will
-automatically detect these APKs and will map JNI files into $PREFIX through
-symbolic links.
+Here are brief overview of the packaging changes:
+* All files from .deb file are extracted and renamed to have .so as extension.
+  These "shared libraries" are part of the APK file just like normal native
+  code.
+* A file mapping will be created and packaged inside APK as well. It will be
+  needed to create symlinks from .so file in native lib directory to matching
+  file inside $PREFIX (Termux system root).
+* No `apt` and `dpkg` will be available. All basic package management functionality
+  is done by Termux application. A tiny script will be present to allow package
+  management from shell.
+* Updated `termux-exec` `execve()` wrapper - now uses `proot` to run user
+  binaries and bypass restrictions from SELinux. *As proot is unstable, not all
+  users will be able to run custom binaries.*
 
-Termux will also provide a tiny package manager which will help to deal with
-APKs.
-
-This solution will completely met all requirements of the new Android OS. Also,
-it helps to separate a user-space from package installation and will make
-environment much more easier for recovery as package data will be read-only.
-
-Apt package manager will be removed because it no longer will be usable.
+Of course, that will have serious impact on user experience. From that point
+Termux will no longer be same as was before. Many things likely will stop
+working.
 
 Development is done in https://github.com/termux/termux-app/tree/android-10.
 
-### Converting .DEB to .APK demo
-
-[![asciicast](https://asciinema.org/a/A3Ge2dwz7m6Y4RTayTSOwX2qN.svg)](https://asciinema.org/a/A3Ge2dwz7m6Y4RTayTSOwX2qN?speed=2.0)
-
-Sample packages can be obtained from http://staging.termux-mirror.ml/android-10/.
-
 ### Alternate solutions
 
-We know that APK-based package distribution will make Termux non-convenient or
-unusable for some users.
+Do not like solution proposed by Termux maintainers, want to help to solve
+issues on the latest Android OS versions and make Termux better? - Submit
+your pull requests and we will figure out whether it would be better than
+APK-based packaging.
 
-We had a discussion on Android 10 solutions and there were enough time to
-provide a working one. We got suggestions from using `proot` as binary loader
-to extremelly ridiculous variants like "rewrite packages in WASM".
+Theoretical suggestions, especially ones like "custom binary loaders" or
+something extremelly ridiculous like "rewrite everything in WASM" are NOT
+ACCEPTED!
 
-As none decided to make a pull request with implementation of their ideas and
-also most of them will make package maintaining impossible for us, we are
-picking an APK-based packaging variant.
+Suggestions to use `proot` to execute everything are not accepted. Proot
+is not stable and still against Google Play policy. It also not known how
+such solution will be viable in long-term.
 
 ## Additional notes about Termux and SDK-29
 
