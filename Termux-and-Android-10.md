@@ -61,7 +61,7 @@ Suggestions to use `proot` to execute everything are not accepted. Proot
 is not stable and still against Google Play policy. It also not known how
 such solution will be viable in long-term.
 
-## Additional notes about Termux and Android 10, 11 and SDK-29+
+## Additional notes about Termux and Android 10, 11 and app target SDK level 29+
 
 Android 10+:
 
