@@ -1,5 +1,5 @@
-Android 10 transition has been cancelled and as result Termux will not receive
-updates on Play Store anymore. Google Policy for Android applications require
+**Android 10 transition has been cancelled and as result Termux will not receive
+updates on Play Store anymore.** Google Policy for Android applications require
 to bump target SDK level to at least 29, but we cannot do that due to Termux
 application design.
 
