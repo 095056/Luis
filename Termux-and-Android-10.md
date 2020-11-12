@@ -61,32 +61,26 @@ Suggestions to use `proot` to execute everything are not accepted. Proot
 is not stable and still against Google Play policy. It also not known how
 such solution will be viable in long-term.
 
-## Additional notes about Termux and SDK-29
+## Additional notes about Termux and Android 10, 11 and SDK-29+
 
-* Users updating Termux compiled with SDK-28 to application compiled with SDK-29,
-  will not face the `execve()` restriction.
+Android 10+:
 
-* On some devices, `execve()` is restricted even for SDK <=28, so any Termux build
-  doesn't work on them.
+  1. Users updating Termux compiled with SDK-28 to application compiled with
+  SDK-29, will not face the `execve()` restriction.
 
-* Termux compiled with SDK-29 will lose access to shared storage `/sdcard` due to
-  forced scoped storage. Termux:API command `termux-storage-get` can be used for
-  retrieving files. However, to save files a private directory should be used.
+  2. On some devices, `execve()` is restricted even for target SDK <=28, so
+  any Termux build doesn't work on them.
 
-* Lineage OS 17 ROM (Android 10 based) does not restrict `execve()` for SDK-29
-  but free access to storage is lost anyway. Tested with engineering (eng) userdebug
-  build.
+  3. Access to `/proc/net` is restricted. As result `netstat` and other utilities
+  using data from this interface will not work anymore.
 
-* Access to /proc/net is restricted for all applications. Utilities like `netstat` are
-  not working anymore. (Lineage OS 17 does not restrict)
+  4. Shared storage may become inaccessible.
 
-* Termux:API: `termux-wifi-enable` is no-op on SDK-29. (only when both Termux
+  5. Termux:API: `termux-wifi-enable` is no-op on SDK-29. (only when both Termux
   and Termux:API are compiled with target SDK 29)
 
-* Termux:API: `termux-telephony-deviceinfo` will not show IMEI on SDK-29.
+  6. Termux:API: `termux-telephony-deviceinfo` will not show IMEI on SDK-29.
 
-## Android 11+ issues
+Android 11:
 
-* [Package visibility](https://developer.android.com/preview/privacy/package-visibility)
-  restricts access to the list of installed applications. Perhaps Termux app should add the
-  https://developer.android.com/reference/kotlin/android/Manifest.permission#query_all_packages.
+  1. Some utilities may crash due to file descriptor sanitizer.
