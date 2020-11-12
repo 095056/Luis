@@ -153,12 +153,6 @@ Following environment variables affect behaviour of Termux build system:
   Standalone toolchain, downloaded sources, package build directories will be
   created here. Default is `$HOME/.termux-build`.
 
-- `TERMUX_PREFIX` - Specifies path to Termux system root. Default is
-  `/data/data/com.termux/files/usr`. Cannot be changed when building on device.
-
-- `TERMUX_ANDROID_HOME` - Specifies path to Termux home directory. Default is
-  `/data/data/com.termux/files/home`. Cannot be changed when building on device.
-
 - `TERMUX_MAKE_PROCESSES` - Specifies amount of jobs that should be spawned by
   utility `make`. Default is output of command `nproc`.
 
@@ -195,7 +189,7 @@ of `./build-package.sh`:
 - `TERMUX_DEBDIR` - Path to directory where built `*.deb` files will be placed.
 
 Custom default values for environment variables can be set through file
-`$HOME/.termuxrc`.
+`./scripts/properties.sh`.
 
 ## Important note about Termux prefix
 
