@@ -25,6 +25,8 @@ Please note that users of Android 10 may face these restrictions:
 
 * Access to `/proc/net` is restricted. As result `netstat` and other
   utilities using data from this interface does not work anymore.
+  On rooted devices run these utilities as superuser to get them
+  working again.
 
 People using Android 11 may experience more issues, for example some
 utilities are being terminated by file descriptor sanitizer.
