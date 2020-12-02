@@ -15,11 +15,11 @@ We often refer to this path as `$PREFIX` or `$TERMUX_PREFIX`, latter is used wit
 
 #### Termux file system hierarchy table
 
-| Path                                 | Purpose                           |
-|--------------------------------------|-----------------------------------|
+| Path                                 | Purpose                                                  |
+|--------------------------------------|----------------------------------------------------------|
 |`/data/data/com.termux/files/usr/bin` | Executables used by shell. Combines `/bin`, `/sbin`, `/usr/bin`, `/usr/sbin`.|
-|`/data/data/com.termux/files/usr/etc` | Configuration files.              |
-|`/data/data/com.termux/files/usr/include`| C/C++ headers.                 |
+|`/data/data/com.termux/files/usr/etc` | Configuration files.|
+|`/data/data/com.termux/files/usr/include`| C/C++ headers.|
 |`/data/data/com.termux/files/usr/lib` | Shared objects (libraries), runtime executable data or development-related.|
 |`/data/data/com.termux/files/usr/libexec`| Executables which should not be run by user directly.|
 |`/data/data/com.termux/files/usr/opt` | Installation root for sideloaded packages.|
