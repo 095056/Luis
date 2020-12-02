@@ -15,8 +15,8 @@ We often refer to this path as `$PREFIX` or `$TERMUX_PREFIX`, latter is used wit
 
 #### Termux file system hierarchy table
 
-| Path                                 | Purpose                                                  |
-|--------------------------------------|----------------------------------------------------------|
+| Path                                 | Purpose             |
+|--------------------------------------|---------------------|
 |`/data/data/com.termux/files/usr/bin` | Executables used by shell. Combines `/bin`, `/sbin`, `/usr/bin`, `/usr/sbin`.|
 |`/data/data/com.termux/files/usr/etc` | Configuration files.|
 |`/data/data/com.termux/files/usr/include`| C/C++ headers.|
