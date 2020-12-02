@@ -15,18 +15,18 @@ We often refer to this path as `$PREFIX` or `$TERMUX_PREFIX`, latter is used wit
 
 #### Termux file system hierarchy table
 
-| Path                                                | Purpose             |
-|:----------------------------------------------------|--------------------:|
-|`/data/data/com.termux/files/usr/bin`                | Executables used by shell. Combines `/bin`, `/sbin`, `/usr/bin`, `/usr/sbin`.|
-|`/data/data/com.termux/files/usr/etc`                | Configuration files.|
-|`/data/data/com.termux/files/usr/include`            | C/C++ headers.|
-|`/data/data/com.termux/files/usr/lib`                | Shared objects (libraries), runtime executable data or development-related.|
-|`/data/data/com.termux/files/usr/libexec`            | Executables which should not be run by user directly.|
-|`/data/data/com.termux/files/usr/opt`                | Installation root for sideloaded packages.|
-|`/data/data/com.termux/files/usr/share`              | Non-executable runtime data and documentation.|
-|`/data/data/com.termux/files/usr/tmp`                | Temporary files. Erased on each application restart. Combines `/tmp` and `/var/tmp`. *Can be freely modified by user.*|
-|`/data/data/com.termux/files/usr/var`                | Variable data, such as caches and databases. *Can be modified by user, but with additional care.*|
-|`/data/data/com.termux/files/usr/var/run`            | Lock files, PID files, sockets and other temporary files created by daemons. Replaces `/run`.|
+| Path                          | Purpose          |
+|:------------------------------|:-----------------|
+|`${TERMUX_PREFIX}/bin`         | Executables used by shell. Combines `/bin`, `/sbin`, `/usr/bin`, `/usr/sbin`.|
+|`${TERMUX_PREFIX}/etc`         | Configuration files.|
+|`${TERMUX_PREFIX}/include`     | C/C++ headers.|
+|`${TERMUX_PREFIX}/lib`         | Shared objects (libraries), runtime executable data or development-related.|
+|`${TERMUX_PREFIX}/libexec`     | Executables which should not be run by user directly.|
+|`${TERMUX_PREFIX}/opt`         | Installation root for sideloaded packages.|
+|`${TERMUX_PREFIX}/share`       | Non-executable runtime data and documentation.|
+|`${TERMUX_PREFIX}/tmp`         | Temporary files. Erased on each application restart. Combines `/tmp` and `/var/tmp`. *Can be freely modified by user.*|
+|`${TERMUX_PREFIX}/var`         | Variable data, such as caches and databases. *Can be modified by user, but with additional care.*|
+|`${TERMUX_PREFIX}/var/run`     | Lock files, PID files, sockets and other temporary files created by daemons. Replaces `/run`.|
 
 > Important: do not be confused by prefix directory `.../usr`. It has nothing to do with the real `/usr`
 directory which you can find in Linux distributions. Termux never uses a secondary file system hierarchy
