@@ -24,6 +24,11 @@ TERMUX_PKG_DESCRIPTION="Classic UNIX line editor"
 # License.
 TERMUX_PKG_LICENSE="GPL-2.0"
 
+# Who cares about package.
+# Specify yourself (Github nick, or name + email) if you wish to maintain the
+# package, fix its bugs, etc. Otherwise specify "@termux".
+TERMUX_PKG_MAINTAINER="@termux"
+
 # Version.
 TERMUX_PKG_VERSION=1.15
 
