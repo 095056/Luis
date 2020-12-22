@@ -141,3 +141,25 @@ different suborders are not executed simultaneously.
 | 24    | `termux_step_create_debfile` | no | Create `*.deb` package. |
 | 24.1  | `termux_step_create_debscripts` | yes | Create maintainer scripts, e.g. pre/post installation hooks. |
 | 25    | `termux_step_finish_build` | no | Notification of finish. |
+
+## Tips and tricks
+ 
+### Building from a local git repository
+
+If you want to build a package from a local repository you can set
+`TERMUX_PKG_SRCURL=file:///path/to/local/repo.git`. The folder name
+has to end with .git, so if you for example want to build
+termux-api-package run:
+
+```sh
+git clone https://github.com/termux/termux-api-package termux-api-package.git
+cd termux-api-package.git
+# make changes, commit them and maybe create a tag
+cd /path/to/termux-packages
+# edit packages/termux-api-build.sh, set:
+#   `TERMUX_PKG_SRCURL=file:///path/to/termux-api-package.git`
+# you also need to update TERMUX_PKG_VERSION to match the tag you set.
+# If you want to build from master (or another branch) rather than a tag you can set
+#   `TERMUX_PKG_GIT_BRANCH="master"`
+./build-package.sh termux-api-package
+```
