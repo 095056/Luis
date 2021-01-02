@@ -4,7 +4,7 @@ Open file `$PREFIX/etc/apt/sources.list` or files in `$PREFIX/etc/apt/sources.li
 
 As of `termux-tools` v0.86, main repository mirrors are being picked and rotated automatically to reduce bandwidth usage on the origin (Bintray).
 
-## Mirrors by [a1batross](https://github.com/a1batross)
+## Mirrors by [a1batross](https://github.com/a1batross) (OUT-OF-SYNC as of 2021.01.02)
 
 Updated once per 6 hours.
 
