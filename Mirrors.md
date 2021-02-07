@@ -32,12 +32,12 @@ Updated hourly. Only for installations running Android 7.0 and higher.
 
 ## Mirrors by [Xeffyr](https://github.com/xeffyr)
 
-Updated hourly. Only for installations running Android 7.0 and higher.
+Synchronized manually, update time may vary. Only for installations running Android 7.0 and higher.
 
 Uses [CloudFlare](https://www.cloudflare.com/) CDN to improve download speed and reduce server load as it can provide only
 100 mbps. My mirror inaccessible in countries where CloudFlare is blocked, sorry.
 
-Firewalling has been enabled. Only allows legit download requests made with `apt` v2.1.15+ and only from Termux application.
+`main.termux-mirror.ml` is hosted over IPFS.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
