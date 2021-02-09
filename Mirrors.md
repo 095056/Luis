@@ -4,7 +4,7 @@ Open file `$PREFIX/etc/apt/sources.list` or files in `$PREFIX/etc/apt/sources.li
 
 As of `termux-tools` v0.86, main repository mirrors are being picked and rotated automatically to reduce bandwidth usage on the origin (Bintray).
 
-## Mirrors by [a1batross](https://github.com/a1batross) (OUT-OF-SYNC as of 2021.01.02)
+## Mirrors by [a1batross](https://github.com/a1batross)
 
 Updated once per 6 hours.
 
@@ -30,14 +30,14 @@ Updated hourly. Only for installations running Android 7.0 and higher.
 |[Unstable](https://github.com/termux/unstable-packages)  |`deb https://grimler.se/unstable-packages unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://grimler.se/x11-packages x11 main`|
 
-## Mirrors by [Xeffyr](https://github.com/xeffyr)
+## Mirrors by [Xeffyr](https://github.com/xeffyr) (UNDER MAINTENANCE)
 
 Synchronized manually, update time may vary. Only for installations running Android 7.0 and higher.
 
 Uses [CloudFlare](https://www.cloudflare.com/) CDN to improve download speed and reduce server load as it can provide only
 100 mbps. My mirror inaccessible in countries where CloudFlare is blocked, sorry.
 
-`main.termux-mirror.ml` is hosted over IPFS.
+*Switching to IPFS in progress.*
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
