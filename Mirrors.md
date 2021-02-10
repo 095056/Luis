@@ -1,8 +1,6 @@
 ## How to use
 
-Open file `$PREFIX/etc/apt/sources.list` or files in `$PREFIX/etc/apt/sources.list.d`, comment out existing URLs and add line for picked mirror, or use the `termux-change-repo` script that is part of the `termux-tools` package.
-
-As of `termux-tools` v0.86, main repository mirrors are being picked and rotated automatically to reduce bandwidth usage on the origin (Bintray).
+Run `apt edit-sources`, comment out existing URLs and add line for picked mirror, or use the `termux-change-repo` script that is part of the `termux-tools` package.
 
 ## Mirrors by [a1batross](https://github.com/a1batross)
 
@@ -30,26 +28,22 @@ Updated hourly. Only for installations running Android 7.0 and higher.
 |[Unstable](https://github.com/termux/unstable-packages)  |`deb https://grimler.se/unstable-packages unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://grimler.se/x11-packages x11 main`|
 
-## Mirrors by [Xeffyr](https://github.com/xeffyr) (UNDER MAINTENANCE)
+## Mirrors by [Xeffyr](https://github.com/xeffyr)
 
-Synchronized manually, update time may vary. Only for installations running Android 7.0 and higher.
+Synchronized manually. Only for installations running Android 7.0 and higher.
 
-Uses [CloudFlare](https://www.cloudflare.com/) CDN to improve download speed and reduce server load as it can provide only
-100 mbps. My mirror inaccessible in countries where CloudFlare is blocked, sorry.
+Repositories are hosted on IPFS and backed by one or more nodes. Download speed may not be fast, do not expect more than 1-4 megabytes (up to 32 megabits) per second.
 
-*Switching to IPFS in progress.*
+You may use own IPFS gateway instead of `https://ipfs.io`, if you want better speed and to help Termux with hosting. Termux already has `ipfs` package.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
-|[Main](https://github.com/termux/termux-packages)      |`deb https://main.termux-mirror.ml stable main`|
-|[Games](https://github.com/termux/game-packages)     |`deb https://games.termux-mirror.ml games stable` |
-|[Root](https://github.com/termux/termux-root-packages)      |`deb https://root.termux-mirror.ml root stable`|
-|[Science](https://github.com/termux/science-packages)   |`deb https://science.termux-mirror.ml science stable`|
-|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://unstable.termux-mirror.ml unstable main`|
-|[X11](https://github.com/termux/x11-packages)       |`deb https://x11.termux-mirror.ml x11 main`|
-|[by @its-pointless](https://github.com/its-pointless/its-pointless.github.io)|`deb https://its-pointless.termux-mirror.ml/ termux extras`|
-
-I also provide an unofficial copy of all @termux repositories on my host: https://gitea.warpdestination.ml/termux-mirror
+|[Main](https://github.com/termux/termux-packages)      |`deb https://ipfs.io/ipns/k51qzi5uqu5dg9vawh923wejqffxiu9bhqlze5f508msk0h7ylpac27fdgaskx stable main`|
+|[Games](https://github.com/termux/game-packages)     |`deb https://ipfs.io/ipns/k51qzi5uqu5dhngjg68o8x9uimwy5h8iqt91n2266idc7uet9ew3lc472upy27 games stable` |
+|[Root](https://github.com/termux/termux-root-packages)      |`deb https://ipfs.io/ipns/k51qzi5uqu5dlp5yjlahzcp3kfpnhbifo9ka9iybo3bp5vt781duafkyyvt9al root stable`|
+|[Science](https://github.com/termux/science-packages)   |`deb https://ipfs.io/ipns/k51qzi5uqu5dhvbtvdf46kkhobzgamhiirte6s6k28l2c1iapumphh3cpkw33f science stable`|
+|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://ipfs.io/ipns/k51qzi5uqu5dj05z8mr958kwvrg7a0wqouj5nnoo5uqu1btnsljvpznfaav9nk unstable main`|
+|[X11](https://github.com/termux/x11-packages)       |`deb https://ipfs.io/ipns/k51qzi5uqu5dgu3homski160l4t4bmp52vb6dbgxb5bda90rewnwg64wnkwxj4 x11 main`|
 
 ## Mirrors by the [Tsinghua University TUNA Association](https://tuna.moe/)
 
