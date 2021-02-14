@@ -32,6 +32,26 @@ termuxdebs user is only accessible over sftp and jailed to a single directory. T
 a github secret. It is (unfortunately) not password protected. A dedicated sshd instance is used for the sftp access for termuxdebs. termuxdebs default shell is set to restricted bash (rbash), with PATH unset in .profile. The directory where files are uploaded is owned by
 termuxdebs:termux where termux is a group that both termuxdebs and termuxsigner belongs to. The groups has rx rights, while the termuxdebs user has rwx rights.
 
+To allow access only through sftp to a single directory you can put
+
+```
+ChrootDirectory %h
+X11Forwarding no
+AllowTcpForwarding no
+ForceCommand internal-sftp -d /debs
+```
+in your sshd_config if the sshd service is dedicated to only receiving files. Remember to also disallow ssh access in the other sshd_config in this case. This config snippet then allow only sftp (and not ssh or scp) and jail the user into `$HOME/debs`.
+
+If you are using only one sshd service you can use something like
+```
+Match User termuxdebs
+     ChrootDirectory %h
+     X11Forwarding no
+     AllowTcpForwarding no
+     ForceCommand internal-sftp -d /debs
+```
+to use these settings for only the termuxdebs user. 
+
 ## termuxsigner user
 
 To detect uploaded files an incron job is running for termuxsigner. **NOTE: incron is no longer developed and have some security issues**, see github page: https://github.com/ar-/incron.
