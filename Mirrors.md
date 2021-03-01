@@ -17,7 +17,7 @@ Updated once per 6 hours.
 
 ## Mirrors by [Grimler](https://github.com/grimler91)
 
-Updated hourly. Only for installations running Android 7.0 and higher.
+Mirrors for termux-packages, game-packages, science-packages and termux-root-packages are updated directly from github actions. x11-packages and unstable-packages are mirrored and synchronized manually for now.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
