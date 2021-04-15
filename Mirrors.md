@@ -32,9 +32,13 @@ Mirrors for termux-packages, game-packages, science-packages and termux-root-pac
 
 Only for installations running Android 7.0 and higher.
 
-Backed by IPFS. Synchronized with external repositories once per day. During 22:00 - 09:00 (UTC) period, the main node is down and only cached content is being served. Do not sync with my repos at this time.
+Uses IPFS for sole purpose of delegating repository hosting to "free" high performance hosts (aka "IPFS gateways"). Decentralization and persistence are not taken into account.
 
-You may use own IPFS gateway instead of `https://ipfs.io`, if you want better speed and to help Termux with hosting. Termux already has `ipfs` package.
+Also:
+* Mirror is updated manually to ensure stability and gateway caching efficiency.
+* Mirror does not keep track of older package versions to optimize disk space usage.
+* Primary node can be shutdown during night times (22:00 - 09:00 UTC).
+* To access repository you can use any IPFS gateway including your own.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
