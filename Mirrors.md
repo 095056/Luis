@@ -43,6 +43,7 @@ Recommended IPFS gateways are:
 * `ipfs.io`
 * `10.via0.com`
 * `dweb.link`
+
 You can try other gateways listed on https://ipfs.github.io/public-gateway-checker/ or even setup your own.
 
 |Repository|sources.list entry                                               |
