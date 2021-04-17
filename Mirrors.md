@@ -38,7 +38,12 @@ Also:
 * Mirror is updated manually to ensure stability and gateway caching efficiency.
 * Mirror does not keep track of older package versions to optimize disk space usage.
 * Primary node can be shutdown during night times (22:00 - 09:00 UTC).
-* To access repository you can use any IPFS gateway including your own.
+
+Recommended IPFS gateways are:
+* `ipfs.io`
+* `10.via0.com`
+* `dweb.link`
+You can try other gateways listed on https://ipfs.github.io/public-gateway-checker/ or even setup your own.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
