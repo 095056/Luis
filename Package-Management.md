@@ -24,7 +24,7 @@ N: Metadata integrity can't be verified, repository is disabled now.
 N: Possible cause: repository is under maintenance or down (wrong sources.list URL?).
 ```
 
-If that is the case, then run `termux-change-repo` command and **change your mirror** [mirror](https://github.com/termux/termux-packages/wiki/Mirrors) for the `main` repository. If you have installed [`other package repositories`](https://github.com/termux/termux-packages/wiki#packages), like `science`, `games` and `unstable`, then you **must** select and change those mirrors as well. You can check your current mirrors by running the `termux-info` command.
+If that is the case, then run `termux-change-repo` command and **change your mirror** for the `main` repository to a different [Termux Mirror](https://github.com/termux/termux-packages/wiki/Mirrors). If you have installed [`other package repositories`](https://github.com/termux/termux-packages/wiki#packages), like `science`, `games` and `unstable`, then you **must** select and change those mirrors as well. You can check your current mirrors by running the `termux-info` command.
 
 For **step by step instructions** on how to change mirrors, check [here](https://github.com/termux/termux-packages/issues/6726).
 
