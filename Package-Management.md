@@ -4,7 +4,7 @@ Check [Package Management Wiki Page](https://wiki.termux.com/wiki/Package_Manage
 
 ### Package Command Errors
 
-Recently Termux moved the primary Termux package repository hosting from [**Bintray to IPFS**](https://github.com/termux/termux-packages/issues/6348) since [**Bintray has shut down on May 1st, 2021**](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/). This has created problems for users while running package installation and update commands with `pkg` or `apt` and their commands will fail with errors similar to following.
+Recently Termux moved the primary Termux package repository hosting from [**Bintray to IPFS**](https://github.com/termux/termux-packages/issues/6348) since [**Bintray has shut down on May 1st, 2021**](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/). This has created problems for users while running package installation and update commands with `pkg` or `apt` and their commands will fail with errors similar to the following:
 
 ```
 E: The repository 'https://termux.org/packages stable Release' does no longer have a Release file.
