@@ -26,7 +26,7 @@ N: Possible cause: repository is under maintenance or down (wrong sources.list U
 
 If that is the case, then run `termux-change-repo` command and **change your mirror** [mirror](https://github.com/termux/termux-packages/wiki/Mirrors) for the `main` repository. If you have installed other [package repositories](https://github.com/termux/termux-packages/wiki#packages), like `science`, `games` and `unstable`, then you **must** select and change those mirrors as well. You can check your current mirrors by running the `termux-info` command.
 
-After changing the mirror, optionally run `pkg upgrade` command to update all packages to the latest available versions if you want, or at least update `termux-tools` package with `pkg install termux-tools` command. Also make sure your device has internet connectivity and the repository URLs are accessible in a browser.
+After changing the mirror, it is **highly advisable** to run `pkg upgrade` command to update all packages to the latest available versions, or at least update `termux-tools` package with `pkg install termux-tools` command. Also make sure your device has internet connectivity and the repository URLs are accessible in a browser.
 
 For **step by step instructions** on how to change mirrors, check [here](https://github.com/termux/termux-packages/issues/6726).
 
