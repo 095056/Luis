@@ -31,7 +31,7 @@
   shared memory system, is available. Use it with `LDFLAGS+=" -landroid-shmem`.
 
 - SYSV semaphores are not supported by the kernel. Use unnamed POSIX semaphores
-  instead (named semaphores are unimplemented).
+  instead (named semaphores are unimplemented). https://android.googlesource.com/platform/bionic/+/refs/heads/nougat-dev/libc/bionic/semaphore.cpp#125
 
 - Starting from Android 8, a [Seccomp](https://android-developers.googleblog.com/2017/07/seccomp-filter-in-android-o.html)
   was enabled for applications. Seccomp forbids usage of some system calls
