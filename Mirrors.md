@@ -93,4 +93,4 @@ Mirror for Chinese users for better ping and download speed. Only for Android 7.
 |[Science](https://github.com/termux/science-packages)   |`deb https://mirrors.ustc.edu.cn/termux/science-packages-24/ science stable`|
 |[Unstable](https://github.com/termux/unstable-packages)  |`deb https://mirrors.ustc.edu.cn/termux/unstable-packages/ unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://mirrors.ustc.edu.cn/termux/x11-packages/ x11 main`|
-|Android 6.0 and below|`deb https://mirrors.ustc.edu.cn/termux/termux/ stable main`|
+|Android 6.0 and below|`deb https://mirrors.ustc.edu.cn/termux/ stable main`|
