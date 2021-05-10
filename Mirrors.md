@@ -18,8 +18,7 @@ Updated once per 6 hours.
 ## Mirrors by [Grimler](https://github.com/grimler91)
 
 Mirrors for termux-packages, game-packages, science-packages and termux-root-packages are updated directly from github actions.
-
-**NOTE:** due to the current github action build issues the repos are a bit behind.
+unstable-packages and x11-packages are updated semi-manually.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
