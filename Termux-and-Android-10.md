@@ -8,7 +8,7 @@ Google requires the target SDK level to be set to at least 29, which corresponds
 to Android OS version 10. But due to new operating system behavior changes we
 cannot do so and have to use SDK level 28.
 
-https://developer.android.com/about/versions/10/behavior-changes-all#execute-permission:
+https://developer.android.com/about/versions/10/behavior-changes-10#execute-permission
 > Untrusted apps that target Android 10 cannot invoke exec() on files within
 the app's home directory. This execution of files from the writable app home
 directory is a W^X violation. Apps should load only the binary code that's
