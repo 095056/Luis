@@ -2,4 +2,6 @@ The [termux-packages](https://github.com/termux/termux-packages) repositories an
 
 If you want to support Termux by helping to pay for hosting costs, then consider donating. Check https://termux.com/donate for info on where you can donate.
 
-If you are part of company that itself provides hosting services and support open source projects and want to support Termux as well, feel free to get in touch with us at [Github](https://github.com/termux/termux-packages/issues/6348), [Termux Dev Matrix Channel](https://matrix.to/#termux_dev:gitter.im) or drop us an at [termuxreports@groups.io](mailto:termuxreports@groups.io) which will automatically be forwarded privately to multiple maintainers and someone will get in touch with you.
+If you are part of company that itself provides hosting services and support open source projects and want to support Termux as well, feel free to get in touch with us at [Github](https://github.com/termux/termux-packages/issues/6846), [Termux Dev Matrix Channel](https://matrix.to/#termux_dev:gitter.im) or drop us an at [termuxreports@groups.io](mailto:termuxreports@groups.io) which will automatically be forwarded privately to multiple maintainers and someone will get in touch with you.
+
+Related Issues: #6846, #6348
