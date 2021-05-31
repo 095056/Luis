@@ -33,19 +33,11 @@ unstable-packages and x11-packages are updated semi-manually.
 
 Only for installations running Android 7.0 and higher.
 
-Uses IPFS for sole purpose of delegating repository hosting to "free" high performance hosts (aka "IPFS gateways"). Decentralization and persistence are not taken into account.
+This mirror is hosted over [IPFS](https://ipfs.io) peer-to-peer network. Primary node with IPNS (IPFS name system) keys is located on my local computer, so **this mirror may not be available when I'm offline.**
 
-Also:
-* Mirror is updated manually to ensure stability and gateway caching efficiency.
-* Mirror does not keep track of older package versions to optimize disk space usage.
-* Primary node can be shutdown during night times (22:00 - 09:00 UTC).
+Old package versions are not kept for optimizing the storage space use.
 
-Recommended IPFS gateways are:
-* `ipfs.io`
-* `10.via0.com`
-* `dweb.link`
-
-You can try other gateways listed on https://ipfs.github.io/public-gateway-checker/ or even setup your own.
+To access repository contents, use either a [public gateway](https://ipfs.github.io/public-gateway-checker/) or setup your own IPFS node.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
