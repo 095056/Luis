@@ -38,12 +38,12 @@ Cloned repositories are re-signed by [@kcubeterm's](https://github.com/kcubeterm
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
-|[Main](https://github.com/termux/termux-packages)      |`deb http://dl.kcubeterm.me/termux-packages-24 stable main`|
-|[Games](https://github.com/termux/game-packages)     |`deb http://dl.kcubeterm.me/game-packages-24 games stable` |
-|[Root](https://github.com/termux/termux-root-packages)      |`deb http://dl.kcubeterm.me/termux-root-packages-24 root stable`|
-|[Science](https://github.com/termux/science-packages)   |`deb http://dl.kcubeterm.me/science-packages-24 science stable`|
-|[Unstable](https://github.com/termux/unstable-packages)  |`deb http://dl.kcubeterm.me/unstable-packages unstable main`|
-|[X11](https://github.com/termux/x11-packages)       |`deb http://dl.kcubeterm.me/x11-packages x11 main`|
+|[Main](https://github.com/termux/termux-packages)      |`deb https://dl.kcubeterm.me/termux-packages-24 stable main`|
+|[Games](https://github.com/termux/game-packages)     |`deb https://dl.kcubeterm.me/game-packages-24 games stable` |
+|[Root](https://github.com/termux/termux-root-packages)      |`deb https://dl.kcubeterm.me/termux-root-packages-24 root stable`|
+|[Science](https://github.com/termux/science-packages)   |`deb https://dl.kcubeterm.me/science-packages-24 science stable`|
+|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://dl.kcubeterm.me/unstable-packages unstable main`|
+|[X11](https://github.com/termux/x11-packages)       |`deb https://dl.kcubeterm.me/x11-packages x11 main`|
 
 ## Mirrors by [Xeffyr](https://github.com/xeffyr)
 
