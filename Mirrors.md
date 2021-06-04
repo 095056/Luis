@@ -12,12 +12,12 @@ Updated once per 6 hours.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
-|[Main](https://github.com/termux/termux-packages)      |`deb https://termux.mentality.rip/termux-packages-24 stable main`|
-|[Games](https://github.com/termux/game-packages)     |`deb https://termux.mentality.rip/game-packages-24 games stable` |
-|[Root](https://github.com/termux/termux-root-packages)      |`deb https://termux.mentality.rip/termux-root-packages-24 root stable`|
-|[Science](https://github.com/termux/science-packages)   |`deb https://termux.mentality.rip/science-packages-24 science stable`|
-|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://termux.mentality.rip/unstable-packages unstable main`|
-|[X11](https://github.com/termux/x11-packages)       |`deb https://termux.mentality.rip/x11-packages x11 main`|
+|[Main](https://github.com/termux/termux-packages)      |`deb https://termux.mentality.rip/termux-main stable main`|
+|[Games](https://github.com/termux/game-packages)     |`deb https://termux.mentality.rip/termux-games games stable` |
+|[Root](https://github.com/termux/termux-root-packages)      |`deb https://termux.mentality.rip/termux-root root stable`|
+|[Science](https://github.com/termux/science-packages)   |`deb https://termux.mentality.rip/termux-science science stable`|
+|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://termux.mentality.rip/termux-unstable unstable main`|
+|[X11](https://github.com/termux/x11-packages)       |`deb https://termux.mentality.rip/termux-x11 x11 main`|
 
 ## Mirrors by [Grimler](https://github.com/grimler91)
 
