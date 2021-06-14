@@ -1,7 +1,3 @@
-The [termux-packages](https://github.com/termux/termux-packages) repositories and [mirrors](https://github.com/termux/termux-packages/wiki/Mirrors) generate [`40+ TB`](https://github.com/termux/termux-packages/issues/5620) of traffic per month and even more if lot of updates are released. Previously, JFrog Bintray was donating [60TB of traffic per month](https://twitter.com/termux/status/1255243673698213888) to Termux but the Bintray service has been shutdown since 1st May, 2021 as per [JFrog's announcement of its sunset](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/). We have [moved to IPFS repositories](https://github.com/termux/termux-packages/issues/6348) as a short term solution to keep repositories online but we need to get a VPS/SaaS hosting to act as the primary repository, which requires money.
+If you want to support Termux development, encourage us to bring more features/packages and provide a more reliable and faster repository mirrors, then consider donating.
 
-If you want to support Termux by helping to pay for hosting costs, then consider donating. Check https://termux.com/donate for info on where you can donate.
-
-If you are part of company that itself provides hosting services and support open source projects and want to support Termux as well, feel free to get in touch with us at [Github](https://github.com/termux/termux-packages/issues/6846), [Termux Dev Matrix Channel](https://matrix.to/#termux_dev:gitter.im) or drop us an at [termuxreports@groups.io](mailto:termuxreports@groups.io) which will automatically be forwarded privately to multiple maintainers and someone will get in touch with you.
-
-Related Issues: [#6846](https://github.com/termux/termux-packages/issues/6846), [#6348](https://github.com/termux/termux-packages/issues/6348)
+Check https://termux.com/donate for info on where you can donate.
