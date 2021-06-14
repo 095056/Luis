@@ -88,7 +88,9 @@ Mirror for Chinese users for better ping and download speed.
 |[Unstable](https://github.com/termux/unstable-packages)  |`deb https://mirrors.bfsu.edu.cn/termux/unstable-packages/ unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://mirrors.bfsu.edu.cn/termux/x11-packages/ x11 main`|
 
-## Mirrors by [LUG @ University of Science and Technology of China](https://lug.ustc.edu.cn/)
+## Mirrors by [University of Science and Technology of China, Linux User Group](https://lug.ustc.edu.cn/)
+
+Mirror for Chinese users for better ping and download speed.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
