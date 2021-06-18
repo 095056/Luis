@@ -4,7 +4,7 @@ Check [Package Management Wiki Page](https://wiki.termux.com/wiki/Package_Manage
 
 ### Package Command Errors
 
-Recently Termux moved the primary Termux package repository hosting from [**Bintray to IPFS**](https://github.com/termux/termux-packages/issues/6348) since [**Bintray has shut down on May 1st, 2021**](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/). This has created problems for users while running package installation and update commands with `pkg` or `apt` and their commands will fail with errors similar to the following:
+Recently Termux moved the primary Termux package repository hosting from [**Bintray to Mirrors**](https://github.com/termux/termux-packages/issues/6348) since [**Bintray has shut down on May 1st, 2021**](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/). This has created problems for users while running package installation and update commands with `pkg` or `apt` and their commands will fail with errors similar to the following:
 
 ```
 E: The repository 'https://termux.org/packages stable Release' does no longer have a Release file.
@@ -35,8 +35,6 @@ After changing the mirror, it is **highly advisable** to run `pkg upgrade` comma
 If for some reason `termux-change-repo` is not available, you can manually edit `sources.list` to replace the `main` url with a value obtained from [Termux Mirrors List](https://github.com/termux/termux-packages/wiki/Mirrors). Run `nano $PREFIX/etc/apt/sources.list` to edit it. This will not change the urls of `other package repositories`, to change those run `pkg install termux-tools` afterwards and use `termux-change-repo` or manually edit their files under `$PREFIX/etc/apt/sources.list.d` directory.
 
 Changing the mirror may specially be needed if a user is still using `bintray` as the mirror or `pkg upgrade` command hasn't been run in a while to update termux package related scripts.
-
-The URLs changing to weird characters with `ipfs.io`, `10.via0.com` or `dweb.link` as the domain is normal due to IPFS usage.
 
 Note that during certain times of the day, some mirrors like [xeffys's](https://github.com/termux/termux-packages/wiki/Mirrors#mirrors-by-xeffyr) may not be available, so either wait or change to a different mirror.
 
