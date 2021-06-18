@@ -45,23 +45,6 @@ Cloned repositories are re-signed by [@kcubeterm's](https://github.com/kcubeterm
 |[Unstable](https://github.com/termux/unstable-packages)  |`deb https://dl.kcubeterm.me/unstable-packages unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://dl.kcubeterm.me/x11-packages x11 main`|
 
-## Mirrors by [Xeffyr](https://github.com/xeffyr)
-
-Mirroring Termux repositories from https://packages.termux.org/. Updated daily.
-
-Uses [IPFS](https://ipfs.io) peer-to-peer network to deliver content. Even though content is stored on multiple nodes, the IPNS (IPFS name system) keys as well as seeded content are stored on [@xeffyr's](https://github.com/xeffyr) local computer which may not be always online.
-
-To access repository contents, use either a [public gateway](https://ipfs.github.io/public-gateway-checker/) or setup your own IPFS node.
-
-|Repository|sources.list entry                                               |
-|:---------|:----------------------------------------------------------------|
-|[Main](https://github.com/termux/termux-packages)      |`deb https://ipfs.io/ipns/k51qzi5uqu5dg9vawh923wejqffxiu9bhqlze5f508msk0h7ylpac27fdgaskx stable main`|
-|[Games](https://github.com/termux/game-packages)     |`deb https://ipfs.io/ipns/k51qzi5uqu5dhngjg68o8x9uimwy5h8iqt91n2266idc7uet9ew3lc472upy27 games stable` |
-|[Root](https://github.com/termux/termux-root-packages)      |`deb https://ipfs.io/ipns/k51qzi5uqu5dlp5yjlahzcp3kfpnhbifo9ka9iybo3bp5vt781duafkyyvt9al root stable`|
-|[Science](https://github.com/termux/science-packages)   |`deb https://ipfs.io/ipns/k51qzi5uqu5dhvbtvdf46kkhobzgamhiirte6s6k28l2c1iapumphh3cpkw33f science stable`|
-|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://ipfs.io/ipns/k51qzi5uqu5dj05z8mr958kwvrg7a0wqouj5nnoo5uqu1btnsljvpznfaav9nk unstable main`|
-|[X11](https://github.com/termux/x11-packages)       |`deb https://ipfs.io/ipns/k51qzi5uqu5dgu3homski160l4t4bmp52vb6dbgxb5bda90rewnwg64wnkwxj4 x11 main`|
-
 ## Mirrors by the [Tsinghua University TUNA Association](https://tuna.moe/)
 
 Mirror for Chinese users for better ping and download speed.
