@@ -45,7 +45,7 @@ Cloned repositories are re-signed by [@kcubeterm's](https://github.com/kcubeterm
 |[Unstable](https://github.com/termux/unstable-packages)  |`deb https://dl.kcubeterm.me/unstable-packages unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://dl.kcubeterm.me/x11-packages x11 main`|
 
-## Mirrors by [librehat](https://github.com/librehat)
+## Mirrors by [Librehat](https://github.com/librehat)
 
 Updated every 6 hours.
 
