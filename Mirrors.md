@@ -45,6 +45,19 @@ Cloned repositories are re-signed by [@kcubeterm's](https://github.com/kcubeterm
 |[Unstable](https://github.com/termux/unstable-packages)  |`deb https://dl.kcubeterm.me/unstable-packages unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://dl.kcubeterm.me/x11-packages x11 main`|
 
+## Mirrors by [librehat](https://github.com/librehat)
+
+Updated every 6 hours.
+
+|Repository|sources.list entry                                               |
+|:---------|:----------------------------------------------------------------|
+|[Main](https://github.com/termux/termux-packages)      |`deb https://termux.librehat.com/apt/termux-main stable main`|
+|[Games](https://github.com/termux/game-packages)     |`deb https://termux.librehat.com/apt/termux-games games stable` |
+|[Root](https://github.com/termux/termux-root-packages)      |`deb https://termux.librehat.com/apt/termux-root root stable`|
+|[Science](https://github.com/termux/science-packages)   |`deb https://termux.librehat.com/apt/termux-science science stable`|
+|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://termux.librehat.com/apt/termux-unstable unstable main`|
+|[X11](https://github.com/termux/x11-packages)       |`deb https://termux.librehat.com/apt/termux-x11 x11 main`|
+
 ## Mirrors by the [Tsinghua University TUNA Association](https://tuna.moe/)
 
 Mirror for Chinese users for better ping and download speed.
