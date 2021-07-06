@@ -24,69 +24,8 @@
 - `./scripts/list-packages.sh`:
   List all packages with a one-line summary.
 
-- `./scripts/package_uploader.sh`:
-  Upload packages to Bintray.
-
 - `./scripts/generate-bootstraps.sh`:
   Generate bootstrap archive for Termux app.
-
-## Uploading packages (Bintray)
-
-Upload is done by executing script `./scripts/package_uploader.sh` with package
-name as argument. Note that \*.deb files must have name in format `{name}_{full-version}_{arch}.deb`.
-It is expected that \*.deb files are located in `./debs`, but can be changed by
-passing argument `-p /path/to/deb_dir`.
-
-Example:
-```
-./scripts/package_uploader.sh -p ./my_built_packages bash
-```
-
-Authentication credentials are supplied through environment variables:
-
-`BINTRAY_USERNAME`        - User name on [Bintray](https://bintray.com).
-
-`BINTRAY_API_KEY`         - Personal API key on [Bintray](https://bintray.com).
-
-`BINTRAY_GPG_PASSPHRASE`  - A passphrase for your GPG key stored on [Bintray](https://bintray.com).
-
-Any operations (except download) on APT repository can be done only by
-maintainers who have *write* access.
-
-### Deleting packages
-
-To delete package from APT repository, use pass argument `-d` with list of
-package names to `package_uploader.sh`:
-```
-./scripts/package_uploader.sh -d {package names}
-```
-
-### Deleting old versions
-
-*We keep old versions only for technical reasons - to prevent 404 errors when
-users download packages.*
-
-Pass argument `-c` with list of packages which should be cleaned. Example:
-```
-./scripts/package_uploader.sh -c bash busybox coreutils libllvm
-```
-
-**Warning:** never clean versions when \*.deb files for specific architectures
-were not updated. This will made package unavailable for some devices.
-
-### Regenerating metadata
-
-In certain cases you may need to force-regenerate metadata. This can be done in
-following way:
-```
-./scripts/package_uploader.sh -r
-```
-
-### Avoid parallel uploads and simultaneous `package_uploader.sh` sessions generally.
-
-Never run multiple instances of `package_uploader.sh`. This may lead to corruption of metadata or whole APT repository.
-
-If you have `package_uploader.sh` running and you want to perform another action, wait until job finish or stop already running instance with Ctrl-C.It also better to wait 1-5 minutes after `package_uploader.sh` termination as Bintray doesn't generate metadata immediately.
 
 ## Generating bootstrap archives
 
@@ -106,7 +45,7 @@ in order to be able to generate bootstrap archives.
 Default script configuration is
 ```
 Architectures: aarch64 arm i686 x86_64
-Repository URL: https://dl.bintray.com/termux/termux-packages-24
+Repository URL: https://packages.termux.org/apt/termux-main/
 ```
 so if you want to generate bootstraps for custom repository, consider using
 following command line options:
