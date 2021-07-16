@@ -14,3 +14,5 @@ Ways how you can donate to [@termux](https://github.com/termux):
    ```
    TM5LFhqwBd9VNXCxCwNerEuQbYu4RnsniH
    ```
+
+   <img src="https://raw.githubusercontent.com/termux/x11-packages/master/.github/static/donation-tronlink-qr.jpg" alt="TM5LFhqwBd9VNXCxCwNerEuQbYu4RnsniH" width="128px"></img>
