@@ -12,7 +12,7 @@ Run `apt edit-sources`, comment out existing URLs and add line for picked reposi
 
 ## Primary host
 
-A default Termux packages repository and content seeder for available mirrors. Consider using mirrors rather this one or use `pkg` wrapper instead of `apt`, it will automatically choose appropriate host.
+A default Termux packages repository and content seeder for available mirrors. This host is not behind any CDN, so please use mirrors or `pkg` which will automatically select appropriate host for you.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
