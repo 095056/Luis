@@ -12,7 +12,7 @@ Run `apt edit-sources`, comment out existing URLs and add line for picked reposi
 
 ## Primary host
 
-A default Termux packages repository and content seeder for available mirrors. Server is behind [CloudFlare](https://www.cloudflare.com/) to protect it against DDoS, make it available for IPv4 users (yes, our server is IPv6-only) and provide good download speeds across regions.
+A default Termux packages repository and content seeder for available mirrors. Consider using mirrors rather this one or use `pkg` wrapper instead of `apt`, it will automatically choose appropriate host.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
