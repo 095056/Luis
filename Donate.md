@@ -10,9 +10,6 @@ Ways how you can donate to [@termux](https://github.com/termux):
 
 3. Paypal: https://paypal.me/fornwall
 
-4. Cryptocurrency ([TRX](https://tron.network/trx?lng=en) or TRC-10 tokens):
-   ```
-   TM5LFhqwBd9VNXCxCwNerEuQbYu4RnsniH
-   ```
+4. Ethereum:
 
-   <img src="https://raw.githubusercontent.com/termux/x11-packages/master/.github/static/donation-tronlink-qr.jpg" alt="TM5LFhqwBd9VNXCxCwNerEuQbYu4RnsniH" width="128px"></img>
+   [![Donate with Ethereum](https://en.cryptobadges.io/badge/big/0x3CC8F61862e5c3Ad62A7eea0c3048853FA31af23?showBalance=true)](https://en.cryptobadges.io/donate/0x3CC8F61862e5c3Ad62A7eea0c3048853FA31af23)
