@@ -120,7 +120,7 @@ Mirror for Chinese users for better ping and download speed.
 |[Unstable](https://github.com/termux/unstable-packages)  |`deb https://mirrors.ustc.edu.cn/termux/apt/termux-unstable/ unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://mirrors.ustc.edu.cn/termux/apt/termux-x11/ x11 main`|
 
-### Mirrors by [eScience Center, Nanjing University](https://lug.ustc.edu.cn/)
+### Mirrors by eScience Center, Nanjing University
 
 Mirror for Chinese users for better ping and download speed.
 
