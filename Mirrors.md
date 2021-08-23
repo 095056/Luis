@@ -119,3 +119,16 @@ Mirror for Chinese users for better ping and download speed.
 |[Science](https://github.com/termux/science-packages)   |`deb https://mirrors.ustc.edu.cn/termux/apt/termux-science/ science stable`|
 |[Unstable](https://github.com/termux/unstable-packages)  |`deb https://mirrors.ustc.edu.cn/termux/apt/termux-unstable/ unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://mirrors.ustc.edu.cn/termux/apt/termux-x11/ x11 main`|
+
+### Mirrors by [eScience Center, Nanjing University](https://lug.ustc.edu.cn/)
+
+Mirror for Chinese users for better ping and download speed.
+
+|Repository|sources.list entry                                               |
+|:---------|:----------------------------------------------------------------|
+|[Main](https://github.com/termux/termux-packages)      |`deb https://mirror.nju.edu.cn/termux/apt/termux-main stable main`|
+|[Games](https://github.com/termux/game-packages)     |`deb https://mirror.nju.edu.cn/termux/apt/termux-games games stable` |
+|[Root](https://github.com/termux/termux-root-packages)      |`deb https://mirror.nju.edu.cn/termux/apt/termux-root root stable`|
+|[Science](https://github.com/termux/science-packages)   |`deb https://mirror.nju.edu.cn/termux/apt/termux-science science stable`|
+|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://mirror.nju.edu.cn/termux/apt/termux-unstable unstable main`|
+|[X11](https://github.com/termux/x11-packages)       |`deb https://mirror.nju.edu.cn/termux/apt/termux-x11 x11 main`|
