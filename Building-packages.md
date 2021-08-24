@@ -43,6 +43,8 @@ Script `build-package.sh` accepts several options that affect build behaviour.
 - `-q` - Pass necessary arguments to `make` or similar tool to make build quiet.
   May not work for all packages.
 
+- `-c` - Continue previous build, skip source extraction and configure step and go straight to termux_step_make. Only works if you first run a normal build, and it fails or you stop it during termux_step_make or later.
+
 - `-s` - Skip dependency check.
 
 - `-o` - Specify directory where to place built \*.deb files. Default is
