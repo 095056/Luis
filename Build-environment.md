@@ -171,7 +171,10 @@ of `./build-package.sh`:
 - `TERMUX_ARCH` - Specifies CPU architecture for which packages should be
   cross-compiled. Default is `aarch64`. Cannot be changed when building on device.
 
-- `TERMUX_DEBUG` - Perform debug build. Debug information won't be stripped from
+- `TERMUX_CONTINUE_BUILD` - If set, build will skip source extraction and configure 
+  step and go straight to termux_step_make
+
+- `TERMUX_DEBUG_BUILD` - Perform debug build. Debug information won't be stripped from
   binaries and compiler optimizations will be turned off.
 
 - `TERMUX_INSTALL_DEPS` - If set to `true`, then dependencies will be installed
