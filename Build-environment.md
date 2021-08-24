@@ -160,7 +160,7 @@ Following environment variables affect behaviour of Termux build system:
   will be compiled. Default is 24 for branch "master" and 21 for branch "android-5".
 
 - `TERMUX_PKG_MAINTAINER` - Specifies a value that should be written to package's
-  maintainer field. Default is `Fredrik Fornwall @fornwall`.
+  maintainer field. Default is `@termux`.
 
 - `TERMUX_PACKAGES_DIRECTORIES` - Specifies a root directory of package tree.
   Default is `packages`.
