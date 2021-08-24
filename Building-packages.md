@@ -1,4 +1,3 @@
-
 [![asciicast](https://asciinema.org/a/5BsCbNoCzNFEgcH8vh8975MLm.svg)](https://asciinema.org/a/5BsCbNoCzNFEgcH8vh8975MLm?autoplay=1&speed=2.5)
 
 ## How to build package
@@ -110,39 +109,42 @@ different suborders are not executed simultaneously.
 | 0.8   | `termux_setup_rust` | no | Setup Cargo Build. |
 | 1     | `termux_step_setup_variables` | no | Setup essential variables like directory locations and flags. |
 | 2     | `termux_step_handle_buildarch` | no | Determine architecture to build for. |
-| 3     | `termux_step_start_build` | no | Initialize build environment. Source package's `build.sh`. |
-| 4     | `termux_step_get_repo_files` | no | Fetch APT packages information when `-i` or `-I` option was supplied. |
-| 5     | `termux_extract_dep_info` | no | Obtain package architecture and version for downloading. |
-| 5.1   | `termux_download_deb` | no | Download dependency `*.deb` packages for installation. |
+| 3     | `termux_step_setup_build_folders` | no | Delete old src and build directories if they exist. |
+| 4     | `termux_step_start_build` | no | Initialize build environment. Source package's `build.sh`. |
+| 5     | `termux_step_get_dependencies` | no | Download or build specified dependencies of the package. |
+| 5.1   | `termux_step_get_repo_files` | no | Fetch APT packages information when `-i` or `-I` option was supplied. |
+| 5.2   | `termux_extract_dep_info` | no | Obtain package architecture and version for downloading. |
+| 6     | `termux_step_create_timestamp_file` | no | Make timestamp to determine which files have been installed by the build. |
+| 5.3   | `termux_download_deb` | no | Download dependency `*.deb` packages for installation. |
 | 6     | `termux_step_get_source` | yes | Obtain package source code and put it in `$TERMUX_PKG_SRCDIR`. |
-| 6.1   | `termux_git_clone_src` | no | Obtain source by git clone, is run if `$TERMUX_PKG_SRCURL` ends with ".git". |
-| 6.2   | `termux_download_src_archive` | no | Download zip or tar archive with package source code. |
-| 6.3   | `termux_unpack_src_archive` | no | Extract downloaded archive into `$TERMUX_PKG_SRCDIR`. |
-| 7     | `termux_step_post_get_source` | yes | Hook to run commands immediately after obtaining source code. |
-| 8     | `termux_step_handle_host_build` | yes | Determine whether a host build is required. |
-| 8.1   | `termux_step_host_build` | yes | Perform a host build. |
-| 9     | `termux_step_setup_toolchain` | no | Setup NDK standalone toolchain. |
-| 10    | `termux_step_patch_package` | no | Apply to source code all `*.patch` files located in package's directory. |
-| 11    | `termux_step_replace_guess_scripts` | no | Replace `config.sub` and `config.guess` scripts. |
-| 12    | `termux_step_pre_configure` | yes | Hook to run commands before source configuration. |
-| 13    | `termux_step_configure` | yes | Configure sources. By default, it determines build system automatically. |
-| 13.1  | `termux_step_configure_autotools` | no | Autotools build configuration. |
-| 13.2  | `termux_step_configure_cmake` | no | CMake build configuration. |
-| 13.3  | `termux_step_configure_meson` | no | Meson build configuration. |
-| 14    | `termux_step_post_configure` | yes | Hook to run commands immediately after configuration. |
-| 15    | `termux_step_make` | yes | Compile the source code. |
-| 16    | `termux_step_make_install` | yes | Install the compiled artifacts. |
-| 17    | `termux_step_post_make_install` | yes | Hook to run commands immediately after installation. |
-| 18    | `termux_step_install_service_scripts` | yes | Installs scripts for termux-services |
-| 19    | `termux_step_install_license` | yes | Link or copy package-specific LICENSE to `./share/doc/$TERMUX_PKG_NAME`. |
-| 20    | `termux_step_extract_into_massagedir` | no with `make_install` | Extract files modified in `$TERMUX_PREFIX`. |
-| 21    | `termux_step_massage` | no | Strip binaries, remove unneeded files. |
-| 21.1  | `termux_create_subpackages` | no | Creates all subpackages. |
-| 22    | `termux_step_post_massage` | yes | Final hook before creating `*.deb` file(s). |
-| 23    | `termux_step_create_datatar` | no | Archive package files. |
-| 24    | `termux_step_create_debfile` | no | Create `*.deb` package. |
-| 24.1  | `termux_step_create_debscripts` | yes | Create maintainer scripts, e.g. pre/post installation hooks. |
-| 25    | `termux_step_finish_build` | no | Notification of finish. |
+| 7.1   | `termux_git_clone_src` | no | Obtain source by git clone, is run if `$TERMUX_PKG_SRCURL` ends with ".git". |
+| 7.2   | `termux_download_src_archive` | no | Download zip or tar archive with package source code. |
+| 7.3   | `termux_unpack_src_archive` | no | Extract downloaded archive into `$TERMUX_PKG_SRCDIR`. |
+| 8     | `termux_step_post_get_source` | yes | Hook to run commands immediately after obtaining source code. |
+| 9     | `termux_step_handle_host_build` | yes | Determine whether a host build is required. |
+| 9.1   | `termux_step_host_build` | yes | Perform a host build. |
+| 10     | `termux_step_setup_toolchain` | no | Setup NDK standalone toolchain. |
+| 11    | `termux_step_patch_package` | no | Apply to source code all `*.patch` files located in package's directory. |
+| 12    | `termux_step_replace_guess_scripts` | no | Replace `config.sub` and `config.guess` scripts. |
+| 13    | `termux_step_pre_configure` | yes | Hook to run commands before source configuration. |
+| 14    | `termux_step_configure` | yes | Configure sources. By default, it determines build system automatically. |
+| 14.1  | `termux_step_configure_autotools` | no | Autotools build configuration. |
+| 14.2  | `termux_step_configure_cmake` | no | CMake build configuration. |
+| 14.3  | `termux_step_configure_meson` | no | Meson build configuration. |
+| 15    | `termux_step_post_configure` | yes | Hook to run commands immediately after configuration. |
+| 16    | `termux_step_make` | yes | Compile the source code. |
+| 17    | `termux_step_make_install` | yes | Install the compiled artifacts. |
+| 18    | `termux_step_post_make_install` | yes | Hook to run commands immediately after installation. |
+| 19    | `termux_step_install_service_scripts` | yes | Installs scripts for termux-services |
+| 20    | `termux_step_install_license` | yes | Link or copy package-specific LICENSE to `./share/doc/$TERMUX_PKG_NAME`. |
+| 21    | `termux_step_extract_into_massagedir` | no with `make_install` | Extract files modified in `$TERMUX_PREFIX`. |
+| 22    | `termux_step_massage` | no | Strip binaries, remove unneeded files. |
+| 22.1  | `termux_create_subpackages` | no | Creates all subpackages. |
+| 24    | `termux_step_post_massage` | yes | Final hook before creating `*.deb` file(s). |
+| 25    | `termux_step_create_datatar` | no | Archive package files. |
+| 26    | `termux_step_create_debfile` | no | Create `*.deb` package. |
+| 26.1  | `termux_step_create_debscripts` | yes | Create maintainer scripts, e.g. pre/post installation hooks. |
+| 27    | `termux_step_finish_build` | no | Notification of finish. |
 
 ## Tips and tricks
  
