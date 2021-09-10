@@ -141,12 +141,14 @@ different suborders are not executed simultaneously.
 | 20    | `termux_step_install_license` | yes | Link or copy package-specific LICENSE to `./share/doc/$TERMUX_PKG_NAME`. |
 | 21    | `termux_step_extract_into_massagedir` | no with `make_install` | Extract files modified in `$TERMUX_PREFIX`. |
 | 22    | `termux_step_massage` | no | Strip binaries, remove unneeded files. |
-| 22.1  | `termux_create_subpackages` | no | Creates all subpackages. |
+| 22.1  | `termux_create_debian_subpackages` | no | Creates all subpackages (debian format). |
+| 22.2  | `termux_create_pacman_subpackages` | no | Creates all subpackages (pacman format). |
 | 24    | `termux_step_post_massage` | yes | Final hook before creating `*.deb` file(s). |
-| 25    | `termux_step_create_datatar` | no | Archive package files. |
-| 26    | `termux_step_create_debfile` | no | Create `*.deb` package. |
-| 26.1  | `termux_step_create_debscripts` | yes | Create maintainer scripts, e.g. pre/post installation hooks. |
-| 27    | `termux_step_finish_build` | no | Notification of finish. |
+| 25    | `termux_step_create_debian_package` | no | Create `*.deb` package. |
+| 25.1  | `termux_step_create_pacman_package` | no | Create `*.pkg.tar.xz` package. |
+| 25.2  | `termux_step_create_debscripts` | yes | Create maintainer scripts, e.g. pre/post installation hooks. |
+| 25.3  | `termux_step_create_pacman_install_hook` | no | Convert result of `termux_step_create_debscripts` to pacman-compatible format. |
+| 26    | `termux_step_finish_build` | no | Notification of finish. |
 
 ## Tips and tricks
  
