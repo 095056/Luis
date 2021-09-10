@@ -2,7 +2,7 @@
 
 Files and directories available inside build environment:
 
-- `./debs` - directory where built packages will be placed. Does not exist by
+- `./output` - directory where built packages will be placed. Does not exist by
   default.
 
 - `./disabled-packages` - directory with packages excluded from main build tree
