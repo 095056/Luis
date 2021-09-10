@@ -220,3 +220,5 @@ be modified in runtime unless there is a good reason.
 
 - `TERMUX_REPO_COMPONENT` - Array of repository component names in addition for
   `TERMUX_REPO_URL`.
+
+- `TERMUX_PACKAGE_FORMAT` - Package output format.
