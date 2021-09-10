@@ -47,7 +47,9 @@ Script `build-package.sh` accepts several options that affect build behaviour.
 - `-s` - Skip dependency check.
 
 - `-o` - Specify directory where to place built \*.deb files. Default is
-  `./debs`.
+  `./output`.
+
+- `--format` - Specify format of built packages. Possible: `debian` (default) and `pacman`.
 
 ## Understanding build process
 
