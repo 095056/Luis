@@ -42,6 +42,19 @@ Updated once per 6 hours.
 |[Unstable](https://github.com/termux/unstable-packages)  |`deb https://termux.mentality.rip/termux-unstable unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://termux.mentality.rip/termux-x11 x11 main`|
 
+### Mirrors by [Astra ISP](https://astra.in.ua/)
+
+Updated once per 4 hours.
+
+|Repository|sources.list entry                                               |
+|:---------|:----------------------------------------------------------------|
+|[Main](https://github.com/termux/termux-packages)      |`deb https://termux.astra.in.ua/apt/termux-main stable main`|
+|[Games](https://github.com/termux/game-packages)     |`deb https://termux.astra.in.ua/apt/termux-games games stable` |
+|[Root](https://github.com/termux/termux-root-packages)      |`deb https://termux.astra.in.ua/apt/termux-root root stable`|
+|[Science](https://github.com/termux/science-packages)   |`deb https://termux.astra.in.ua/apt/termux-science science stable`|
+|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://termux.astra.in.ua/apt/termux-unstable unstable main`|
+|[X11](https://github.com/termux/x11-packages)       |`deb https://termux.astra.in.ua/apt/termux-x11 x11 main`|
+
 ### Mirrors by [Grimler](https://github.com/grimler91)
 
 Mirrored from the main node, updated once per hour.
