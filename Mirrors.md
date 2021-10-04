@@ -14,6 +14,8 @@ Run `apt edit-sources`, comment out existing URLs and add line for picked reposi
 
 A default Termux packages repository and content seeder for available mirrors. This host is not behind any CDN, so please use mirrors or `pkg` which will automatically select appropriate host for you.
 
+**Server is IPv6-only and uses IPv6-to-IPv4 proxy provided by FossHost. It is quite slow but we don't have anything better at the moment. Hopefully you understand what's going on. If slow download speed bothers you, please use mirror instead.**
+
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
 |[Main](https://github.com/termux/termux-packages)      |`deb https://packages.termux.org/apt/termux-main stable main`|
