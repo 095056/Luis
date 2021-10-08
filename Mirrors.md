@@ -25,6 +25,17 @@ A default Termux packages repository and content seeder for available mirrors. S
 |[Unstable](https://github.com/termux/unstable-packages)  |`deb https://packages.termux.org/apt/termux-unstable unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://packages.termux.org/apt/termux-x11 x11 main`|
 
+CloudFlare CDN endpoint (should be faster):
+
+|Repository|sources.list entry                                               |
+|:---------|:----------------------------------------------------------------|
+|[Main](https://github.com/termux/termux-packages)      |`deb https://packages-cf.termux.org/apt/termux-main stable main`|
+|[Games](https://github.com/termux/game-packages)     |`deb https://packages-cf.termux.org/apt/termux-games games stable` |
+|[Root](https://github.com/termux/termux-root-packages)      |`deb https://packages-cf.termux.org/apt/termux-root root stable`|
+|[Science](https://github.com/termux/science-packages)   |`deb https://packages-cf.termux.org/apt/termux-science science stable`|
+|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://packages-cf.termux.org/apt/termux-unstable unstable main`|
+|[X11](https://github.com/termux/x11-packages)       |`deb https://packages-cf.termux.org/apt/termux-x11 x11 main`|
+
 Please don't use our host in your forks. Set up your own repository. Otherwise consider to contribute to our project instead of maintaining the custom fork.
 
 ## Mirrors
