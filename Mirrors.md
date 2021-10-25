@@ -22,7 +22,6 @@ A default Termux packages repository and content seeder for available mirrors. S
 |[Games](https://github.com/termux/game-packages)     |`deb https://packages.termux.org/apt/termux-games games stable` |
 |[Root](https://github.com/termux/termux-root-packages)      |`deb https://packages.termux.org/apt/termux-root root stable`|
 |[Science](https://github.com/termux/science-packages)   |`deb https://packages.termux.org/apt/termux-science science stable`|
-|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://packages.termux.org/apt/termux-unstable unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://packages.termux.org/apt/termux-x11 x11 main`|
 
 CloudFlare CDN endpoint (should be faster):
@@ -33,7 +32,6 @@ CloudFlare CDN endpoint (should be faster):
 |[Games](https://github.com/termux/game-packages)     |`deb https://packages-cf.termux.org/apt/termux-games games stable` |
 |[Root](https://github.com/termux/termux-root-packages)      |`deb https://packages-cf.termux.org/apt/termux-root root stable`|
 |[Science](https://github.com/termux/science-packages)   |`deb https://packages-cf.termux.org/apt/termux-science science stable`|
-|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://packages-cf.termux.org/apt/termux-unstable unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://packages-cf.termux.org/apt/termux-x11 x11 main`|
 
 Please don't use our host in your forks. Set up your own repository. Otherwise consider to contribute to our project instead of maintaining the custom fork.
@@ -52,7 +50,6 @@ Updated once per 6 hours.
 |[Games](https://github.com/termux/game-packages)     |`deb https://termux.mentality.rip/termux-games games stable` |
 |[Root](https://github.com/termux/termux-root-packages)      |`deb https://termux.mentality.rip/termux-root root stable`|
 |[Science](https://github.com/termux/science-packages)   |`deb https://termux.mentality.rip/termux-science science stable`|
-|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://termux.mentality.rip/termux-unstable unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://termux.mentality.rip/termux-x11 x11 main`|
 
 ### Mirrors by [Astra ISP](https://astra.in.ua/)
@@ -65,7 +62,6 @@ Updated once per 4 hours.
 |[Games](https://github.com/termux/game-packages)     |`deb https://termux.astra.in.ua/apt/termux-games games stable` |
 |[Root](https://github.com/termux/termux-root-packages)      |`deb https://termux.astra.in.ua/apt/termux-root root stable`|
 |[Science](https://github.com/termux/science-packages)   |`deb https://termux.astra.in.ua/apt/termux-science science stable`|
-|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://termux.astra.in.ua/apt/termux-unstable unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://termux.astra.in.ua/apt/termux-x11 x11 main`|
 
 ### Mirrors by [Grimler](https://github.com/grimler91)
@@ -78,7 +74,6 @@ Mirrored from the main node, updated once per hour.
 |[Games](https://github.com/termux/game-packages)     |`deb https://grimler.se/game-packages-24 games stable` |
 |[Root](https://github.com/termux/termux-root-packages)      |`deb https://grimler.se/termux-root-packages-24 root stable`|
 |[Science](https://github.com/termux/science-packages)   |`deb https://grimler.se/science-packages-24 science stable`|
-|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://grimler.se/unstable-packages unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://grimler.se/x11-packages x11 main`|
 
 ### Mirrors by [Kcubeterm](https://github.com/kcubeterm)
@@ -91,7 +86,6 @@ Cloned repositories are re-signed by [@kcubeterm's](https://github.com/kcubeterm
 |[Games](https://github.com/termux/game-packages)     |`deb https://dl.kcubeterm.me/game-packages-24 games stable` |
 |[Root](https://github.com/termux/termux-root-packages)      |`deb https://dl.kcubeterm.me/termux-root-packages-24 root stable`|
 |[Science](https://github.com/termux/science-packages)   |`deb https://dl.kcubeterm.me/science-packages-24 science stable`|
-|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://dl.kcubeterm.me/unstable-packages unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://dl.kcubeterm.me/x11-packages x11 main`|
 
 ### Mirrors by [Librehat](https://github.com/librehat)
@@ -104,7 +98,6 @@ Updated every 6 hours.
 |[Games](https://github.com/termux/game-packages)     |`deb https://termux.librehat.com/apt/termux-games games stable` |
 |[Root](https://github.com/termux/termux-root-packages)      |`deb https://termux.librehat.com/apt/termux-root root stable`|
 |[Science](https://github.com/termux/science-packages)   |`deb https://termux.librehat.com/apt/termux-science science stable`|
-|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://termux.librehat.com/apt/termux-unstable unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://termux.librehat.com/apt/termux-x11 x11 main`|
 
 ### Mirrors by the [Tsinghua University TUNA Association](https://tuna.moe/)
@@ -117,7 +110,6 @@ Mirror for Chinese users for better ping and download speed.
 |[Games](https://github.com/termux/game-packages)     |`deb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-games games stable` |
 |[Root](https://github.com/termux/termux-root-packages)      |`deb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-root root stable`|
 |[Science](https://github.com/termux/science-packages)   |`deb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-science science stable`|
-|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-unstable unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-x11 x11 main`|
 
 ### Mirrors by the [Beijing Foreign Studies University](http://www.bfsu.edu.cn/)
@@ -130,7 +122,6 @@ Mirror for Chinese users for better ping and download speed.
 |[Games](https://github.com/termux/game-packages)     |`deb https://mirrors.bfsu.edu.cn/termux/apt/termux-games games stable` |
 |[Root](https://github.com/termux/termux-root-packages)      |`deb https://mirrors.bfsu.edu.cn/termux/apt/termux-root root stable`|
 |[Science](https://github.com/termux/science-packages)   |`deb https://mirrors.bfsu.edu.cn/termux/apt/termux-science science stable`|
-|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://mirrors.bfsu.edu.cn/termux/apt/termux-unstable unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://mirrors.bfsu.edu.cn/termux/apt/termux-x11 x11 main`|
 
 ### Mirrors by [University of Science and Technology of China, Linux User Group](https://lug.ustc.edu.cn/)
@@ -143,7 +134,6 @@ Mirror for Chinese users for better ping and download speed.
 |[Games](https://github.com/termux/game-packages)     |`deb https://mirrors.ustc.edu.cn/termux/apt/termux-games/ games stable` |
 |[Root](https://github.com/termux/termux-root-packages)      |`deb https://mirrors.ustc.edu.cn/termux/apt/termux-root/ root stable`|
 |[Science](https://github.com/termux/science-packages)   |`deb https://mirrors.ustc.edu.cn/termux/apt/termux-science/ science stable`|
-|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://mirrors.ustc.edu.cn/termux/apt/termux-unstable/ unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://mirrors.ustc.edu.cn/termux/apt/termux-x11/ x11 main`|
 
 ### Mirrors by [eScience Center, Nanjing University](https://www.nju.edu.cn/)
@@ -156,5 +146,4 @@ Mirror for Chinese users for better ping and download speed.
 |[Games](https://github.com/termux/game-packages)     |`deb https://mirror.nju.edu.cn/termux/apt/termux-games games stable` |
 |[Root](https://github.com/termux/termux-root-packages)      |`deb https://mirror.nju.edu.cn/termux/apt/termux-root root stable`|
 |[Science](https://github.com/termux/science-packages)   |`deb https://mirror.nju.edu.cn/termux/apt/termux-science science stable`|
-|[Unstable](https://github.com/termux/unstable-packages)  |`deb https://mirror.nju.edu.cn/termux/apt/termux-unstable unstable main`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://mirror.nju.edu.cn/termux/apt/termux-x11 x11 main`|
