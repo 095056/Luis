@@ -39,7 +39,6 @@ depending on their functionality.
 * [game-packages](https://github.com/termux/game-packages): set of games.
 * [science-packages](https://github.com/termux/science-packages): set of scientific packages.
 * [termux-root-packages](https://github.com/termux/termux-root-packages): set of packages requiring device to be rooted.
-* [unstable-packages](https://github.com/termux/unstable-packages): untested and potentially unstable packages.
 * [x11-packages](https://github.com/termux/x11-packages): set of packages for X Window System.
 
 ### Package-specific repositories
