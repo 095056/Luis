@@ -147,3 +147,19 @@ Mirror for Chinese users for better ping and download speed.
 |[Root](https://github.com/termux/termux-root-packages)      |`deb https://mirror.nju.edu.cn/termux/apt/termux-root root stable`|
 |[Science](https://github.com/termux/science-packages)   |`deb https://mirror.nju.edu.cn/termux/apt/termux-science science stable`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://mirror.nju.edu.cn/termux/apt/termux-x11 x11 main`|
+
+### Mirrors (Iran)
+
+This mirror is hosted in Iran. Syncing every 6 hours.
+
+Rsync: `rsync://mirror.bardia.tech/termux`
+
+Contact: `fakeshell@bardia.tech`
+
+|Repository|sources.list entry                                               |
+|:---------|:----------------------------------------------------------------|
+|[Main](https://github.com/termux/termux-packages)      |`deb https://mirror.bardia.tech/termux/termux-packages-24/ stable main`|
+|[Games](https://github.com/termux/game-packages)     |`deb https://mirror.bardia.tech/termux/game-packages-24/ games stable` |
+|[Root](https://github.com/termux/termux-root-packages)      |`deb https://mirror.bardia.tech/termux/termux-root-packages-24/ root stable`|
+|[Science](https://github.com/termux/science-packages)   |`deb https://mirror.bardia.tech/termux/science-packages-24/ science stable`|
+|[X11](https://github.com/termux/x11-packages)       |`deb https://mirror.bardia.tech/termux/x11-packages/ x11 main`|
