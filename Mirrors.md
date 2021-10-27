@@ -64,7 +64,7 @@ Updated once per 4 hours.
 |[Science](https://github.com/termux/science-packages)   |`deb https://termux.astra.in.ua/apt/termux-science science stable`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://termux.astra.in.ua/apt/termux-x11 x11 main`|
 
-### Mirrors by Bardia Moshiri
+### Mirrors by [Bardia Moshiri](https://bardia.tech/)
 
 This mirror is hosted in Iran. Syncing every 6 hours.
 
