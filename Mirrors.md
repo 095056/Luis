@@ -24,7 +24,7 @@ A default Termux packages repository and content seeder for available mirrors. S
 |[Science](https://github.com/termux/science-packages)   |`deb https://packages.termux.org/apt/termux-science science stable`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://packages.termux.org/apt/termux-x11 x11 main`|
 
-CloudFlare CDN endpoint (should be faster):
+CloudFlare CDN endpoint. Fast and stable, but has limits on uploads (100MB max per POST in "free" plan) which makes impossible to use it for submitting packages via GitHub Actions + Aptly REST API.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
