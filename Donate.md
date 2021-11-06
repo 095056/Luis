@@ -9,7 +9,3 @@ Ways how you can donate to [@termux](https://github.com/termux):
 2. Patreon: https://patreon.com/termux
 
 3. Paypal: https://paypal.me/fornwall
-
-4. Ethereum:
-
-   [![Donate with Ethereum](https://en.cryptobadges.io/badge/big/0x3CC8F61862e5c3Ad62A7eea0c3048853FA31af23?showBalance=true)](https://en.cryptobadges.io/donate/0x3CC8F61862e5c3Ad62A7eea0c3048853FA31af23)
