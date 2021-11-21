@@ -82,7 +82,7 @@ Contact: `fakeshell@bardia.tech`
 
 ### Mirrors by [Grimler](https://github.com/grimler91)
 
-Mirrored from the main node, updated once per hour.
+Mirrored from the main node, updated hourly during "office hours" (requires a gpg hardware key to be accessible for repo signing to work).
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
