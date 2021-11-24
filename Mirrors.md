@@ -92,18 +92,6 @@ Mirrored from the main node, updated hourly during "office hours" (requires a gp
 |[Science](https://github.com/termux/science-packages)   |`deb https://grimler.se/science-packages-24 science stable`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://grimler.se/x11-packages x11 main`|
 
-### Mirrors by [Kcubeterm](https://github.com/kcubeterm)
-
-Cloned repositories are re-signed by [@kcubeterm's](https://github.com/kcubeterm) key which is missing from `termux-keyring` package version below 1.6.
-
-|Repository|sources.list entry                                               |
-|:---------|:----------------------------------------------------------------|
-|[Main](https://github.com/termux/termux-packages)      |`deb https://dl.kcubeterm.me/termux-packages-24 stable main`|
-|[Games](https://github.com/termux/game-packages)     |`deb https://dl.kcubeterm.me/game-packages-24 games stable` |
-|[Root](https://github.com/termux/termux-root-packages)      |`deb https://dl.kcubeterm.me/termux-root-packages-24 root stable`|
-|[Science](https://github.com/termux/science-packages)   |`deb https://dl.kcubeterm.me/science-packages-24 science stable`|
-|[X11](https://github.com/termux/x11-packages)       |`deb https://dl.kcubeterm.me/x11-packages x11 main`|
-
 ### Mirrors by [Librehat](https://github.com/librehat)
 
 Updated every 6 hours.
