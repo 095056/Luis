@@ -1,3 +1,7 @@
+# Info for mirror maintainers
+
+unstable-packages and game-packages have been merged into the main (termux-packages) repositories. There's no need to sync them anymore, and  they can be removed completely in (for example) March 2022. This gives users time to upgrade there packages before, so that the removal does not cause any problems.
+
 # Repositories and Mirrors
 
 Termux packages, except bootstrap environment, are served via external web services. There is a primary package server (seed) and number or mirrors, which replicate the content from it to reduce load and provide a some level of redundancy. Mirrors are running either on behalf of maintainers, community members or unaffiliated third parties and are not guaranteed to be always available.
