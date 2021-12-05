@@ -6,7 +6,7 @@ Consider making a donation to show appreciation and support the work (as in deve
 
 [Agnostic-apollo](https://github.com/agnostic-apollo) is today the main developer and maintainer of the android apps. See [Donations.md](https://github.com/agnostic-apollo/agnostic-apollo/blob/main/Donations.md) for how to donate.
 
-[Xeffyr](https://github.com/xeffyr) makes contributions to all the repositories, and has set up the scripts for package builds and hosting. Donate through ...
+[Xeffyr](https://github.com/xeffyr) makes contributions to all the repositories, and has set up the scripts for package builds and hosting. Donate ETH to `0x3CC8F61862e5c3Ad62A7eea0c3048853FA31af23` or TRX to `TLj9RmJYSoWYm1Ux7fP6xBwkViHCWwfUDM`.
 
 [Grimler](https://github.com/grimler91) makes contributions to all the repositories. Donate ETH to `0x09D42e7518f5bF6eF173c536Ad8e87c973615A9D`, or through [liberapay](https://liberapay.com/grimler)
 
