@@ -95,6 +95,8 @@ If you need to pass some additional arguments, use the field
 | 34    | `TERMUX_PKG_RM_AFTER_INSTALL` | no | List of files that should be removed after installation process. |
 | 35    | `TERMUX_PKG_CONFFILES` | no | A space or newline separated list of package configuration files that should not be overwritten on update. |
 | 36    | `TERMUX_PKG_SERVICE_SCRIPT` | no | Array of even length containing daemon name(s) and script(s) for use with [termux-services/runit](https://wiki.termux.com/wiki/Termux-services). |
+| 37    | `TERMUX_PKG_AUTO_UPDATE` | no | Whether to enable automatic updates for this package (Current only for packages whose development occurs on GitHub) |
+| 38    | `TERMUX_PKG_AUTO_UPDATE_TAG_REGEXP` | no | Regex to use to verify new version. Useful when upstream maintains multiple major versions |
 
 ### Table of available build step overrides
 
