@@ -94,6 +94,16 @@ Updated every 6 hours.
 |[Root](https://github.com/termux/termux-root-packages)      |`deb https://termux.librehat.com/apt/termux-root root stable`|
 |[X11](https://github.com/termux/x11-packages)       |`deb https://termux.librehat.com/apt/termux-x11 x11 main`|
 
+### Mirrors by [mwt](https://github.com/mwt)
+
+Updated once per 6 hours.
+
+|Repository|sources.list entry                                               |
+|:---------|:----------------------------------------------------------------|
+|[Main](https://github.com/termux/termux-packages)      |`deb https://mirror.mwt.me/termux/main stable main`|
+|[Root](https://github.com/termux/termux-root-packages) |`deb https://mirror.mwt.me/termux/root root stable`|
+|[X11](https://github.com/termux/x11-packages)          |`deb https://mirror.mwt.me/termux/x11 x11 main`    |
+
 ### Mirrors by [Sahilister](https://github.com/sahilister)
 
 Updated once per 6 hours.
