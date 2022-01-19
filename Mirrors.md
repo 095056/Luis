@@ -96,7 +96,7 @@ Updated every 6 hours.
 
 ### Mirrors by [mwt](https://github.com/mwt)
 
-Updated once per 6 hours.
+Hosted in New Jersey, USA. Updated once per 6 hours.
 
 |Repository|sources.list entry                                               |
 |:---------|:----------------------------------------------------------------|
