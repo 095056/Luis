@@ -36,8 +36,6 @@ Package definitions, build scripts and patches are split between multiple reposi
 depending on their functionality.
 
 * [termux-packages](https://github.com/termux/termux-packages): main set of packages and build environment.
-* [game-packages](https://github.com/termux/game-packages): set of games.
-* [science-packages](https://github.com/termux/science-packages): set of scientific packages.
 * [termux-root-packages](https://github.com/termux/termux-root-packages): set of packages requiring device to be rooted.
 * [x11-packages](https://github.com/termux/x11-packages): set of packages for X Window System.
 
