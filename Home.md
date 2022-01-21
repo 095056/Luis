@@ -69,3 +69,4 @@ Other:
 - [Beyond Linux From Scratch](http://www.linuxfromscratch.org/blfs/view/stable/)
 - [OpenWrt](https://openwrt.org/) as an embedded Linx distribution contains [patches and build scripts](https://dev.openwrt.org/browser/packages)
 - [Kivy recipes](https://github.com/kivy/python-for-android/tree/master/pythonforandroid/recipes) contains recipes for building packages for Android.
+- [Repology](https://repology.org) to track outdated packages.
