@@ -150,7 +150,7 @@ Mirror for Chinese users for better ping and download speed.
 |:-----------|:----------------------------------------------------------------|
 | [Main](https://github.com/termux/termux-packages)      | `deb https://mirrors.hit.edu.cn/termux/apt/termux-main stable main` |
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.hit.edu.cn/termux/apt/termux-root root stable` |
-| [X11](https://github.com/termux/x11-packages)          | `deb http://mirrors.hit.edu.cn/termux/apt/termux-x11 x11 main`       |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.hit.edu.cn/termux/apt/termux-x11 x11 main`     |
 
 ### Mirrors by [eScience Center, Nanjing University](https://www.nju.edu.cn/)
 
