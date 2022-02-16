@@ -30,8 +30,7 @@
   package, which emulates SYSV shared memory on top of the [ashmem](http://elinux.org/Android_Kernel_Features#ashmem)
   shared memory system, is available. Use it with `LDFLAGS+=" -landroid-shmem`.
 
-- SYSV semaphores are not supported by the kernel. Use unnamed POSIX semaphores
-  instead (named semaphores are unimplemented). https://android.googlesource.com/platform/bionic/+/refs/heads/nougat-dev/libc/bionic/semaphore.cpp#125
+- SYSV semaphores are not supported by the kernel. The package `libandroid-posix-semaphore` supports named semaphores and functions such as `sem_open`, `sem_close` and `sem_unlink`.
 
 - Starting from Android 8, a [Seccomp](https://android-developers.googleblog.com/2017/07/seccomp-filter-in-android-o.html)
   was enabled for applications. Seccomp forbids usage of some system calls
