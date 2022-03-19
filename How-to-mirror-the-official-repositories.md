@@ -57,8 +57,9 @@ deb-arm               https://packages.termux.org/apt/termux-x11 x11 main
 deb-i686              https://packages.termux.org/apt/termux-x11 x11 main
 deb-x86_64            https://packages.termux.org/apt/termux-x11 x11 main
 clean                 https://packages.termux.org/apt/termux-x11
-
 ```
+
+To start the sync you then run `apt-mirror /path/to/termux-config-from-above.list`.
 
 ## Mirroring with aptly
 
