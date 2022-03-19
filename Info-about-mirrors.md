@@ -2,7 +2,7 @@
 
 unstable-packages, game-packages and science-packages have been merged into the main (termux-packages) repository and no longer have to be synced.
 
-Mirroring termux-packages, termux-root-packages and x11-packages can be done with several tools like rsync, [apt-mirror](https://github.com/apt-mirror/apt-mirror) or aptly. Steps are outlined in the page [How to mirror the official repositories](/How-to-mirror-the-official-repositories)
+Mirroring termux-packages, termux-root-packages and x11-packages can be done with several tools like rsync, [apt-mirror](https://github.com/apt-mirror/apt-mirror) or aptly. Steps are outlined in the page [How to mirror the official repositories](https://github.com/termux/termux-packages/wiki/How-to-mirror-the-official-repositories).
 
 # Repositories and Mirrors
 
