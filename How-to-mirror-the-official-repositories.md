@@ -85,5 +85,5 @@ aptly publish snapshot termux-root-$DATE
 aptly publish snapshot termux-x11-$DATE
 ```
 
-To later update your mirror, repeat all the steaps except `aptly mirror create`.
+To later update your mirror, repeat all the steps except `aptly mirror create`.
 
