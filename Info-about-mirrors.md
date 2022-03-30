@@ -48,7 +48,7 @@ These mirrors (listed alphabetically) might be picked, on random, when pkg check
 
 #### Mirrors by [a1batross](https://github.com/a1batross)
 
-Updated once per 6 hours.
+Updated four times per day.
 
 | Repository                                             | sources.list entry                                         |
 |:-------------------------------------------------------|:-----------------------------------------------------------|
@@ -78,7 +78,7 @@ Mirrored from the main node, updated hourly during "office hours" (requires a gp
 
 #### Mirrors by [Librehat](https://github.com/librehat)
 
-Updated every 6 hours.
+Updated four times per day.
 
 | Repository                                             | sources.list entry                                            |
 |:-------------------------------------------------------|:--------------------------------------------------------------|
@@ -88,7 +88,7 @@ Updated every 6 hours.
 
 #### Mirrors by [mwt](https://github.com/mwt)
 
-Hosted in New Jersey, USA. Updated once per 6 hours.
+Hosted in New Jersey, USA. Updated four times per day.
 
 | Repository                                             | sources.list entry                                  |
 |:-------------------------------------------------------|:----------------------------------------------------|
@@ -108,7 +108,7 @@ Hosted in Indiana, USA. Updated four times per day.
 
 #### Mirrors by [Sahilister](https://github.com/sahilister)
 
-Updated once per 6 hours.
+Updated four times per day.
 
 | Repository                                             | sources.list entry                                             |
 |:-------------------------------------------------------|:---------------------------------------------------------------|
@@ -123,7 +123,7 @@ Mirrors for users in Iran for better ping and download speed.
 
 #### Mirrors by [Bardia Moshiri](https://bardia.tech/)
 
-This mirror is hosted in Iran. Syncing every 6 hours.
+This mirror is hosted in Iran. Updated four times per day.
 
 Rsync: `rsync://mirror.bardia.tech/termux`
 
