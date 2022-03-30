@@ -96,6 +96,16 @@ Hosted in New Jersey, USA. Updated once per 6 hours.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.mwt.me/termux/root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.mwt.me/termux/x11 x11 main`     |
 
+#### Mirrors by Purdue University Linux Users Group
+
+Hosted in Indiana, USA. Updated four times per day.
+
+| Repository                                             | sources.list entry                                                       |
+|:-------------------------------------------------------|:-------------------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://plug-mirror.rcac.purdue.edu/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://plug-mirror.rcac.purdue.edu/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://plug-mirror.rcac.purdue.edu/termux/termux-x11 x11 main`     |
+
 #### Mirrors by [Sahilister](https://github.com/sahilister)
 
 Updated once per 6 hours.
