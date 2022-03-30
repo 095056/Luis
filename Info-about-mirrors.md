@@ -129,11 +129,11 @@ Rsync: `rsync://mirror.bardia.tech/termux`
 
 Contact: `fakeshell@bardia.tech`
 
-| Repository                                             | sources.list entry                                                           |
-|:-------------------------------------------------------|:-----------------------------------------------------------------------------|
-| [Main](https://github.com/termux/termux-packages)      | `deb https://mirror.bardia.tech/termux/termux-packages-24/ stable main`      |
-| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.bardia.tech/termux/termux-root-packages-24/ root stable` |
-| [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.bardia.tech/termux/x11-packages/ x11 main`               |
+| Repository                                             | sources.list entry                                                          |
+|:-------------------------------------------------------|:----------------------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirror.bardia.tech/termux/termux-packages-24 stable main`      |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.bardia.tech/termux/termux-root-packages-24 root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.bardia.tech/termux/x11-packages x11 main`               |
 
 ### Mirrors hosted in China
 
