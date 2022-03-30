@@ -96,7 +96,7 @@ Hosted in New Jersey, USA. Updated four times per day.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.mwt.me/termux/root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.mwt.me/termux/x11 x11 main`     |
 
-#### Mirrors by Purdue University Linux Users Group
+#### Mirrors by [Purdue University Linux Users Group](https://plug-mirror.rcac.purdue.edu/info.html)
 
 Hosted in Indiana, USA. Updated four times per day.
 
