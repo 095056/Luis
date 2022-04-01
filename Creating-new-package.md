@@ -52,6 +52,10 @@ build the package.
 
 - Meson
 
+- Haskell (or cabal)
+
+**NOTE:** If packaging Haskell packages also see [this](./Haskell-package-guidelines).
+
 If you need to pass some additional arguments, use the field
 `TERMUX_PKG_EXTRA_CONFIGURE_ARGS`.
 
@@ -82,21 +86,21 @@ If you need to pass some additional arguments, use the field
 | 21    | `TERMUX_PKG_SUGGESTS` | no | Comma-separated list of packages that are related to or enhance the current one. |
 | 22    | `TERMUX_PKG_ESSENTIAL` | no | Whether to treat package as essential which cannot be uninstalled in usual way. Default is **false**. |
 | 23    | `TERMUX_PKG_NO_STATICSPLIT` | no | Whether to split static libraries into a subpackage. Default is **false**. |
-| 24    | `TERMUX_PKG_BUILD_IN_SRC` | no | Whether to perform build in a source code directory. Default is **false**. |
-| 25    | `TERMUX_PKG_HAS_DEBUG` | no | Whether debug builds are possible for package. Default is **true**. |
-| 26    | `TERMUX_PKG_PLATFORM_INDEPENDENT` | no | Whether to treat package as platform independent. Default is **false**. |
-| 27    | `TERMUX_PKG_BLACKLISTED_ARCHES` | no | Comma-separated list of CPU architectures for which package cannot be compiled. |
-| 28    | `TERMUX_PKG_HOSTBUILD` | no | Whether package require building for host. Default is **false**. |
-| 29    | `TERMUX_PKG_FORCE_CMAKE` | no | Whether to prefer CMake over Autotools configure script. Default is **false**. |
-| 30    | `TERMUX_PKG_EXTRA_CONFIGURE_ARGS` | no | Extra arguments passed to build system configuration utility. |
-| 31    | `TERMUX_PKG_EXTRA_HOSTBUILD_CONFIGURE_ARGS` | no | Extra arguments passed to build system configuration utility when performing host build. |
-| 32    | `TERMUX_PKG_EXTRA_MAKE_ARGS` | no | Extra arguments passed to utility `make`. |
-| 33    | `TERMUX_PKG_MAKE_INSTALL_TARGET` | no | Equivalent for `install` argument passed to utility `make` in the installation process. |
-| 34    | `TERMUX_PKG_RM_AFTER_INSTALL` | no | List of files that should be removed after installation process. |
-| 35    | `TERMUX_PKG_CONFFILES` | no | A space or newline separated list of package configuration files that should not be overwritten on update. |
-| 36    | `TERMUX_PKG_SERVICE_SCRIPT` | no | Array of even length containing daemon name(s) and script(s) for use with [termux-services/runit](https://wiki.termux.com/wiki/Termux-services). |
-| 37    | `TERMUX_PKG_AUTO_UPDATE` | no | Whether to enable automatic updates for this package (Current only for packages whose development occurs on GitHub) |
-| 38    | `TERMUX_PKG_AUTO_UPDATE_TAG_REGEXP` | no | Regex to use to verify new version. Useful when upstream maintains multiple major versions |
+| 24    | `TERMUX_PKG_STATICSPLIT_EXTRA_PATTERNS` | no | Extra patterns to include in static package. It must be relative to `$TERMUX_PREFIX`. For example: to include `*.h` files from `$TERMUX_PREFIX/lib`, specify `lib/*.h`. You can use bash globstar patterns to recurse sub-directories. |
+| 25    | `TERMUX_PKG_IS_HASKELL_LIB` | no | Whether the package is haskell library. Default `false` |
+| 26    | `TERMUX_PKG_BUILD_IN_SRC` | no | Whether to perform build in a source code directory. Default is **false**. |
+| 27    | `TERMUX_PKG_HAS_DEBUG` | no | Whether debug builds are possible for package. Default is **true**. |
+| 28    | `TERMUX_PKG_PLATFORM_INDEPENDENT` | no | Whether to treat package as platform independent. Default is **false**. |
+| 29    | `TERMUX_PKG_BLACKLISTED_ARCHES` | no | Comma-separated list of CPU architectures for which package cannot be compiled. |
+| 30    | `TERMUX_PKG_HOSTBUILD` | no | Whether package require building for host. Default is **false**. |
+| 31    | `TERMUX_PKG_FORCE_CMAKE` | no | Whether to prefer CMake over Autotools configure script. Default is **false**. |
+| 32    | `TERMUX_PKG_EXTRA_CONFIGURE_ARGS` | no | Extra arguments passed to build system configuration utility. |
+| 33    | `TERMUX_PKG_EXTRA_HOSTBUILD_CONFIGURE_ARGS` | no | Extra arguments passed to build system configuration utility when performing host build. |
+| 34    | `TERMUX_PKG_EXTRA_MAKE_ARGS` | no | Extra arguments passed to utility `make`. |
+| 35    | `TERMUX_PKG_MAKE_INSTALL_TARGET` | no | Equivalent for `install` argument passed to utility `make` in the installation process. |
+| 36    | `TERMUX_PKG_RM_AFTER_INSTALL` | no | List of files that should be removed after installation process. |
+| 37    | `TERMUX_PKG_CONFFILES` | no | A space or newline separated list of package configuration files that should not be overwritten on update. |
+| 38    | `TERMUX_PKG_SERVICE_SCRIPT` | no | Array of even length containing daemon name(s) and script(s) for use with [termux-services/runit](https://wiki.termux.com/wiki/Termux-services). |
 
 ### Table of available build step overrides
 
