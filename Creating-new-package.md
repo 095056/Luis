@@ -101,7 +101,7 @@ If you need to pass some additional arguments, use the field
 | 36    | `TERMUX_PKG_RM_AFTER_INSTALL` | no | List of files that should be removed after installation process. |
 | 37    | `TERMUX_PKG_CONFFILES` | no | A space or newline separated list of package configuration files that should not be overwritten on update. |
 | 38    | `TERMUX_PKG_SERVICE_SCRIPT` | no | Array of even length containing daemon name(s) and script(s) for use with [termux-services/runit](https://wiki.termux.com/wiki/Termux-services). |
-| 39    | `TERMUX_PKG_AUTO_UPDATE` | no | Whether to enable automatic updates for this package (Currently packages hosted on GitHub, Gitlab or tracked by repology can be auto updated. For using your own method see [here](./Auto-updating-packages)|
+| 39    | `TERMUX_PKG_AUTO_UPDATE` | no | Whether to enable automatic updates for this package. Currently packages hosted on GitHub, Gitlab or tracked by repology can be auto updated. For using your own method see [here](./Auto-updating-packages)|
 | 40    | `TERMUX_PKG_UPDATE_VERSION_REGEXP` | no | Regex to extract new version from received version from [apis](./Auto-updating-packages.md). |
 | 41    | `TERMUX_PKG_UPDATE_METHOD` | no | Which method to use for auto-update. Can be `github`, `gitlab` or `repology`. By default it is decided on the basis of `TERMUX_PKG_SRCURL` |
 | 42    | `TERMUX_PKG_UPDATE_TAG_TYPE` | no | Whether to get `latest-release-tag` or `newest-tag` (sorted by commit date) if using `github` or `gitlab` method for auto-update. By default if `TERMUX_PKG_SRCURL` ends in `.git` then `newest-tag` is fetched otherwise `latest-release-tag`. |
