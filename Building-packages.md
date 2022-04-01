@@ -12,7 +12,7 @@ Example of building package `bash` for architecture `arm`:
 ./build-package.sh -a arm bash
 ```
 
-Of you need to build several packages, specify them all on command line.
+If you need to build several packages, specify them all on command line.
 Example:
 ```
 ./build-package.sh bash coreutils htop
