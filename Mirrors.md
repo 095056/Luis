@@ -139,15 +139,7 @@ Contact: `fakeshell@bardia.tech`
 
 Mirrors for users in China for better ping and download speed.
 
-#### Mirrors by the [Tsinghua University TUNA Association](https://tuna.moe/)
-
-| Repository                                             | sources.list entry                                                            |
-|:-------------------------------------------------------|:------------------------------------------------------------------------------|
-| [Main](https://github.com/termux/termux-packages)      | `deb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-main stable main` |
-| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-root root stable` |
-| [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-x11 x11 main`     |
-
-#### Mirrors by the [Beijing Foreign Studies University](http://www.bfsu.edu.cn/)
+#### Mirrors by [Beijing Foreign Studies University](http://www.bfsu.edu.cn/)
 
 | Repository                                             | sources.list entry                                                   |
 |:-------------------------------------------------------|:---------------------------------------------------------------------|
@@ -155,13 +147,23 @@ Mirrors for users in China for better ping and download speed.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.bfsu.edu.cn/termux/apt/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.bfsu.edu.cn/termux/apt/termux-x11 x11 main`     |
 
-#### Mirrors by [University of Science and Technology of China, Linux User Group](https://lug.ustc.edu.cn/)
+#### Mirrors by [Chongqing University of Posts and Telecommunications](https://www.cqupt.edu.cn/)
+
+More info at https://mirrors.cqupt.edu.cn/.
 
 | Repository                                             | sources.list entry                                                    |
 |:-------------------------------------------------------|:----------------------------------------------------------------------|
-| [Main](https://github.com/termux/termux-packages)      | `deb https://mirrors.ustc.edu.cn/termux/apt/termux-main/ stable main` |
-| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.ustc.edu.cn/termux/apt/termux-root/ root stable` |
-| [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.ustc.edu.cn/termux/apt/termux-x11/ x11 main`     |
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirrors.cqupt.edu.cn/termux/apt/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.cqupt.edu.cn/termux/apt/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.cqupt.edu.cn/termux/apt/termux-x11 x11 main`     |
+
+#### Mirrors by [Dongguan University of Technology](https://www.dgut.edu.cn/)
+
+| Repository                                             | sources.list entry                                                   |
+|:-------------------------------------------------------|:---------------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirrors.dgut.edu.cn/termux/apt/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.dgut.edu.cn/termux/apt/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.dgut.edu.cn/termux/apt/termux-x11 x11 main`     |
 
 #### Mirrors by [Harbin Institute of Technology](https://www.hit.edu.cn/)
 
@@ -178,3 +180,29 @@ Mirrors for users in China for better ping and download speed.
 | [Main](https://github.com/termux/termux-packages)      | `deb https://mirror.nju.edu.cn/termux/apt/termux-main stable main` |
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.nju.edu.cn/termux/apt/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.nju.edu.cn/termux/apt/termux-x11 x11 main`     |
+
+#### Mirrors by [Tsinghua University TUNA Association](https://tuna.moe/)
+
+| Repository                                             | sources.list entry                                                            |
+|:-------------------------------------------------------|:------------------------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-x11 x11 main`     |
+
+#### Mirrors by [University of Science and Technology of China, Linux User Group](https://lug.ustc.edu.cn/)
+
+| Repository                                             | sources.list entry                                                    |
+|:-------------------------------------------------------|:----------------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirrors.ustc.edu.cn/termux/apt/termux-main/ stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.ustc.edu.cn/termux/apt/termux-root/ root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.ustc.edu.cn/termux/apt/termux-x11/ x11 main`     |
+
+#### Mirrors by [Alibaba Open Source Mirror Site](https://mirrors.aliyun.com/)
+
+More info at https://mirrors.aliyun.com/about.
+
+| Repository                                             | sources.list entry                                                          |
+|:-------------------------------------------------------|:----------------------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirrors.aliyun.com/termux/termux-packages-24 stable main`      |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.aliyun.com/termux/termux-root-packages-24 root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.aliyun.com/termux/x11-packages x11 main`               |
