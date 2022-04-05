@@ -70,11 +70,11 @@ Updated once per 4 hours.
 
 Mirrored from the main node, updated hourly during "office hours" (requires a gpg hardware key to be accessible for repo signing to work).
 
-| Repository                                             | sources.list entry                                           |
-|:-------------------------------------------------------|:-------------------------------------------------------------|
-| [Main](https://github.com/termux/termux-packages)      | `deb https://grimler.se/termux-packages-24 stable main`      |
-| [Root](https://github.com/termux/termux-root-packages) | `deb https://grimler.se/termux-root-packages-24 root stable` |
-| [X11](https://github.com/termux/x11-packages)          | `deb https://grimler.se/x11-packages x11 main`               |
+| Repository                                             | sources.list entry                                      |
+|:-------------------------------------------------------|:--------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://grimler.se/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://grimler.se/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://grimler.se/termux/termux-x11 x11 main`     |
 
 #### Mirrors by [Librehat](https://github.com/librehat)
 
