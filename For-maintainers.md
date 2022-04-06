@@ -64,7 +64,7 @@ following command line options:
 
 The [`build-bootstraps.sh`](https://github.com/termux/termux-packages/blob/master/scripts/build-bootstraps.sh) is a script to build bootstrap archives for the `termux-app` from local package sources instead of debs published in apt repo like done by `generate-bootstrap.sh`. It allows bootstrap archives to be easily built for (forked) termux apps without having to publish an apt repo first. Run `build-bootstrap.sh --help` for more info.
 
-The package name/prefix that the bootstrap is built for is defined by `TERMUX_APP_PACKAGE` in 'scrips/properties.sh'. It defaults to `com.termux`. If package name is changed, make sure to run `./scripts/run-docker.sh ./clean.sh` or pass `-f` to force rebuild of packages.
+The package name/prefix that the bootstrap is built for is defined by `TERMUX_APP_PACKAGE` in [`scripts/properties.sh`](https://github.com/termux/termux-packages/blob/master/scripts/properties.sh). It defaults to `com.termux`. If package name is changed, make sure to run `./scripts/run-docker.sh ./clean.sh` or pass `-f` to force rebuild of packages.
 
 ### Examples
 
