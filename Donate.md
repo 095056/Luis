@@ -11,7 +11,7 @@ Donating to us will show your appreciation and help support the work (as in deve
 - Landfillbaby ([@landfillbaby](https://github.com/landfillbaby)) makes contributions to all the repositories, but mostly concerns herself with package updates. Donate through [Liberapay](https://liberapay.com/landfillbaby) (preferred), [PayPal.Me](https://paypal.me/landfillbaby), or [Ko-fi](https://ko-fi.com/landfillbaby).
 
 - Yaksh Bariya ([@thunder-coding](https://github.com/thunder-coding)) maintains nodejs, and often updates critical dependencies in main repo. Mostly packaging work and other chore tasks.
-Bitcoin: `bitcoin:bc1qqdjwucpk75wf6v2nrx3zj44z87sl87kqjg9c4f`
+[Visit for Yaksh Bariya's website for more information](https://codingthunder.me/sponsor/)
 
 - Fornwall ([@fornwall](https://github.com/fornwall)) is the creator of the [@termux](https://github.com/termux) project and was for several years the sole termux developer and created the apps and ported many packages, but is currently inactive. You can donate through https://paypal.me/fornwall, https://www.patreon.com/termux, or by buying the (now [deprecated](https://github.com/termux/termux-app#google-play-store-deprecated) and basically non-working) termux addon apps on Google play ([Termux:API](https://play.google.com/store/apps/details?id=com.termux.api), [Termux:Float](https://play.google.com/store/apps/details?id=com.termux.window), [Termux:Widget](https://play.google.com/store/apps/details?id=com.termux.widget), [Termux:Styling](https://play.google.com/store/apps/details?id=com.termux.styling), [Termux:Tasker](https://play.google.com/store/apps/details?id=com.termux.tasker), [Termux:Boot](https://play.google.com/store/apps/details?id=com.termux.boot)).
 ##
