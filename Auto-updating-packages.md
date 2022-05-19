@@ -28,5 +28,40 @@ different suborders are not executed simultaneously.
 Where none of default methods work, you may override `termux_pkg_auto_update()` function to use your own.
 For example see [neovim-nightly's build.sh](https://github.com/termux/termux-packages/blob/3c617f6222405cc51935bb13d557eb0b7b6fe95f/packages/neovim-nightly/build.sh#L27).
 
-- All Utility functions are available within `termux_pkg_auto_update()` or functions spawned by it.
+- All utility functions are available within `termux_pkg_auto_update()` or functions spawned by it.
 - You should call `termux_pkg_upgrade_version` with LATEST_VERSION to write changes to build.sh
+
+---
+**NOTE**
+Bash *fail-fast* (i.e `set -euo pipefail`) is set, so consider it during error handling.
+
+For example:
+
+Following code won't work as expected:
+```bash
+local curl_response
+curl_response=$(curl --silent "https://example.com" --write-out '|%{http_code}')
+
+# XXXX: following code won't execute if curl fails as script will exit immediately there.
+
+local http_code="${curl_response##*|}"
+if [[ "${http_code}" != "200" ]]; then
+	echo "Error: failed to get latest version."
+	exit 1
+fi
+```
+Instead use something like:
+```bash
+local curl_response
+curl_response=$(
+	curl --silent "https://example.com" --write-out '|%{http_code}'
+) || {
+        # This will run as expected.
+	local http_code="${curl_response##*|}"
+	if [[ "${http_code}" != "200" ]]; then
+		echo "Error: failed to get latest version"
+		exit 1
+	fi
+}
+```
+---
