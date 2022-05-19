@@ -32,7 +32,8 @@ For example see [neovim-nightly's build.sh](https://github.com/termux/termux-pac
 - You should call `termux_pkg_upgrade_version` with LATEST_VERSION to write changes to build.sh
 
 ---
-**NOTE**
+**Warning**
+
 Bash *fail-fast* (i.e `set -euo pipefail`) is set, so consider it during error handling.
 
 For example:
