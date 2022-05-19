@@ -36,6 +36,8 @@ For example see [neovim-nightly's build.sh](https://github.com/termux/termux-pac
 
 Bash *fail-fast* (i.e `set -euo pipefail`) is set, so consider it during error handling.
 
+*Read more about bash fail-fast [here](https://dougrichardson.us/notes/fail-fast-bash-scripting.html).*
+
 For example:
 
 Following code won't work as expected:
