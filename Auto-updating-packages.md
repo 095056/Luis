@@ -1,9 +1,14 @@
 # Auto updating
 
-Currently packages hosted on github, gitlab or tracked by repology can be auto updated by default.
-You can use your own update method. See [here](#Overriding).
+Currently packages hosted on github, gitlab or tracked by repology can be auto updated automatically if `TERMUX_PKG_AUTO_UPDATE=true` is set in build.sh
+
+You can use [scripts/bin/check-auto-update](https://github.com/termux/termux-packages/blob/master/scripts/bin/check-auto-update) script to check whether a package can be auto-updated or not.
+
+If automatic updating doesn't work, you may want to override it. See [here](#Overriding).
 
 ## Auto update steps refrence
+
+Default update method uses following functions.
 
 Order specifies function sequence. 0 order specifies utility functions.
 
@@ -25,10 +30,11 @@ different suborders are not executed simultaneously.
 
 ## Overriding
 
-Where none of default methods work, you may override `termux_pkg_auto_update()` function to use your own.
+Where automatic update dosen't work, you may override `termux_pkg_auto_update()` function to write your own steps.
+
 For example see [neovim-nightly's build.sh](https://github.com/termux/termux-packages/blob/3c617f6222405cc51935bb13d557eb0b7b6fe95f/packages/neovim-nightly/build.sh#L27).
 
-- All utility functions are available within `termux_pkg_auto_update()` or functions spawned by it.
+- All functions marked as utility here, are available within `termux_pkg_auto_update()` or functions spawned by it.
 - You should call `termux_pkg_upgrade_version` with LATEST_VERSION to write changes to build.sh
 
 ---
