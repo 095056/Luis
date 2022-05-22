@@ -28,11 +28,11 @@ different suborders are not executed simultaneously.
 
 ## Overriding
 
-Where automatic update dosen't work, you may override `termux_pkg_auto_update()` function to write your own steps.
+If default steps doesn't work, you may override `termux_pkg_auto_update()` function to write your own steps.
 
 For example see [neovim-nightly's build.sh](https://github.com/termux/termux-packages/blob/3c617f6222405cc51935bb13d557eb0b7b6fe95f/packages/neovim-nightly/build.sh#L27).
 
-- All functions marked as utility here, are available within `termux_pkg_auto_update()` or functions spawned by it.
+- All functions marked as utility in [function refrence](#auto-update-steps-refrence), are available within `termux_pkg_auto_update()` or functions spawned by it.
 - You should call `termux_pkg_upgrade_version` with LATEST_VERSION to write changes to build.sh
 
 ---
