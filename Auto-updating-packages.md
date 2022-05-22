@@ -2,9 +2,7 @@
 
 Currently, most of the packages hosted on github, gitlab or tracked by repology can be updated automatically by just setting `TERMUX_PKG_AUTO_UPDATE=true` in build.sh.
 
-You should also use [scripts/bin/check-auto-update](https://github.com/termux/termux-packages/blob/master/scripts/bin/check-auto-update) script to check whether a package can be auto-updated without writing custom steps or not.
-
-If script returns false, you may want to write your own update steps. See [here](#Overriding).
+You should also use [scripts/bin/check-auto-update](https://github.com/termux/termux-packages/blob/master/scripts/bin/check-auto-update) script to check whether a package can be auto-updated without tinkering default steps. If script returns false, you may want to write your own update steps. See [here](#Overriding) for more details.
 
 ## Auto update steps refrence
 
