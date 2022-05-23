@@ -59,6 +59,8 @@ build the package.
 If you need to pass some additional arguments, use the field
 `TERMUX_PKG_EXTRA_CONFIGURE_ARGS`.
 
+Also, see [this](./Auto-updating-packages) to enable automatic updates for package.
+
 ### Table of available package control fields
 
 | Order | Variable | Required | Description |
@@ -101,8 +103,6 @@ If you need to pass some additional arguments, use the field
 | 36    | `TERMUX_PKG_RM_AFTER_INSTALL` | no | List of files that should be removed after installation process. |
 | 37    | `TERMUX_PKG_CONFFILES` | no | A space or newline separated list of package configuration files that should not be overwritten on update. |
 | 38    | `TERMUX_PKG_SERVICE_SCRIPT` | no | Array of even length containing daemon name(s) and script(s) for use with [termux-services/runit](https://wiki.termux.com/wiki/Termux-services). |
-
-Also, see [this]( to enable auto update.
 
 ### Table of available build step overrides
 
