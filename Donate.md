@@ -4,7 +4,9 @@ We are currently using github actions for building and uploading packages to a r
 
 Donating to us will show your appreciation and help support the work (as in development or maintenance) of the various contributors. Even a small amount (for a cup of coffee) is greatly appreciated. Look at the git history and repository statistics ([`termux-packages`](https://github.com/termux/termux-packages/graphs/contributors), [`termux-app`](https://github.com/termux/termux-app/graphs/contributors)) to see all the people that have put time and effort into the packages and apps. Many of these people are outside contributors and not part of the [@termux team](https://github.com/orgs/termux/people), but should be supported as well. You can also check out [`CODEOWNERS`](https://github.com/termux/termux-packages/blob/master/CODEOWNERS) for the `termux-packages` if you want to support the maintenance of specific packages.
 
-- Agnostic Apollo ([@agnostic-apollo](https://github.com/agnostic-apollo)) is today the main developer and maintainer of the android apps. See [Donations.md](https://github.com/agnostic-apollo/agnostic-apollo/blob/main/Donations.md) for how to donate.
+- Our Open Collective ([@opencollective](https://github.com/opencollective)) account at https://opencollective.com/termux whose fiscal hosting (financial management) is done by Open Source Collective (https://www.oscollective.org).
+
+- Agnostic Apollo ([@agnostic-apollo](https://github.com/agnostic-apollo)) is currently the main developer and maintainer of the android apps. See [Donations.md](https://github.com/agnostic-apollo/agnostic-apollo/blob/main/Donations.md) for how to donate.
 
 - Grimler ([@grimler91](https://github.com/grimler91)) makes contributions to all the repositories. Donate ETH to `0x09D42e7518f5bF6eF173c536Ad8e87c973615A9D`, or through [liberapay](https://liberapay.com/grimler).
 
