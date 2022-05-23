@@ -6,6 +6,16 @@ We have an auto-update system which runs 4 times a day.
 - You must use [scripts/bin/check-auto-update](https://github.com/termux/termux-packages/blob/master/scripts/bin/check-auto-update) script to be sure.
 - In case script returns false, you may want to write your own update steps. See [here](#Overriding) for more details.
 
+## Control fields
+
+| S.No. | Variable | Required | Description |
+|-------|----------|----------|-------------|
+| 1    | `TERMUX_PKG_AUTO_UPDATE` | yes  | Whether to enable automatic updates for this package. Currently packages hosted on GitHub, Gitlab or tracked by repology can be auto updated. For using your own method see [here](./Auto-updating-packages). After writing build.sh you can check if package can be auto-updated using script at [scripts/bin/check-auto-update](https://github.com/termux/termux-packages/blob/master/scripts/bin/check-auto-update).|
+| 2    | `TERMUX_PKG_UPDATE_VERSION_REGEXP` | no | Regex to extract version from the new computed version. <br><br> &bull `grep -P` is set, so you can use perl regex.<br><br>**Use case**: any api may return new version as `Release_8.9.0`, but we want only `8.9.0`. So, we can extract it using `\d+\.\d+\.\d+`. |
+| 3    | `TERMUX_PKG_UPDATE_METHOD` | no | Which method to use for auto-update. Can be `github`, `gitlab` or `repology`. By default it is decided on the basis of `TERMUX_PKG_SRCURL` |
+| 4    | `TERMUX_PKG_UPDATE_TAG_TYPE` | no | Whether to get `latest-release-tag` or `newest-tag` (sorted by commit date) if using `github` or `gitlab` method for auto-update. By default if `TERMUX_PKG_SRCURL` ends in `.git` then `newest-tag` is fetched otherwise `latest-release-tag`. |
+| 5    | `TERMUX_GITLAB_API_HOST` | no | Which host to use for gitlab api. Default `gitlab.com` |
+
 ## Auto update steps refrence
 
 Following functions are used by update system.
