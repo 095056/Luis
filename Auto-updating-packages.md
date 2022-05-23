@@ -3,7 +3,27 @@
 We have an auto-update system which runs 4 times a day.
 
 - Currently, most of the packages hosted on github, gitlab or tracked by repology can be updated automatically by just setting `TERMUX_PKG_AUTO_UPDATE=true` in build.sh.
-- You must use [scripts/bin/check-auto-update](https://github.com/termux/termux-packages/blob/master/scripts/bin/check-auto-update) script to be sure.
+
+Use [scripts/bin/check-auto-update](https://github.com/termux/termux-packages/blob/master/scripts/bin/check-auto-update) script to check and enable automatic updates.
+```
+❯ ./scripts/bin/check-auto-update -h
+
+Usage: check-auto-update [-h|--help] [-s|--silent] [--enable] PACKAGE_DIR
+
+Check if packages can be auto-updated and optionally enable if so.
+
+NOTE: You should not trust this script if
+        - package uses commit hashes for versioning (eg. 'tsu') or
+        - TERMUX_PKG_VERSION is defined by us and not upstream, i.e we use some arbitrary version.
+          For eg. when only getting source files based on commit hash.
+
+Options:
+-h --help Show this help message.
+--enable Enable auto-update for package if check was successful. (writes TERMUX_PKG_AUTO_UPDATE=true to build.sh)
+-s --silent Do not print anything to stdout.
+
+Example: check-auto-update x11-packages/xorg-server
+```
 - In case script returns false, you may want to write your own update steps. See [here](#Overriding) for more details.
 
 ## Control fields
