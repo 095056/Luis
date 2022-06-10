@@ -116,6 +116,16 @@ Updated four times per day.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://termux.sahilister.in/apt/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://termux.sahilister.in/apt/termux-x11 x11 main`     |
 
+#### Mirrors by Utermux
+
+Hosted in San Jose, California, USA. Updated daily.
+
+| Repository                                             | sources.list entry                                               |
+|:-------------------------------------------------------|:-----------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirrors.utermux.dev/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.utermux.dev/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.utermux.dev/termux/termux-x11 x11 main`     |
+
 ### Mirrors hosted in India
 
 Mirrors for users in India for better ping and download speed.
