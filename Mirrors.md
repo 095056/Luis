@@ -126,6 +126,16 @@ Hosted in San Jose, California, USA. Updated daily.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.utermux.dev/termux/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.utermux.dev/termux/termux-x11 x11 main`     |
 
+#### Mirrors by [CyberRex0](https://github.com/cyberrex0)
+
+Hosted in Japan. Updated every 6 hours.
+
+| Repository                                             | sources.list entry                                               |
+|:-------------------------------------------------------|:-----------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirrors.cbrx.io/apt/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.cbrx.io/apt/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.cbrx.io/apt/termux/termux-x11 x11 main`     |
+
 ### Mirrors hosted in India
 
 Mirrors for users in India for better ping and download speed.
