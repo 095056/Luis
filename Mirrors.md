@@ -271,6 +271,14 @@ More info at https://mirrors.cqupt.edu.cn/.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-x11 x11 main`     |
 
+#### Mirrors by [Peking University](https://www.pku.edu.cn/)
+
+| Repository                                             | sources.list entry                                                    |
+|:-------------------------------------------------------|:----------------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirrors.ustc.edu.cn/termux/apt/termux-main/ stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.ustc.edu.cn/termux/apt/termux-root/ root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.ustc.edu.cn/termux/apt/termux-x11/ x11 main`     |
+
 #### Mirrors by [University of Science and Technology of China, Linux User Group](https://lug.ustc.edu.cn/)
 
 | Repository                                             | sources.list entry                                                    |
