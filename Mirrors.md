@@ -150,6 +150,14 @@ This mirror is hosted in India.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://packages.nscdn.top/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://packages.nscdn.top/termux-x11 x11 main`     |
 
+#### Mirrors by [National Research Nuclear University - Moscow Engineering Physics Institute](https://mephi.ru/)
+
+| Repository                                             | sources.list entry                                  |
+|:-------------------------------------------------------|:----------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb http://mirror.mephi.ru/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb http://mirror.mephi.ru/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb http://mirror.mephi.ru/termux/termux-x11 x11 main`     |
+
 ### Mirrors hosted in Iran
 
 Mirrors for users in Iran for better ping and download speed.
