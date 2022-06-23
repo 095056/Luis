@@ -162,6 +162,16 @@ Mirrors for users in Russia for better ping and download speed.
 | [Root](https://github.com/termux/termux-root-packages) | `deb http://mirror.mephi.ru/termux/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb http://mirror.mephi.ru/termux/termux-x11 x11 main`     |
 
+#### Mirrors by [dmitry](mailto:dmitry@shishkin.email)
+
+Hosted in Nizhny Novgorod, Russia, updated four times per day.
+
+| Repository                                             | sources.list entry                                  |
+|:-------------------------------------------------------|:----------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirror.surf/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.surf/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.surf/termux/termux-x11 x11 main`     |
+
 ### Mirrors hosted in Iran
 
 Mirrors for users in Iran for better ping and download speed.
