@@ -88,7 +88,10 @@ Updated four times per day.
 
 #### Mirrors by [mwt](https://github.com/mwt)
 
-Hosted in New Jersey, USA. Updated four times per day.
+Hosted in East/West coast USA and Europe(via cdn). Updated four times per day.
+
+Check which origin is serving you by checking:
+https://mirror.mwt.me/mirror-heartbeat.txt
 
 | Repository                                             | sources.list entry                                  |
 |:-------------------------------------------------------|:----------------------------------------------------|
