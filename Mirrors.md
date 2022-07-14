@@ -331,3 +331,11 @@ More info at https://mirrors.aliyun.com/about.
 | [Main](https://github.com/termux/termux-packages)      | `deb https://mirrors.aliyun.com/termux/termux-packages-24 stable main`      |
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.aliyun.com/termux/termux-root-packages-24 root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.aliyun.com/termux/x11-packages x11 main`               |
+
+#### Mirrors by [ISCAS - Institute of Software, Chinese Academy of Sciences](https://isrc.iscas.ac.cn/)
+
+| Repository                                             | sources.list entry                                                          |
+|:-------------------------------------------------------|:----------------------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirror.iscas.ac.cn/termux/apt/termux-main/ stable main`        |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.iscas.ac.cn/termux/apt/termux-root/ root stable`        |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.iscas.ac.cn/termux/apt/termux-x11/ x11 main`            |
