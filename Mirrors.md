@@ -24,17 +24,17 @@ A default Termux packages repository and content seeder for available mirrors. S
 
 | Repository                                             | sources.list entry                                            |
 |:-------------------------------------------------------|:--------------------------------------------------------------|
-| [Main](https://github.com/termux/termux-packages)      | `deb https://packages.termux.org/apt/termux-main stable main` |
-| [Root](https://github.com/termux/termux-root-packages) | `deb https://packages.termux.org/apt/termux-root root stable` |
-| [X11](https://github.com/termux/x11-packages)          | `deb https://packages.termux.org/apt/termux-x11 x11 main`     |
+| [Main](https://github.com/termux/termux-packages)      | `deb https://packages.termux.dev/apt/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://packages.termux.dev/apt/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://packages.termux.dev/apt/termux-x11 x11 main`     |
 
 CloudFlare CDN endpoint. Fast and stable, but has limits on uploads (100MB max per POST in "free" plan) which makes impossible to use it for submitting packages via GitHub Actions + Aptly REST API.
 
 | Repository                                             | sources.list entry                                               |
 |:-------------------------------------------------------|:-----------------------------------------------------------------|
-| [Main](https://github.com/termux/termux-packages)      | `deb https://packages-cf.termux.org/apt/termux-main stable main` |
-| [Root](https://github.com/termux/termux-root-packages) | `deb https://packages-cf.termux.org/apt/termux-root root stable` |
-| [X11](https://github.com/termux/x11-packages)          | `deb https://packages-cf.termux.org/apt/termux-x11 x11 main`     |
+| [Main](https://github.com/termux/termux-packages)      | `deb https://packages-cf.termux.dev/apt/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://packages-cf.termux.dev/apt/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://packages-cf.termux.dev/apt/termux-x11 x11 main`     |
 
 Please don't use our host in your forks. Set up your own repository. Otherwise consider to contribute to our project instead of maintaining the custom fork.
 
