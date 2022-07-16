@@ -123,6 +123,8 @@ Updated four times per day.
 
 Hosted in San Jose, California, USA. Updated daily.
 
+More info at https://github.com/UtermuxBlog/Issue.
+
 | Repository                                             | sources.list entry                                               |
 |:-------------------------------------------------------|:-----------------------------------------------------------------|
 | [Main](https://github.com/termux/termux-packages)      | `deb https://mirrors.utermux.dev/termux/termux-main stable main` |
