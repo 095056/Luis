@@ -89,7 +89,7 @@ Also, see [this](./Auto-updating-packages) to enable automatic updates for packa
 | 22    | `TERMUX_PKG_ESSENTIAL` | no | Whether to treat package as essential which cannot be uninstalled in usual way. Default is **false**. |
 | 23    | `TERMUX_PKG_NO_STATICSPLIT` | no | Whether to split static libraries into a subpackage. Default is **false**. |
 | 24    | `TERMUX_PKG_STATICSPLIT_EXTRA_PATTERNS` | no | Extra patterns to include in static package. It must be relative to `$TERMUX_PREFIX`. For example: to include `*.h` files from `$TERMUX_PREFIX/lib`, specify `lib/*.h`. You can use bash globstar patterns to recurse sub-directories. |
-| 25    | `TERMUX_PKG_IS_HASKELL_LIB` | no | Whether the package is haskell library. Default `false` |
+| 25    | `TERMUX_PKG_IS_HASKELL_LIB` | no | Whether the package is haskell library. Default is `false`. |
 | 26    | `TERMUX_PKG_BUILD_IN_SRC` | no | Whether to perform build in a source code directory. Default is **false**. |
 | 27    | `TERMUX_PKG_HAS_DEBUG` | no | Whether debug builds are possible for package. Default is **true**. |
 | 28    | `TERMUX_PKG_PLATFORM_INDEPENDENT` | no | Whether to treat package as platform independent. Default is **false**. |
