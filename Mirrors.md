@@ -115,9 +115,9 @@ Updated four times per day.
 
 | Repository                                             | sources.list entry                                             |
 |:-------------------------------------------------------|:---------------------------------------------------------------|
-| [Main](https://github.com/termux/termux-packages)      | `deb https://termux.sahilister.in/apt/termux-main stable main` |
-| [Root](https://github.com/termux/termux-root-packages) | `deb https://termux.sahilister.in/apt/termux-root root stable` |
-| [X11](https://github.com/termux/x11-packages)          | `deb https://termux.sahilister.in/apt/termux-x11 x11 main`     |
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirrors.sahilister.in/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.sahilister.in/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.sahilister.in/termux/termux-x11 x11 main`     |
 
 #### Mirrors by [Utermux](https://github.com/utermuxblog)
 
