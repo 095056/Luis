@@ -12,7 +12,11 @@ our organisation on [Github](https://github.com): https://github.com/termux.
 
 We maintain a mirror of our projects on [Gitlab](https://gitlab.com/termux-mirror).
 
-*Support of Android OS versions 5.x - 6.x is discontinued as of 01.01.2020!*
+## Android 5 and 6
+
+Package support on Android OS versions 5.x - 6.x is discontinued as of 01.01.2020.
+
+@Agnostic-apollo re-added support for android 5/6 to termux-app starting from termux-app version 0.119 (not yet released at the time of writing), see [termux-app/wiki/Termux-on-android-5-or-6](https://github.com/termux/termux-app/wiki/Termux-on-android-5-or-6).
 
 ### Application and add-ons
 
