@@ -154,9 +154,9 @@ This mirror is hosted in India, Updated every 53 minutes.
 
 | Repository                                             | sources.list entry                                       |
 |:-------------------------------------------------------|:---------------------------------------------------------|
-| [Main](https://github.com/termux/termux-packages)      | `deb https://mirror.albony.xyz/termux-main stable main` |
-| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.albony.xyz/termux-root root stable` |
-| [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.albony.xyz/termux-x11 x11 main`     |
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirror.albony.xyz/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.albony.xyz/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.albony.xyz/termux/termux-x11 x11 main`     |
 
 ## Mirrors hosted in Russia
 
