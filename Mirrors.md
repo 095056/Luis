@@ -126,7 +126,7 @@ Hosted in Japan. Updated every 6 hours.
 
 #### Mirrors by [LumitoLuma](https://www.lumito.net)
 
-Hosted in UK, Updated every an hour.
+Hosted in Germany, Updated every an hour.
 
 | Repository                                             | sources.list entry                                               |
 |:-------------------------------------------------------|:-----------------------------------------------------------------|
