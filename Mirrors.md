@@ -68,6 +68,16 @@ Updated once per 4 hours.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://termux.astra.in.ua/apt/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://termux.astra.in.ua/apt/termux-x11 x11 main`     |
 
+#### Mirrors by [DomaiNesia](https://www.domainesia.com/) - Cloud Web Hosting Indonesia Terbaik
+
+Hosted in Jakarta, Indonesia. Updated four times per day.
+
+| Repository                                             | sources.list entry                                                             |
+|:-------------------------------------------------------|:-------------------------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://linux.domainesia.com/applications/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://linux.domainesia.com/applications/termux/root root stable`        |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://linux.domainesia.com/applications/termux/x11 x11 main`            |
+
 #### Mirrors by [Grimler](https://github.com/grimler91)
 
 Mirrored from the main node, updated fairly frequently during "office
@@ -102,6 +112,16 @@ https://mirror.mwt.me/mirror-heartbeat.txt
 | [Main](https://github.com/termux/termux-packages)      | `deb https://mirror.mwt.me/termux/main stable main` |
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.mwt.me/termux/root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.mwt.me/termux/x11 x11 main`     |
+
+#### Mirrors by [Nevacloud](https://nevacloud.com/) - Simplified Cloud Servers for Developers
+
+Hosted in Jakarta, Indonesia. Updated four times per day.
+
+| Repository                                             | sources.list entry                                                             |
+|:-------------------------------------------------------|:-------------------------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirror.nevacloud.com/applications/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.nevacloud.com/applications/termux/root root stable`        |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.nevacloud.com/applications/termux/x11 x11 main`            |
 
 #### Mirrors by [Purdue University Linux Users Group](https://plug-mirror.rcac.purdue.edu/info.html)
 
