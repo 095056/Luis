@@ -20,16 +20,25 @@ Run `apt edit-sources`, comment out existing URLs and add line for picked reposi
 
 ## Primary host
 
-After Fosshost was decommissioned, the grimler.se mirror is used as main repo.
+A default Termux packages repository and content seeder for available mirrors. Server is provided for free by [FossHost](https://fosshost.org/) - a hosting provider for open source communities.
 
-| Repository                                             | sources.list entry                                      |
-|:-------------------------------------------------------|:--------------------------------------------------------|
-| [Main](https://github.com/termux/termux-packages)      | `deb https://grimler.se/termux/termux-main stable main` |
-| [Root](https://github.com/termux/termux-root-packages) | `deb https://grimler.se/termux/termux-root root stable` |
-| [X11](https://github.com/termux/x11-packages)          | `deb https://grimler.se/termux/termux-x11 x11 main`     |
+**Server is IPv6-only and uses IPv6-to-IPv4 proxy, also provided by FossHost. It is quite slow but we don't have anything better at the moment. Hopefully you understand what's going on. If slow download speed bothers you, please use mirror instead.**
 
+| Repository                                             | sources.list entry                                            |
+|:-------------------------------------------------------|:--------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://packages.termux.dev/apt/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://packages.termux.dev/apt/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://packages.termux.dev/apt/termux-x11 x11 main`     |
 
-Please don't use our host in your forks. Set up your own repository. Otherwise consider to contribute to our project instead of maintaining the custom fork.
+CloudFlare CDN endpoint. Fast and stable, but has limits on uploads 100MB max per POST in "free" plan) which makes impossible to use it or submitting packages via GitHub Actions + Aptly REST API.
+
+| Repository                                             | sources.list entry                                               |
+|:-------------------------------------------------------|:-----------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://packages-cf.termux.dev/apt/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://packages-cf.termux.dev/apt/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://packages-cf.termux.dev/apt/termux-x11 x11 main`     |
+
+Please don't use our host in termux forks. Set up your own repository. Otherwise consider to contribute to our project instead of maintaining the custom fork.
 
 ## Mirrors
 
@@ -58,6 +67,18 @@ Updated once per 4 hours.
 | [Main](https://github.com/termux/termux-packages)      | `deb https://termux.astra.in.ua/apt/termux-main stable main` |
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://termux.astra.in.ua/apt/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://termux.astra.in.ua/apt/termux-x11 x11 main`     |
+
+#### Mirrors by [Grimler](https://github.com/grimler91)
+
+Mirrored from the main node, updated fairly frequently during "office
+hours"
+
+| Repository                                             | sources.list entry                                      |
+|:-------------------------------------------------------|:--------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://grimler.se/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://grimler.se/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://grimler.se/termux/termux-x11 x11 main`     |
+
 
 #### Mirrors by [Librehat](https://github.com/librehat)
 

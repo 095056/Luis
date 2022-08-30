@@ -39,25 +39,25 @@ set proxy_user        user
 set proxy_password    password
 
 # Main Termux repository
-deb-aarch64           https://grimler.se/termux/termux-main stable main
-deb-arm               https://grimler.se/termux/termux-main stable main
-deb-i686              https://grimler.se/termux/termux-main stable main
-deb-x86_64            https://grimler.se/termux/termux-main stable main
-clean                 https://grimler.se/termux/termux-main
+deb-aarch64           https://packages.termux.dev/apt/termux-main stable main
+deb-arm               https://packages.termux.dev/apt/termux-main stable main
+deb-i686              https://packages.termux.dev/apt/termux-main stable main
+deb-x86_64            https://packages.termux.dev/apt/termux-main stable main
+clean                 https://packages.termux.dev/apt/termux-main
 
 # root repository
-deb-aarch64           https://grimler.se/termux/termux-root root stable
-deb-arm               https://grimler.se/termux/termux-root root stable
-deb-i686              https://grimler.se/termux/termux-root root stable
-deb-x86_64            https://grimler.se/termux/termux-root root stable
-clean                 https://grimler.se/termux/termux-root
+deb-aarch64           https://packages.termux.dev/apt/termux-root root stable
+deb-arm               https://packages.termux.dev/apt/termux-root root stable
+deb-i686              https://packages.termux.dev/apt/termux-root root stable
+deb-x86_64            https://packages.termux.dev/apt/termux-root root stable
+clean                 https://packages.termux.dev/apt/termux-root
 
 # x11 repository
-deb-aarch64           https://grimler.se/termux/termux-x11 x11 main
-deb-arm               https://grimler.se/termux/termux-x11 x11 main
-deb-i686              https://grimler.se/termux/termux-x11 x11 main
-deb-x86_64            https://grimler.se/termux/termux-x11 x11 main
-clean                 https://grimler.se/termux/termux-x11
+deb-aarch64           https://packages.termux.dev/apt/termux-x11 x11 main
+deb-arm               https://packages.termux.dev/apt/termux-x11 x11 main
+deb-i686              https://packages.termux.dev/apt/termux-x11 x11 main
+deb-x86_64            https://packages.termux.dev/apt/termux-x11 x11 main
+clean                 https://packages.termux.dev/apt/termux-x11
 ```
 
 To start the sync you then run `apt-mirror /path/to/termux-config-from-above.list`.
@@ -68,9 +68,9 @@ Aptly is convenient when dealing with packages and multiple repositories. Howeve
 
 ```
 gpg --no-default-keyring --keyring trustedkeys.gpg --recv-keys 5A897D96E57CF20C B0076E490B71616B
-aptly mirror create termux-main https://grimler.se/termux/termux-main stable
-aptly mirror create termux-root https://grimler.se/termux/termux-root root
-aptly mirror create termux-x11 https://grimler.se/termux/termux-x11 x11
+aptly mirror create termux-main https://packages.termux.dev/apt/termux-main stable
+aptly mirror create termux-root https://packages.termux.dev/apt/termux-root root
+aptly mirror create termux-x11 https://packages.termux.dev/apt/termux-x11 x11
 
 aptly mirror update termux-main
 aptly mirror update termux-root
