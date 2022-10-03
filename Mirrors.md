@@ -155,6 +155,16 @@ More info at https://github.com/UtermuxBlog/Issue.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.utermux.dev/termux/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.utermux.dev/termux/termux-x11 x11 main`     |
 
+#### Mirrors by [vern.cc](https://vern.cc)
+
+Hosted in New York. Updated once per day.
+
+| Repository                                             | sources.list entry                                          |
+|:-------------------------------------------------------|:------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirror.vern.cc/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.vern.cc/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.vern.cc/termux/termux-x11 x11 main`     |
+
 #### Mirrors by [CyberRex0](https://github.com/cyberrex0)
 
 Hosted in Japan. Updated every 6 hours.
