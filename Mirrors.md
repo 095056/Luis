@@ -175,6 +175,16 @@ Hosted in Japan. Updated every 6 hours.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.cbrx.io/apt/termux/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.cbrx.io/apt/termux/termux-x11 x11 main`     |
 
+#### Mirrors by [Exosunandnet](https://github.com/Exosunandnet)
+
+Hosted in Spain. Updated every 6 hours. 1Gb/s and is IPv4 only.  
+
+| Repository                                             | sources.list entry                                           |
+|:-------------------------------------------------------|:-------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://termux.3san.dev/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://termux.3san.dev/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://termux.3san.dev/termux/termux-x11 x11 main`     |
+
 #### Mirrors by [LumitoLuma](https://www.lumito.net)
 
 Hosted in Germany, Updated every an hour.
