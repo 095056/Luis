@@ -16,6 +16,8 @@ or to sync all except the termux-main-21 repo (this repo is optional to sync):
 RSYNC_PASSWORD=termuxmirror rsync -a --delete --exclude termux-main-21 rsync@grimler.se::termux termux
 ```
 
+If feasible please allow for rsync on your mirror as well, this allows us to use [mirrorbits](https://github.com/etix/mirrorbits/) to track the status of mirrors (`rsync -r -L ...` is used under the hood). See [https://mirror.termux.dev/?mirrorstats](https://mirror.termux.dev/?mirrorstats) for currently available mirrors.  
+
 ## Mirroring with apt-mirror
 
 apt-mirror is a perl script and has a couple of dependencies that need to be installed through cpan or similar. Once installed a config file is needed to select which repos to sync. Here's an example config file that syncs all of termux's repos into `/data/data/com.termux/files/home/termux`:
