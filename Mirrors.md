@@ -133,6 +133,16 @@ Hosted in Indiana, USA. Updated four times per day.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://plug-mirror.rcac.purdue.edu/termux/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://plug-mirror.rcac.purdue.edu/termux/termux-x11 x11 main`     |
 
+#### Mirrors by [Computer Science Club of the University of Waterloo](https://csclub.uwaterloo.ca)
+
+Hosted in Canada, Ontario, Waterloo.
+
+| Repository                                             | sources.list entry                                                       |
+|:-------------------------------------------------------|:-------------------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirror.csclub.uwaterloo.ca/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.csclub.uwaterloo.ca/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.csclub.uwaterloo.ca/termux/termux-x11 x11 main`     |
+
 #### Mirrors by [Sahilister](https://github.com/sahilister)
 
 Updated four times per day.
@@ -194,6 +204,7 @@ Hosted in Germany, Updated every an hour.
 | [Main](https://github.com/termux/termux-packages)      | `deb https://cdn.lumito.net/termux/termux-main stable main` |
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://cdn.lumito.net/termux/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://cdn.lumito.net/termux/termux-x11 x11 main`     |
+
 
 ### Mirrors hosted in India
 
