@@ -135,7 +135,7 @@ Hosted in Indiana, USA. Updated four times per day.
 
 #### Mirrors by [Computer Science Club of the University of Waterloo](https://csclub.uwaterloo.ca)
 
-Hosted in Canada, Ontario, Waterloo.
+Hosted in Canada, Ontario, Waterloo. Updated twice times per day.
 
 | Repository                                             | sources.list entry                                                       |
 |:-------------------------------------------------------|:-------------------------------------------------------------------------|
