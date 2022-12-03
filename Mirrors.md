@@ -175,6 +175,16 @@ Hosted in New York. Updated once per day.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.vern.cc/termux/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.vern.cc/termux/termux-x11 x11 main`     |
 
+#### Mirrors by [Fremont Cabal Internet Exchange](https://fcix.net)
+
+Hosted in Fremont, California, USA. Updated every 3 hours. 10Gbps and support IPV4/IPV6.
+
+| Repository                                             | sources.list entry                                          |
+|:-------------------------------------------------------|:------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirror.fcix.net/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.fcix.net/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.fcix.net/termux/termux-x11 x11 main`     |
+
 #### Mirrors by [CyberRex0](https://github.com/cyberrex0)
 
 Hosted in Japan. Updated every 6 hours.
