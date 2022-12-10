@@ -4,19 +4,27 @@ This page contains suggestions on how to mirror/sync the official repositories, 
 
 ## Mirroring with rsync
 
-Per default the repos termux-main, termux-x11, termux-root and termux-main-21 are synced. For personal use it might be sufficient to mirror only the termux-main repo, and in that case you can use the `--exclude` flag to ignore the other repos. Authentication is done with username rsync and password termuxmirror, so to sync all mirrors into a folder `termux` in the local directory, do:
+Per default the repos termux-main, termux-x11, termux-root and termux-main-21 are synced. For personal use it might be sufficient to mirror only the termux-main repo, and in that case you can use the `--exclude` flag to ignore the other repos.
+
+To sync all the repos in packages.termux.dev into a folder `termux` in the current directory do:
 
 ```
-RSYNC_PASSWORD=termuxmirror rsync -a --delete rsync@grimler.se::termux termux
+rsync -a --delete rsync://packagers.termux.dev termux
 ```
 
 or to sync all except the termux-main-21 repo (this repo is optional to sync):
 
 ```
-RSYNC_PASSWORD=termuxmirror rsync -a --delete --exclude termux-main-21 rsync@grimler.se::termux termux
+rsync -a --delete --exclude termux-main-21 rsync://packagers.termux.dev termux
 ```
 
-If feasible please allow for rsync on your mirror as well, this allows us to use [mirrorbits](https://github.com/etix/mirrorbits/) to track the status of mirrors (`rsync -r -L ...` is used under the hood). See [https://mirror.termux.dev/?mirrorstats](https://mirror.termux.dev/?mirrorstats) for currently available mirrors.  
+If feasible please allow for rsync on your mirror as well, this allows us to use [mirrorbits](https://github.com/etix/mirrorbits/) to track the status of mirrors (`rsync -r -L ...` is used under the hood). See [https://mirror.termux.dev/?mirrorstats](https://mirror.termux.dev/?mirrorstats) for currently available mirror.s
+
+If you cannot access packages.termux.dev for some reason then you can also sync from the grimler.se mirror. Authentication is done with username rsync and password termuxmirror, so to sync all mirrors run:
+
+```
+RSYNC_PASSWORD=termuxmirror rsync -a --delete rsync@grimler.se::termux termux
+```
 
 ## Mirroring with apt-mirror
 
