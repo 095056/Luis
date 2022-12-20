@@ -9,13 +9,13 @@ Per default the repos termux-main, termux-x11, termux-root and termux-main-21 ar
 To sync all the repos in packages.termux.dev into a folder `termux` in the current directory do:
 
 ```
-rsync -a --delete rsync://packages.termux.dev termux
+rsync -a --delete rsync://packages.termux.dev/ termux
 ```
 
 or to sync all except the termux-main-21 repo (this repo is optional to sync):
 
 ```
-rsync -a --delete --exclude termux-main-21 rsync://packages.termux.dev termux
+rsync -a --delete --exclude termux-main-21 rsync://packages.termux.dev/ termux
 ```
 
 If feasible please allow for rsync on your mirror as well, this allows us to use [mirrorbits](https://github.com/etix/mirrorbits/) to track the status of mirrors (`rsync -r -L ...` is used under the hood). See [https://mirror.termux.dev/?mirrorstats](https://mirror.termux.dev/?mirrorstats) for currently available mirror.s
