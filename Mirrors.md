@@ -1,8 +1,8 @@
 # Info for mirror maintainers
 
-On 10th of December 2022 we moved the main termux repo from Fosshost to another vps provider. After the move packages.termux.dev is accessible over both ipv4 and ipv6, and rsync can be used to mirror the main repos. The page [How to mirror the official repositories](https://github.com/termux/termux-packages/wiki/How-to-mirror-the-official-repositories) has suggestions for how to mirror our repositories.
+On `10th` of December `2022` we moved the primary termux packages repository (https://packages.termux.dev) from FossHost to [Hetzner](https://www.hetzner.com/cloud). Now the repository is accessible over both IPv4 and IPv6, and `rsync` can be used to mirror the main repository. The page [How to mirror the official repositories](https://github.com/termux/termux-packages/wiki/How-to-mirror-the-official-repositories) has suggestions for how to mirror our repositories.
 
-unstable-packages, game-packages and science-packages have been merged into the main (termux-packages) repository and no longer have to be synced.
+The `unstable-packages`, `game-packages` and `science-packages` channels have been merged into the `termux-main` channel and do not need to be synced any longer.
 
 # Repositories and Mirrors
 
