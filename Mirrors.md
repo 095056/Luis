@@ -211,6 +211,15 @@ Hosted in Germany, Updated every an hour.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://cdn.lumito.net/termux/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://cdn.lumito.net/termux/termux-x11 x11 main`     |
 
+#### Mirrors by [Dev-Nergis](https://github.com/Dev-Nergis)
+
+Hosted in Republic of Korea, Updated every 6 hours.
+
+| Repository                                             | sources.list entry                                               |
+|:-------------------------------------------------------|:-----------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirror.textcord.xyz/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.textcord.xyz/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.textcord.xyz/termux/termux-x11 x11 main`     |
 
 ### Mirrors hosted in India
 
