@@ -213,7 +213,7 @@ Hosted in Germany, Updated every an hour.
 
 #### Mirrors by [Dev-Nergis](https://github.com/Dev-Nergis)
 
-Hosted in Republic of Korea, Updated every 6 hours.
+Hosted in Seoul,Korea. Updated every 6 hours. 1Gb/s and support IPV4/IPV6.
 
 | Repository                                             | sources.list entry                                               |
 |:-------------------------------------------------------|:-----------------------------------------------------------------|
