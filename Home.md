@@ -39,9 +39,9 @@ Thus, application and add-ons obtained from different source can't be mixed.
 Package definitions, build scripts and patches are split between multiple repositories
 depending on their functionality.
 
-* [termux-packages](https://github.com/termux/termux-packages): main set of packages and build environment.
-* [termux-root-packages](https://github.com/termux/termux-root-packages): set of packages requiring device to be rooted.
-* [x11-packages](https://github.com/termux/x11-packages): set of packages for X Window System.
+* [packages/](https://github.com/termux/termux-packages/tree/master/packages): main set of packages and build environment.
+* [root-packages/](https://github.com/termux/termux-packages/tree/master/root-packages): set of packages requiring device to be rooted.
+* [x11-packages/](https://github.com/termux/termux-packages/tree/master/x11-packages): set of packages for X Window System.
 
 ### Package-specific repositories
 
