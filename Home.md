@@ -64,7 +64,7 @@ Packages:
 
 Other:
 * [termux.github.io](https://github.com/termux/termux.github.io): Termux home page website.
-* [termux-packaging](https://github.com/termux/termux-packaging): utilities to work with packages and generate bootstrap archives.
+* [Termux's fork of upload-release-action](https://github.com/termux/upload-release-action): Used for uploading bootstrap archives to GitHub release
 
 ### External Resources Links
 
