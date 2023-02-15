@@ -54,6 +54,16 @@ Updated four times per day.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://termux.mentality.rip/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://termux.mentality.rip/termux-x11 x11 main`     |
 
+#### Mirrors by [amocrenco](https://github.com/amocrenco)
+
+Hosted in Sydney, Australia.
+
+| Repository                                             | sources.list entry                                                    |
+|:-------------------------------------------------------|:----------------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://md.mirrors.hacktegic.com/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://md.mirrors.hacktegic.com/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://md.mirrors.hacktegic.com/termux/termux-x11 x11 main`     |
+
 #### Mirrors by [Astra ISP](https://astra.in.ua/)
 
 Updated once per 4 hours.
@@ -63,6 +73,16 @@ Updated once per 4 hours.
 | [Main](https://github.com/termux/termux-packages)      | `deb https://termux.astra.in.ua/apt/termux-main stable main` |
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://termux.astra.in.ua/apt/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://termux.astra.in.ua/apt/termux-x11 x11 main`     |
+
+#### Mirrors by [Dev-Nergis](https://github.com/Dev-Nergis)
+
+Hosted in Seoul, South Korea. Updated every 6 hours. 1Gb/s and support IPV4/IPV6.
+
+| Repository                                             | sources.list entry                                               |
+|:-------------------------------------------------------|:-----------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirror.textcord.xyz/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.textcord.xyz/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.textcord.xyz/termux/termux-x11 x11 main`     |
 
 #### Mirrors by [DomaiNesia](https://www.domainesia.com/) - Cloud Web Hosting Indonesia Terbaik
 
@@ -211,15 +231,15 @@ Hosted in Germany, Updated every an hour.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://cdn.lumito.net/termux/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://cdn.lumito.net/termux/termux-x11 x11 main`     |
 
-#### Mirrors by [Dev-Nergis](https://github.com/Dev-Nergis)
+#### Mirrors by [wale](https://github.com/wale)
 
-Hosted in Seoul,Korea. Updated every 6 hours. 1Gb/s and support IPV4/IPV6.
+Hosted in Sydney, Australia.
 
-| Repository                                             | sources.list entry                                               |
-|:-------------------------------------------------------|:-----------------------------------------------------------------|
-| [Main](https://github.com/termux/termux-packages)      | `deb https://mirror.textcord.xyz/termux/termux-main stable main` |
-| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.textcord.xyz/termux/termux-root root stable` |
-| [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.textcord.xyz/termux/termux-x11 x11 main`     |
+| Repository                                             | sources.list entry                                              |
+|:-------------------------------------------------------|:----------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirrors.wale.id.au/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.wale.id.au/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.wale.id.au/termux/termux-x11 x11 main`     |
 
 ### Mirrors hosted in India
 
