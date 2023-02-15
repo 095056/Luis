@@ -56,7 +56,7 @@ Updated four times per day.
 
 #### Mirrors by [amocrenco](https://github.com/amocrenco)
 
-Hosted in Sydney, Australia.
+Hosted in Chisinau, Moldova. Updated once per 6 hours. 10Gb/s and support IPV4/IPV6.
 
 | Repository                                             | sources.list entry                                                    |
 |:-------------------------------------------------------|:----------------------------------------------------------------------|
