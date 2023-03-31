@@ -241,6 +241,18 @@ Hosted in Sydney, Australia.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.wale.id.au/termux/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.wale.id.au/termux/termux-x11 x11 main`     |
 
+#### Mirrors by [FAU](https://www.fau.de)
+
+Hosted in Erlangen, Germany. Updated every 6 hours. 25Gbps and support IPV4/IPV6.
+
+More info at https://ftp.fau.de/about.html .
+
+| Repository                                             | sources.list entry                                              |
+|:-------------------------------------------------------|:----------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://ftp.fau.de/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://ftp.fau.de/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://ftp.fau.de/termux/termux-x11 x11 main`     |
+
 ### Mirrors hosted in India
 
 Mirrors for users in India for better ping and download speed.
