@@ -4,6 +4,10 @@
   compliant. They have hardcoded paths like `/etc`, `/bin`, `/usr/share`, `/tmp`
   which are not available in Termux at standard locations but only in `$TERMUX_PREFIX`.
 
+- `tmpnam()` function may not respect `TMPDIR` variable and use hardcoded path to `/tmp` directory on
+  some Android builds. This was changed by [commit 439ebbd3](https://cs.android.com/android/_/android/platform/bionic/+/439ebbd3492ad3a8b8398fa80b0860baeb50a40e)
+  in Bionic libc but some new devices still use the old `tmpnam()` implementation.
+
 - The Android bionic libc does not have iconv and gettext/libintl functionality
   built in. A `libandroid-support` package contains these and may be used by all
   packages.
