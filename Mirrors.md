@@ -40,7 +40,7 @@ Please don't use our host in termux forks. Set up your own repository. Otherwise
 
 ## Mirrors
 
-There are listed all known Termux mirrors. If you host a one but didn't find it in the list, please open the issue in https://github.com/termux/termux-packages/issues.
+There are listed all known Termux mirrors. If you hosted one but didn't find it in the list, please open the issue in https://github.com/termux/termux-tools/issues.
 
 ### Mirrors that are part of mirror rotation in pkg
 
