@@ -103,6 +103,11 @@ Also, see [this](./Auto-updating-packages) to enable automatic updates for packa
 | 36    | `TERMUX_PKG_RM_AFTER_INSTALL` | no | List of files that should be removed after installation process. |
 | 37    | `TERMUX_PKG_CONFFILES` | no | A space or newline separated list of package configuration files that should not be overwritten on update. |
 | 38    | `TERMUX_PKG_SERVICE_SCRIPT` | no | Array of even length containing daemon name(s) and script(s) for use with [termux-services/runit](https://wiki.termux.com/wiki/Termux-services). |
+| 39    | `TERMUX_PKG_GO_USE_OLDER` | no | Use the older supported release of Go (1.19.7). Default is **false**. |
+| 40    | `TERMUX_PKG_NO_STRIP` | no | Disable stripping binaries. Default is **false**. |
+| 41    | `TERMUX_PKG_NO_SHEBANG_FIX` | no | Skip fixing shebang accordingly to $TERMUX_PREFIX. Default is **false**. |
+| 42    | `TERMUX_PKG_NO_ELF_CLEANER` | no | Disable running of termux-elf-cleaner on built binaries. Default is **false**. |
+| 43    | `TERMUX_PKG_NO_STRIP` | no | Disable stripping binaries. Default is **false**. |
 
 ### Table of available build step overrides
 
