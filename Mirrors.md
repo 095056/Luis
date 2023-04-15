@@ -438,6 +438,15 @@ More info at https://mirrors.cqupt.edu.cn/.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.ustc.edu.cn/termux/apt/termux-root/ root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.ustc.edu.cn/termux/apt/termux-x11/ x11 main`     |
 
+#### Mirrors by [Information Technology Center, Zhejiang University](https://zuits.zju.edu.cn/)
+
+| Repository                                             | sources.list entry                                                    |
+|:-------------------------------------------------------|:----------------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirrors.zju.edu.cn/termux/apt/termux-main/ stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirrors.zju.edu.cn/termux/apt/termux-root/ root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirrors.zju.edu.cn/termux/apt/termux-x11/ x11 main`     |
+
+
 #### Mirrors by [Alibaba Open Source Mirror Site](https://mirrors.aliyun.com/)
 
 More info at https://mirrors.aliyun.com/about.
