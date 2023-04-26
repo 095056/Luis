@@ -22,6 +22,7 @@ TERMUX_PKG_HOMEPAGE=https://www.gnu.org/software/ed/
 TERMUX_PKG_DESCRIPTION="Classic UNIX line editor"
 
 # License.
+# Use SPDX identifier: https://spdx.org/licenses/
 TERMUX_PKG_LICENSE="GPL-2.0"
 
 # Who cares about package.
