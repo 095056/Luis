@@ -161,6 +161,16 @@ Hosted in Canada, Ontario, Waterloo. Updated twice times per day.
 | [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.csclub.uwaterloo.ca/termux/termux-root root stable` |
 | [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.csclub.uwaterloo.ca/termux/termux-x11 x11 main`     |
 
+#### Mirrors by [quantum5](https://github.com/quantum5)
+
+Hosted in Toronto, Ontario, Canada. Updated four times per day.
+
+| Repository                                             | sources.list entry                                                       |
+|:-------------------------------------------------------|:-------------------------------------------------------------------------|
+| [Main](https://github.com/termux/termux-packages)      | `deb https://mirror.quantum5.ca/termux/termux-main stable main` |
+| [Root](https://github.com/termux/termux-root-packages) | `deb https://mirror.quantum5.ca/termux/termux-root root stable` |
+| [X11](https://github.com/termux/x11-packages)          | `deb https://mirror.quantum5.ca/termux/termux-x11 x11 main`     |
+
 #### Mirrors by [Sahilister](https://github.com/sahilister)
 
 Updated four times per day.
